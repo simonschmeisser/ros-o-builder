@@ -1,0 +1,5 @@
+repositories:
+  control_msgs:
+    type: git
+    url: https://github.com/ros-controls/control_msgs.git
+    version: 36e2e30551e3f2bfd9e55fca553f1ef019f4e4b1

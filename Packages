@@ -1,0 +1,18 @@
+Package: ros-one-control-msgs
+Architecture: amd64
+Version: 1.5.2-6-g36e2e30-2023.02.05.22.36
+Priority: optional
+Section: misc
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 2645
+Depends: ros-one-actionlib-msgs, ros-one-geometry-msgs, ros-one-message-runtime, ros-one-std-msgs, ros-one-trajectory-msgs
+Filename: ./ros-one-control-msgs_1.5.2-6-g36e2e30-2023.02.05.22.36_amd64.deb
+Size: 115312
+MD5sum: 5ec98e5ccf5a0cf16ed353c517f2296e
+SHA1: ee57b74fc63123ce8e48a3120c639a9b27461ed7
+SHA256: d36bb1701bd05a2b9229d61e59cc078606718b59d94b687f85540fc1bbae6f12
+SHA512: a5ce4ded8bc8f96bba644160e378ec854f6608071f7700dff5fe4fcd8c5836fbe44c58a70466b1a9a340251b0baed18af4ee73cd035d03819cc5709447b59833
+Homepage: http://ros.org/wiki/control_msgs
+Description: control_msgs contains base messages and actions useful for controlling robots.
+ It provides representations for controller setpoints and joint and cartesian trajectories.
+
