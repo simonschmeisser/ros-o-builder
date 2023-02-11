@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 26 May 2021 00:00:00 -0000
+Source: ros-one-pr2-computer-monitor
+Binary: ros-one-pr2-computer-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.6.32-9-g5d511e1-2023.02.10.21.49
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Changed-By: Dave Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-pr2-computer-monitor - Monitors the computer's processor and hard drives of the PR2 and
+Changes:
+ ros-one-pr2-computer-monitor (1.6.32-9-g5d511e1-2023.02.10.21.49) jammy; urgency=high
+ .
+   * Merge pull request #268 <https://github.com/pr2/pr2_robot/issues/268> from k-okada/fix_for_noetic
+   * run 2to3 -w -fexcept .
+   * run 2to3 -w -fprint .
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ da2858b11406bc2b393c51f043cf6c7c2846e8e9 209164 ros-one-pr2-computer-monitor-dbgsym_1.6.32-9-g5d511e1-2023.02.10.21.49_amd64.ddeb
+ 57420487c36754b0162cf285a38288c3e63cf16d 11112 ros-one-pr2-computer-monitor_1.6.32-9-g5d511e1-2023.02.10.21.49_amd64.buildinfo
+ 2a621dff30d05a790ae6fa65a73ec431af5f6537 33138 ros-one-pr2-computer-monitor_1.6.32-9-g5d511e1-2023.02.10.21.49_amd64.deb
+Checksums-Sha256:
+ b993164f6d35d84ac5ccea2467dc1150154d5334e77afe29aa570f666ba1746e 209164 ros-one-pr2-computer-monitor-dbgsym_1.6.32-9-g5d511e1-2023.02.10.21.49_amd64.ddeb
+ b36cdb61378ee0aab4ea791e7e6a9ea84ce15f3749e93621b996a4bbc8b870d9 11112 ros-one-pr2-computer-monitor_1.6.32-9-g5d511e1-2023.02.10.21.49_amd64.buildinfo
+ ac8df51fa50a898befc818c6340e97123cd54c96df917180d0c3a6d89209baac 33138 ros-one-pr2-computer-monitor_1.6.32-9-g5d511e1-2023.02.10.21.49_amd64.deb
+Files:
+ 8e390d22a0c6d1e9ecf67affdfb6be86 209164 debug optional ros-one-pr2-computer-monitor-dbgsym_1.6.32-9-g5d511e1-2023.02.10.21.49_amd64.ddeb
+ 39dcee306b6fc8e4d87c2fed4e19c12a 11112 misc optional ros-one-pr2-computer-monitor_1.6.32-9-g5d511e1-2023.02.10.21.49_amd64.buildinfo
+ 6d079afa78db082c4a9f7db0c1981b5a 33138 misc optional ros-one-pr2-computer-monitor_1.6.32-9-g5d511e1-2023.02.10.21.49_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 05 Feb 2021 00:00:00 -0000
+Source: ros-one-laser-geometry
+Binary: ros-one-laser-geometry
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.6.7-3-g821f050-2023.02.09.18.51
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Hershberger <dave.hershberger@sri.com>
+Changed-By: Dave Hershberger <dave.hershberger@sri.com>
+Description:
+ ros-one-laser-geometry - This package contains a class for converting from a 2D laser scan
+Changes:
+ ros-one-laser-geometry (1.6.7-3-g821f050-2023.02.09.18.51) jammy; urgency=high
+ .
+   * Require C++11
+   * Contributors: Mabel Zhang, Martin Pecka
+Checksums-Sha1:
+ 2579a84c4b5b63cf2bc7197dd7463d5054091da6 376244 ros-one-laser-geometry-dbgsym_1.6.7-3-g821f050-2023.02.09.18.51_amd64.ddeb
+ a971c9902a43c292459a7579eb3e412710864e21 22629 ros-one-laser-geometry_1.6.7-3-g821f050-2023.02.09.18.51_amd64.buildinfo
+ a36413be790cc98d9c16be979212412d70ac0dd5 40438 ros-one-laser-geometry_1.6.7-3-g821f050-2023.02.09.18.51_amd64.deb
+Checksums-Sha256:
+ 6e35e15244b11b19223babe9abd7437994544ee62a12dab8488e9d258b8deac6 376244 ros-one-laser-geometry-dbgsym_1.6.7-3-g821f050-2023.02.09.18.51_amd64.ddeb
+ 3130a1e857da8f6a4f13daa24296f75abd70278be126175cf46ac070064fd198 22629 ros-one-laser-geometry_1.6.7-3-g821f050-2023.02.09.18.51_amd64.buildinfo
+ 7adef76f95a6ff679cbbbd8e57f9051342eb03eb724b6b9e6cd2ad618ed0eed0 40438 ros-one-laser-geometry_1.6.7-3-g821f050-2023.02.09.18.51_amd64.deb
+Files:
+ 2ca1b256b2f321a1aeb6b89424683165 376244 debug optional ros-one-laser-geometry-dbgsym_1.6.7-3-g821f050-2023.02.09.18.51_amd64.ddeb
+ bb3507156eed601e83f62d5641b60702 22629 misc optional ros-one-laser-geometry_1.6.7-3-g821f050-2023.02.09.18.51_amd64.buildinfo
+ badd636a3df7799c6c329f668bba105b 40438 misc optional ros-one-laser-geometry_1.6.7-3-g821f050-2023.02.09.18.51_amd64.deb

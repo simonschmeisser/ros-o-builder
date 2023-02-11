@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 23 Dec 2022 00:00:00 -0000
+Source: ros-one-sound-play
+Binary: ros-one-sound-play
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.3.16-2023.02.10.19.03
+Distribution: jammy
+Urgency: high
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Changed-By: Austin Hendrix <namniart@gmail.com>
+Description:
+ ros-one-sound-play - sound_play provides a ROS node that translates commands on a ROS
+Changes:
+ ros-one-sound-play (0.3.16-2023.02.10.19.03) jammy; urgency=high
+ .
+   * Merge pull request #203 <https://github.com/ros-drivers/audio_common/issues/203> from nakane11/timeout
+   * refactor libsoundplay.py
+   * Add timeout to wait_for_server and wait_for_result
+   * Contributors: Aoi Nakane, Shingo Kitagawa
+Checksums-Sha1:
+ e55a5e35770564e02305d9fdd91130c557dc57fc 12641 ros-one-sound-play_0.3.16-2023.02.10.19.03_amd64.buildinfo
+ 5ad7faaa3a5a9c850e86849831fe659ee0dcfe33 209888 ros-one-sound-play_0.3.16-2023.02.10.19.03_amd64.deb
+Checksums-Sha256:
+ bf13cc73d8c02191e6c0baae3a9f61c6687578e60cc9e826898d7256e9046ec6 12641 ros-one-sound-play_0.3.16-2023.02.10.19.03_amd64.buildinfo
+ f2be366dbafe785d99b9bc97c00a751810f3687608ec74743e053bbe1fbb6bc0 209888 ros-one-sound-play_0.3.16-2023.02.10.19.03_amd64.deb
+Files:
+ 2b75c5ce8d5891656c5c58cb1783548e 12641 misc optional ros-one-sound-play_0.3.16-2023.02.10.19.03_amd64.buildinfo
+ 4ccd4708824cc08c30d2479ee56fe689 209888 misc optional ros-one-sound-play_0.3.16-2023.02.10.19.03_amd64.deb

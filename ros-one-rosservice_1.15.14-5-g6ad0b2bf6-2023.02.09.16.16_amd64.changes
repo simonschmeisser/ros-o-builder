@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 06 Jan 2022 00:00:00 -0000
+Source: ros-one-rosservice
+Binary: ros-one-rosservice
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.15.14-5-g6ad0b2bf6-2023.02.09.16.16
+Distribution: jammy
+Urgency: high
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Changed-By: Jacob Perron <jacob@openrobotics.org>
+Description:
+ ros-one-rosservice - rosservice contains the rosservice command-line tool for listing
+Changes:
+ ros-one-rosservice (1.15.14-5-g6ad0b2bf6-2023.02.09.16.16) jammy; urgency=high
+Checksums-Sha1:
+ 813103b29fa492cb7e71c21e3a2fd1266578bc37 7776 ros-one-rosservice_1.15.14-5-g6ad0b2bf6-2023.02.09.16.16_amd64.buildinfo
+ 6e111caa1a2e606bdee7db112420486c25720a59 19778 ros-one-rosservice_1.15.14-5-g6ad0b2bf6-2023.02.09.16.16_amd64.deb
+Checksums-Sha256:
+ acc3722b0c9225c4b64df397abecdc2c2f2932b27e28bb714ec2ebb525842e94 7776 ros-one-rosservice_1.15.14-5-g6ad0b2bf6-2023.02.09.16.16_amd64.buildinfo
+ 07bd475730894ce5e1b6e617d5898a34ac0c1933047965ff9a268aafd7219500 19778 ros-one-rosservice_1.15.14-5-g6ad0b2bf6-2023.02.09.16.16_amd64.deb
+Files:
+ 3b5c75eef35d68e80143e3fa812cbbf2 7776 misc optional ros-one-rosservice_1.15.14-5-g6ad0b2bf6-2023.02.09.16.16_amd64.buildinfo
+ c7acc6ccc41370a943f336212fc501f1 19778 misc optional ros-one-rosservice_1.15.14-5-g6ad0b2bf6-2023.02.09.16.16_amd64.deb

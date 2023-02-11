@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 09 Dec 2022 00:00:00 -0000
+Source: ros-one-actionlib-tools
+Binary: ros-one-actionlib-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.14.0-2023.02.09.15.48
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-actionlib-tools - The actionlib_tools package
+Changes:
+ ros-one-actionlib-tools (1.14.0-2023.02.09.15.48) jammy; urgency=high
+ .
+   * Improve axclient argument parsing (#189 <https://github.com/ros/actionlib/issues/189>)
+   * Add maintainer (#174 <https://github.com/ros/actionlib/issues/174>)
+   * Contributors: Jacob Perron, Mikael Arguedas
+Checksums-Sha1:
+ d4a6302b4ff552cc55d9464ff4a514a088cb1b6f 7745 ros-one-actionlib-tools_1.14.0-2023.02.09.15.48_amd64.buildinfo
+ 9cb6387ea8acae91f4e4d575591020c654da10b5 14340 ros-one-actionlib-tools_1.14.0-2023.02.09.15.48_amd64.deb
+Checksums-Sha256:
+ 175cccc87d6092992adf3797658afa2c3920ba1476f0d240d8f94e5ae541206d 7745 ros-one-actionlib-tools_1.14.0-2023.02.09.15.48_amd64.buildinfo
+ 32b34ec22f4c47b72c3f5ef21fd032150a5bdc7ce9c428287dad18481584fa13 14340 ros-one-actionlib-tools_1.14.0-2023.02.09.15.48_amd64.deb
+Files:
+ 44720b5abadad525b83d82aeb813b66d 7745 misc optional ros-one-actionlib-tools_1.14.0-2023.02.09.15.48_amd64.buildinfo
+ cf8ef9d2840452802a16d8bc142b9224 14340 misc optional ros-one-actionlib-tools_1.14.0-2023.02.09.15.48_amd64.deb

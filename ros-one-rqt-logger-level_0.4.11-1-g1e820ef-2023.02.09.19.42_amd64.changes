@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 22 May 2020 00:00:00 -0000
+Source: ros-one-rqt-logger-level
+Binary: ros-one-rqt-logger-level
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.11-1-g1e820ef-2023.02.09.19.42
+Distribution: jammy
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-one-rqt-logger-level - rqt_logger_level provides a GUI plugin for configuring the logger
+Changes:
+ ros-one-rqt-logger-level (0.4.11-1-g1e820ef-2023.02.09.19.42) jammy; urgency=high
+ .
+   * readd rqt_logger_level global executable, regression from 0.4.10 (#9 <https://github.com/ros-visualization/rqt_logger_level/issues/9>)
+Checksums-Sha1:
+ e4dc898cfd84c982c8ac1d8979e04580deae7f2d 7794 ros-one-rqt-logger-level_0.4.11-1-g1e820ef-2023.02.09.19.42_amd64.buildinfo
+ 103ae7ca5d06c11def1ac58891207cc0710b243c 13370 ros-one-rqt-logger-level_0.4.11-1-g1e820ef-2023.02.09.19.42_amd64.deb
+Checksums-Sha256:
+ 94d6063a038913b06fac2eec7c27845c398522758c572220ee61f1c0526b2e39 7794 ros-one-rqt-logger-level_0.4.11-1-g1e820ef-2023.02.09.19.42_amd64.buildinfo
+ 435e0adbbe89808bf4c108c2c6b30bc9e5ca1b627848091e36acdc73023d15f5 13370 ros-one-rqt-logger-level_0.4.11-1-g1e820ef-2023.02.09.19.42_amd64.deb
+Files:
+ ee952632caac0d69cd3d68cc81554fe1 7794 misc optional ros-one-rqt-logger-level_0.4.11-1-g1e820ef-2023.02.09.19.42_amd64.buildinfo
+ cdc628612ee1f751927609786b2c15bf 13370 misc optional ros-one-rqt-logger-level_0.4.11-1-g1e820ef-2023.02.09.19.42_amd64.deb

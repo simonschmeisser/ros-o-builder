@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: ros-one-smach
+Binary: ros-one-smach
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.0-4-gec80004-2023.02.09.16.29
+Distribution: jammy
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ ros-one-smach - SMACH is a task-level architecture for rapidly creating complex r
+Changes:
+ ros-one-smach (2.5.0-4-gec80004-2023.02.09.16.29) jammy; urgency=high
+ .
+   * Python 3 compatibility #71 <https://github.com/ros/executive_smach/issues/71>
+   * Use setuptools instead of distutils
+   * Bump CMake version to avoid CMP0048 warning
+   * Update state.py Docstrings' @type descriptions #59 <https://github.com/ros/executive_smach/issues/59>
+   * Typo set_shutdown_cb() --> set_shutdown_check() #56 <https://github.com/ros/executive_smach/issues/56>
+   * Contributors: Isaac I.Y. Saito, Joseph Coombe, Shane Loretz, ahcorde, cclauss
+Checksums-Sha1:
+ f988e5e006cc370ec727b7396415197b06f6b729 7735 ros-one-smach_2.5.0-4-gec80004-2023.02.09.16.29_amd64.buildinfo
+ 6b3eaadbcab2aad4a99cb6a914b41ecbcbfd3009 38172 ros-one-smach_2.5.0-4-gec80004-2023.02.09.16.29_amd64.deb
+Checksums-Sha256:
+ 8f32fdac7dea04794f22bbdc1eb637a48976598c4cad7fcab6f6e1256cea0c4e 7735 ros-one-smach_2.5.0-4-gec80004-2023.02.09.16.29_amd64.buildinfo
+ 5bf51c288c85c8529f51fce22138bfba7284f8a79cbe102be3466567fe848ddd 38172 ros-one-smach_2.5.0-4-gec80004-2023.02.09.16.29_amd64.deb
+Files:
+ aac04504146efcab870fa73a6941619b 7735 misc optional ros-one-smach_2.5.0-4-gec80004-2023.02.09.16.29_amd64.buildinfo
+ 6d4ef51841df549a00404fb90e0de1b3 38172 misc optional ros-one-smach_2.5.0-4-gec80004-2023.02.09.16.29_amd64.deb

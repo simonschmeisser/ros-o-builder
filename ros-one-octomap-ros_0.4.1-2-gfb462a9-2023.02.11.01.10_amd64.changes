@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 23 Apr 2020 00:00:00 -0000
+Source: ros-one-octomap-ros
+Binary: ros-one-octomap-ros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.1-2-gfb462a9-2023.02.11.01.10
+Distribution: jammy
+Urgency: high
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Changed-By: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Description:
+ ros-one-octomap-ros - octomap_ros provides conversion functions between ROS and OctoMap
+Changes:
+ ros-one-octomap-ros (0.4.1-2-gfb462a9-2023.02.11.01.10) jammy; urgency=high
+ .
+   * Added archive destination for static libraries (#10 <https://github.com/OctoMap/octomap_ros/issues/10>)
+   * Fix catkin_lint issues and cmake policy CMP0038 (#9 <https://github.com/OctoMap/octomap_ros/issues/9>)
+   * Update maintainer emails
+   * Contributors: Andrea Ponza, Armin Hornung, Sebastian Kasperski, Wolfgang Merkt
+Checksums-Sha1:
+ 72fa1e0c64f573708113b910e866d3647bbc55ee 91244 ros-one-octomap-ros-dbgsym_0.4.1-2-gfb462a9-2023.02.11.01.10_amd64.ddeb
+ 0600c250113e7645b53066507789fa3487f24f18 22499 ros-one-octomap-ros_0.4.1-2-gfb462a9-2023.02.11.01.10_amd64.buildinfo
+ 6acf76b423de12d4e46b0673376b1b780757208a 12458 ros-one-octomap-ros_0.4.1-2-gfb462a9-2023.02.11.01.10_amd64.deb
+Checksums-Sha256:
+ 83204719b513d57999f6d3666918371edd9aecce1d1557a5246f2607212b3c39 91244 ros-one-octomap-ros-dbgsym_0.4.1-2-gfb462a9-2023.02.11.01.10_amd64.ddeb
+ 30de2a37e6ed2fa8a1fc70163e8d02d8c6ee830ea2e563b02a2244e33dde68a9 22499 ros-one-octomap-ros_0.4.1-2-gfb462a9-2023.02.11.01.10_amd64.buildinfo
+ d146c2d1f2a74ff8a6483c22345752b4731942068aa0973656a28c71a34c8887 12458 ros-one-octomap-ros_0.4.1-2-gfb462a9-2023.02.11.01.10_amd64.deb
+Files:
+ 30fe66e3d04aae384da65f99c92d8eea 91244 debug optional ros-one-octomap-ros-dbgsym_0.4.1-2-gfb462a9-2023.02.11.01.10_amd64.ddeb
+ 7d6e4d41d8a05bccaa13288ec120a223 22499 misc optional ros-one-octomap-ros_0.4.1-2-gfb462a9-2023.02.11.01.10_amd64.buildinfo
+ c1794d3fad2b2e013ca209eec0d38b6f 12458 misc optional ros-one-octomap-ros_0.4.1-2-gfb462a9-2023.02.11.01.10_amd64.deb

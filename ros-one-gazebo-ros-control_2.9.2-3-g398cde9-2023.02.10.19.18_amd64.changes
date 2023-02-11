@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: ros-one-gazebo-ros-control
+Binary: ros-one-gazebo-ros-control
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.9.2-3-g398cde9-2023.02.10.19.18
+Distribution: jammy
+Urgency: high
+Maintainer: Alejandro Hernández Cordero <ahcorde@osrfoundation.org>
+Changed-By: Alejandro Hernández Cordero <ahcorde@osrfoundation.org>
+Description:
+ ros-one-gazebo-ros-control - gazebo_ros_control
+Changes:
+ ros-one-gazebo-ros-control (2.9.2-3-g398cde9-2023.02.10.19.18) jammy; urgency=high
+ .
+   * colcon.pkg: build gazebo first in colcon workspace (#1135 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1135>)
+     Add a colcon.pkg file to gazebo_dev with gazebo's cmake project
+     name "Gazebo" listed as a dependency to support building
+     gazebo from source in a colcon workspace.
+     * Add colcon.pkg files for other packages
+     Copy colcon.pkg to gazebo_ros, gazebo_plugins, and
+     gazebo_ros_control so that --merge-install won't be required.
+   * Contributors: Steve Peters
+Checksums-Sha1:
+ 827913f55c8ca8a2910cfaeae378de1e53effe14 3959366 ros-one-gazebo-ros-control-dbgsym_2.9.2-3-g398cde9-2023.02.10.19.18_amd64.ddeb
+ c0c9eabaff4f7f8e3a8982f5c35825a2a11221f4 36944 ros-one-gazebo-ros-control_2.9.2-3-g398cde9-2023.02.10.19.18_amd64.buildinfo
+ aaf0a38397723a4490b846c4212a69b925cd9edb 203510 ros-one-gazebo-ros-control_2.9.2-3-g398cde9-2023.02.10.19.18_amd64.deb
+Checksums-Sha256:
+ 88b3547855fe9479545c4da48adbfc6a408e0b0ab24b88736ec82055807d466f 3959366 ros-one-gazebo-ros-control-dbgsym_2.9.2-3-g398cde9-2023.02.10.19.18_amd64.ddeb
+ 3192ed22aceefc89597d74a595a050030b9df66f836713698fa103abc069c873 36944 ros-one-gazebo-ros-control_2.9.2-3-g398cde9-2023.02.10.19.18_amd64.buildinfo
+ 108dc1068a70211080a7e0b503ff55d6bb7da077c8a7ba918e52f9982587ce38 203510 ros-one-gazebo-ros-control_2.9.2-3-g398cde9-2023.02.10.19.18_amd64.deb
+Files:
+ 455ca9b2a40806a46633009f74b9e3b1 3959366 debug optional ros-one-gazebo-ros-control-dbgsym_2.9.2-3-g398cde9-2023.02.10.19.18_amd64.ddeb
+ ed82fcedcf41e6a3e251293ccbc68c05 36944 misc optional ros-one-gazebo-ros-control_2.9.2-3-g398cde9-2023.02.10.19.18_amd64.buildinfo
+ 9302864e36e41cb0dba14b4e12343326 203510 misc optional ros-one-gazebo-ros-control_2.9.2-3-g398cde9-2023.02.10.19.18_amd64.deb

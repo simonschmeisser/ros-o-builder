@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: ros-one-executive-smach
+Binary: ros-one-executive-smach
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.0-4-gec80004-2023.02.09.15.54
+Distribution: jammy
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ ros-one-executive-smach - This metapackage depends on the SMACH library and ROS SMACH integ
+Changes:
+ ros-one-executive-smach (2.5.0-4-gec80004-2023.02.09.15.54) jammy; urgency=high
+ .
+   * Python 3 compatibility #71 <https://github.com/ros/executive_smach/issues/71>
+   * Bump CMake version to avoid CMP0048 warning
+   * Contributors: Shane Loretz, ahcorde
+Checksums-Sha1:
+ 413bda5ff97c5a90b5f1235b75f2d5069fca12e0 7782 ros-one-executive-smach_2.5.0-4-gec80004-2023.02.09.15.54_amd64.buildinfo
+ d145e9687de8ac29c22c52191eec4728a421f440 2150 ros-one-executive-smach_2.5.0-4-gec80004-2023.02.09.15.54_amd64.deb
+Checksums-Sha256:
+ d5b7e3aa0f1a6a01bd925b1a525b2d8e3515c8a6dc565526848825b2459b1b8d 7782 ros-one-executive-smach_2.5.0-4-gec80004-2023.02.09.15.54_amd64.buildinfo
+ 837cba048c5aa873c4e524e2788ef66edcc7823a693e1a65b6e1d3487a437073 2150 ros-one-executive-smach_2.5.0-4-gec80004-2023.02.09.15.54_amd64.deb
+Files:
+ 073aea52c1046e3e7ef85b5558ed7460 7782 misc optional ros-one-executive-smach_2.5.0-4-gec80004-2023.02.09.15.54_amd64.buildinfo
+ 8c782cebf0b5c8726768caa3d1a7aa56 2150 misc optional ros-one-executive-smach_2.5.0-4-gec80004-2023.02.09.15.54_amd64.deb

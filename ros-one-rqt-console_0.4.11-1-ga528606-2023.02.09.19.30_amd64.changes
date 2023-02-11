@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 22 May 2020 00:00:00 -0000
+Source: ros-one-rqt-console
+Binary: ros-one-rqt-console
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.11-1-ga528606-2023.02.09.19.30
+Distribution: jammy
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-one-rqt-console - rqt_console provides a GUI plugin for displaying and filtering RO
+Changes:
+ ros-one-rqt-console (0.4.11-1-ga528606-2023.02.09.19.30) jammy; urgency=high
+ .
+   * readd rqt_console global executable, regression from 0.4.10 (#24 <https://github.com/ros-visualization/rqt_console/issues/24>)
+Checksums-Sha1:
+ 0b9ff0e71db32dd7e6397fdf93edf264483dbbf0 7769 ros-one-rqt-console_0.4.11-1-ga528606-2023.02.09.19.30_amd64.buildinfo
+ 7a25b214144ec08bd6dcf18da05b5acfe6bc560e 53482 ros-one-rqt-console_0.4.11-1-ga528606-2023.02.09.19.30_amd64.deb
+Checksums-Sha256:
+ 18415c287aca63f5164c81a062a0acd923977abf0efec0126f5714f43fef4180 7769 ros-one-rqt-console_0.4.11-1-ga528606-2023.02.09.19.30_amd64.buildinfo
+ 058c683bce66b2ab70be9b5566501de0c428a08920927efe10dc0dc1b5931be6 53482 ros-one-rqt-console_0.4.11-1-ga528606-2023.02.09.19.30_amd64.deb
+Files:
+ 2a34ccb599eb7d758147327b496b5785 7769 misc optional ros-one-rqt-console_0.4.11-1-ga528606-2023.02.09.19.30_amd64.buildinfo
+ 306c8a40187ebc5b0d7762af095a364c 53482 misc optional ros-one-rqt-console_0.4.11-1-ga528606-2023.02.09.19.30_amd64.deb

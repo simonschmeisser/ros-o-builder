@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-one-combined-robot-hw-tests
+Binary: ros-one-combined-robot-hw-tests
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.19.6-3-g12edce5-2023.02.10.17.26
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-one-combined-robot-hw-tests - Tests for the combined Robot HW class.
+Changes:
+ ros-one-combined-robot-hw-tests (0.19.6-3-g12edce5-2023.02.10.17.26) jammy; urgency=high
+Checksums-Sha1:
+ 6a62a7226ad0460041d799b95a0982677dfbc414 1129658 ros-one-combined-robot-hw-tests-dbgsym_0.19.6-3-g12edce5-2023.02.10.17.26_amd64.ddeb
+ 56073d508fe9fcc3ca5bd5d2c77cbf9addaf5511 20764 ros-one-combined-robot-hw-tests_0.19.6-3-g12edce5-2023.02.10.17.26_amd64.buildinfo
+ 1b98f63562fd8daebd8267535af84fa0ec6b908b 49330 ros-one-combined-robot-hw-tests_0.19.6-3-g12edce5-2023.02.10.17.26_amd64.deb
+Checksums-Sha256:
+ fbe63067595b7e6df1fb1ba31fc01b61fe7cd7c35c0d5587c04128ff73cfa89a 1129658 ros-one-combined-robot-hw-tests-dbgsym_0.19.6-3-g12edce5-2023.02.10.17.26_amd64.ddeb
+ 40548f27205e09625418ecb55497555b3d2ea9b2b392ea8e66b620280403bc83 20764 ros-one-combined-robot-hw-tests_0.19.6-3-g12edce5-2023.02.10.17.26_amd64.buildinfo
+ 79a0fdd87794dddd53ffb6eedc16f7fde07e9013069aaa337fe5a4ef78747ea3 49330 ros-one-combined-robot-hw-tests_0.19.6-3-g12edce5-2023.02.10.17.26_amd64.deb
+Files:
+ 414fe1ea3022eed9a9812e7494d7ae39 1129658 debug optional ros-one-combined-robot-hw-tests-dbgsym_0.19.6-3-g12edce5-2023.02.10.17.26_amd64.ddeb
+ 390f9573b9b36917070073b9e65c4d82 20764 misc optional ros-one-combined-robot-hw-tests_0.19.6-3-g12edce5-2023.02.10.17.26_amd64.buildinfo
+ c2e6cacad72ebf18846c3e44e9138482 49330 misc optional ros-one-combined-robot-hw-tests_0.19.6-3-g12edce5-2023.02.10.17.26_amd64.deb

@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 07 Feb 2020 00:00:00 -0000
+Source: ros-one-class-loader
+Binary: ros-one-class-loader
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.2-3-g905223a-2023.02.09.15.50
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-class-loader - The class_loader package is a ROS-independent package for loading
+Changes:
+ ros-one-class-loader (0.4.2-3-g905223a-2023.02.09.15.50) jammy; urgency=high
+ .
+   * Add Python 3 support to header update scripts. (#122 <https://github.com/ros/class_loader/issues/122>)
+   * Set test dll runtime output to CATKIN_PACKAGE_BIN_DESTINATION on Windows. (#113 <https://github.com/ros/class_loader/issues/113>)
+   * Improve warning message formatting and detail. (#108 <https://github.com/ros/class_loader/issues/108>)
+   * Add export to variable in order to allow builds on Windows. (#102 <https://github.com/ros/class_loader/issues/102>)
+   * Ignore warnings about import/exports when deriving from std classes on MSVC. (#116 <https://github.com/ros/class_loader/issues/116>)
+   * Use #pragma message() to print out warnings in MSVC. (#114 <https://github.com/ros/class_loader/issues/114>)
+   * Avoid including Poco headers globally. (#115 <https://github.com/ros/class_loader/issues/115>)
+   * Make Steven! Ragnarok the maintainer (#107 <https://github.com/ros/class_loader/issues/107>)
+   * Fix non-defined CMake variable (forward-port to Melodic). (#97 <https://github.com/ros/class_loader/issues/97>)
+   * Contributors: James Xu, Johnson Shih, Markus Grimm, Mikael Arguedas, Robert Haschke
+Checksums-Sha1:
+ a567b3cc98435f6703ddea993837ac6d100252ec 616978 ros-one-class-loader-dbgsym_0.4.2-3-g905223a-2023.02.09.15.50_amd64.ddeb
+ a99c0b10a6cbb4ad6d1d261b1a876914ecc9bef1 16068 ros-one-class-loader_0.4.2-3-g905223a-2023.02.09.15.50_amd64.buildinfo
+ 39829c0bc60a4e2de59074d4a09559ec2181c1c9 63922 ros-one-class-loader_0.4.2-3-g905223a-2023.02.09.15.50_amd64.deb
+Checksums-Sha256:
+ 84c94af0486f054639e9700191fad9080c1d816cb5579ad5082ddfb988802c6b 616978 ros-one-class-loader-dbgsym_0.4.2-3-g905223a-2023.02.09.15.50_amd64.ddeb
+ 0a6b0cb8580ac8df651343276d307849f55b4f0f06d4f02d30f4993ccbebd46c 16068 ros-one-class-loader_0.4.2-3-g905223a-2023.02.09.15.50_amd64.buildinfo
+ b621dacf4ec7a46fc3859b0aa60e4f2e33c141fcd0bd035a0cb2458c86ccafab 63922 ros-one-class-loader_0.4.2-3-g905223a-2023.02.09.15.50_amd64.deb
+Files:
+ 4eb0000f7bd409ef6efc177d4db54036 616978 debug optional ros-one-class-loader-dbgsym_0.4.2-3-g905223a-2023.02.09.15.50_amd64.ddeb
+ cefea19843b9b085ad7e39f73b7e8886 16068 misc optional ros-one-class-loader_0.4.2-3-g905223a-2023.02.09.15.50_amd64.buildinfo
+ 32ddad7ca0cae3d6f0195585807f18a8 63922 misc optional ros-one-class-loader_0.4.2-3-g905223a-2023.02.09.15.50_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 11 Oct 2022 00:00:00 -0000
+Source: ros-one-tf2-bullet
+Binary: ros-one-tf2-bullet
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.6-2-gc92cd9a-2023.02.09.16.48
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-tf2-bullet - tf2_bullet
+Changes:
+ ros-one-tf2-bullet (0.7.6-2-gc92cd9a-2023.02.09.16.48) jammy; urgency=high
+Checksums-Sha1:
+ f918c7e2ec2eb19c7b8b442d15570dcbcbe0d47d 9665 ros-one-tf2-bullet_0.7.6-2-gc92cd9a-2023.02.09.16.48_amd64.buildinfo
+ 3cb30a5dfaa1e4c155a972872b95e2824f46c08c 8104 ros-one-tf2-bullet_0.7.6-2-gc92cd9a-2023.02.09.16.48_amd64.deb
+Checksums-Sha256:
+ d57d9fdf53bcc7bfe0e70930e2b856a82664f90993a18e3dd57cb096017236f1 9665 ros-one-tf2-bullet_0.7.6-2-gc92cd9a-2023.02.09.16.48_amd64.buildinfo
+ 22d235fef9c2cd475e8fb00c5127d7d02c02fda100f296ca26a700b6b852423d 8104 ros-one-tf2-bullet_0.7.6-2-gc92cd9a-2023.02.09.16.48_amd64.deb
+Files:
+ cc362bd890f7796db564794c21a3a802 9665 misc optional ros-one-tf2-bullet_0.7.6-2-gc92cd9a-2023.02.09.16.48_amd64.buildinfo
+ b56a362715396e050b0e33e0b6e14e4d 8104 misc optional ros-one-tf2-bullet_0.7.6-2-gc92cd9a-2023.02.09.16.48_amd64.deb

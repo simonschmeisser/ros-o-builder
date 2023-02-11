@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 02 Jun 2020 00:00:00 -0000
+Source: ros-one-rgbd-launch
+Binary: ros-one-rgbd-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.3.0-11-g751bb3c-2023.02.11.01.27
+Distribution: jammy
+Urgency: high
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Changed-By: Piyush Khandelwal <piyushk@gmail.com>
+Description:
+ ros-one-rgbd-launch - Launch files to open an RGBD device and load all nodelets to conv
+Changes:
+ ros-one-rgbd-launch (2.3.0-11-g751bb3c-2023.02.11.01.27) jammy; urgency=high
+ .
+   * Noetic support #49 <https://github.com/ros-drivers/rgbd_launch/issues/49>
+   * Contributors: Mike Ferguson, Isaac I.Y. Saito
+Checksums-Sha1:
+ f1f5a4865c2e9334168b538085623a22cb75da74 30806 ros-one-rgbd-launch_2.3.0-11-g751bb3c-2023.02.11.01.27_amd64.buildinfo
+ aaf7e756bab0e071d4e77968ec45e62bcfce5a7d 9230 ros-one-rgbd-launch_2.3.0-11-g751bb3c-2023.02.11.01.27_amd64.deb
+Checksums-Sha256:
+ 506a6c646a4ee07762de93047a8372ba7815ae594ef6d1ab72d0c4c3a7ef43fb 30806 ros-one-rgbd-launch_2.3.0-11-g751bb3c-2023.02.11.01.27_amd64.buildinfo
+ fcb9ff519fd1936e949b8701b3413494bee9447dbb609c6f8add870da4a99664 9230 ros-one-rgbd-launch_2.3.0-11-g751bb3c-2023.02.11.01.27_amd64.deb
+Files:
+ 868b481da38439531b293242c73cceef 30806 misc optional ros-one-rgbd-launch_2.3.0-11-g751bb3c-2023.02.11.01.27_amd64.buildinfo
+ 1b937036b1391ee620fd773c31c0fbe1 9230 misc optional ros-one-rgbd-launch_2.3.0-11-g751bb3c-2023.02.11.01.27_amd64.deb

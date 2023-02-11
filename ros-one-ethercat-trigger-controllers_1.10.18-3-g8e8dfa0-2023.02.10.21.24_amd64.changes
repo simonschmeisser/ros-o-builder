@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Sat, 08 May 2021 00:00:00 -0000
+Source: ros-one-ethercat-trigger-controllers
+Binary: ros-one-ethercat-trigger-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.10.18-3-g8e8dfa0-2023.02.10.21.24
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-ethercat-trigger-controllers - Controllers to operate the digital output of the motor controller
+Changes:
+ ros-one-ethercat-trigger-controllers (1.10.18-3-g8e8dfa0-2023.02.10.21.24) jammy; urgency=high
+Checksums-Sha1:
+ 0fafb266a0daaefb3ddd1f49b8b3f06424da3212 1546006 ros-one-ethercat-trigger-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.02.10.21.24_amd64.ddeb
+ a287ac016cb50ca22d790fb4aa71eb16bdb45360 20503 ros-one-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.02.10.21.24_amd64.buildinfo
+ 450f435b2cce26776e8896180bd154a0cf298c8f 107240 ros-one-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.02.10.21.24_amd64.deb
+Checksums-Sha256:
+ 34d980741419b2c8d5408f36717351e92a7685244cedbf994712c73e2016cc3f 1546006 ros-one-ethercat-trigger-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.02.10.21.24_amd64.ddeb
+ b6297717248f117fa53bf049fd9e47055eda7df6c62315b569eb6bea16ce8c14 20503 ros-one-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.02.10.21.24_amd64.buildinfo
+ ce5b0b948276eab06cce15722e57426f3eac840d2bbf64ff93a9b95b3d495cb6 107240 ros-one-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.02.10.21.24_amd64.deb
+Files:
+ c5be5a5c1de2054e28ce0f2bc1f16204 1546006 debug optional ros-one-ethercat-trigger-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.02.10.21.24_amd64.ddeb
+ 9436dd50bd5772ff3b40a0fa791d3240 20503 misc optional ros-one-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.02.10.21.24_amd64.buildinfo
+ da6d51896ca4408413dbe2796701c173 107240 misc optional ros-one-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.02.10.21.24_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 23 Mar 2021 00:00:00 -0000
+Source: ros-one-wge100-camera
+Binary: ros-one-wge100-camera
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.8.5-2023.02.10.23.02
+Distribution: jammy
+Urgency: high
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Changed-By: Austin Hendrix <ahendrix@willowgarage.com>
+Description:
+ ros-one-wge100-camera - A ROS node and assorted tools to provide access to the WGE100 cam
+Changes:
+ ros-one-wge100-camera (1.8.5-2023.02.10.23.02) jammy; urgency=high
+Checksums-Sha1:
+ 9faa4eda9adc2c9ab7b66e65fcc6f54fe453237b 2114420 ros-one-wge100-camera-dbgsym_1.8.5-2023.02.10.23.02_amd64.ddeb
+ 999e0a5cb40181359b81c14536b14f36e4662861 20916 ros-one-wge100-camera_1.8.5-2023.02.10.23.02_amd64.buildinfo
+ 9825a3f6a45571f83978a3061ef9920a2de8d8d3 946128 ros-one-wge100-camera_1.8.5-2023.02.10.23.02_amd64.deb
+Checksums-Sha256:
+ 0cd7cccade9ca35ab8543d0d2ce9bfc38897f19c4a0cf754856975e2e80d71b0 2114420 ros-one-wge100-camera-dbgsym_1.8.5-2023.02.10.23.02_amd64.ddeb
+ 445316603c500ab317f011d7fed5590aebeb537c325eef1896551da32c0ac655 20916 ros-one-wge100-camera_1.8.5-2023.02.10.23.02_amd64.buildinfo
+ 9c728e002d1df25741747c4ade8c5d9323d448ee2de493bb0d6c9d2317b1f9c3 946128 ros-one-wge100-camera_1.8.5-2023.02.10.23.02_amd64.deb
+Files:
+ 8dbbd1d5453965980aedae9108c06a64 2114420 debug optional ros-one-wge100-camera-dbgsym_1.8.5-2023.02.10.23.02_amd64.ddeb
+ 381ea49ab393990f57a7eddda3da7ddc 20916 misc optional ros-one-wge100-camera_1.8.5-2023.02.10.23.02_amd64.buildinfo
+ 25466a0c676a66d9bb87df187e371dce 946128 misc optional ros-one-wge100-camera_1.8.5-2023.02.10.23.02_amd64.deb

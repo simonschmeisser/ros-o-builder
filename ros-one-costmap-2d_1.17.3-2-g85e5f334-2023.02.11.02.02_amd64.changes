@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-one-costmap-2d
+Binary: ros-one-costmap-2d
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.02.11.02.02
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-one-costmap-2d - This package provides an implementation of a 2D costmap that take
+Changes:
+ ros-one-costmap-2d (1.17.3-2-g85e5f334-2023.02.11.02.02) jammy; urgency=high
+ .
+   * [ROS-O] various patches (#1225 <https://github.com/ros-planning/navigation/issues/1225>)
+     * do not specify obsolete c++11 standard
+     this breaks with current versions of log4cxx.
+     * update pluginlib include paths
+     the non-hpp headers have been deprecated since kinetic
+     * use lambdas in favor of boost::bind
+     Using boost's _1 as a global system is deprecated since C++11.
+     The ROS packages in Debian removed the implicit support for the global symbols,
+     so this code fails to compile there without the patch.
+   * Contributors: Michael Görner
+Checksums-Sha1:
+ bb15886779239c03996d6a111004ff1d7d2b1458 8469700 ros-one-costmap-2d-dbgsym_1.17.3-2-g85e5f334-2023.02.11.02.02_amd64.ddeb
+ af7c5814665406b34d7aa80a51b0e1cf18391f49 26160 ros-one-costmap-2d_1.17.3-2-g85e5f334-2023.02.11.02.02_amd64.buildinfo
+ f60cea03bacaf56b9035461938dac291bfd340af 425916 ros-one-costmap-2d_1.17.3-2-g85e5f334-2023.02.11.02.02_amd64.deb
+Checksums-Sha256:
+ 01026966c41945a0002b128f6cc4dd3da97da28235a5cba0d59dced7010e48d4 8469700 ros-one-costmap-2d-dbgsym_1.17.3-2-g85e5f334-2023.02.11.02.02_amd64.ddeb
+ 6abadf026ed7e1f06638ca678d9db63cccc5b1c8f0ca1a0d25dfc5990bb4886c 26160 ros-one-costmap-2d_1.17.3-2-g85e5f334-2023.02.11.02.02_amd64.buildinfo
+ d2f01b8520cca3ceb4ea8093a267e0eb9549b7d4facccdb75a6c39dfecee06f1 425916 ros-one-costmap-2d_1.17.3-2-g85e5f334-2023.02.11.02.02_amd64.deb
+Files:
+ 3fe999bc5fa037f0c006d6873ef655b0 8469700 debug optional ros-one-costmap-2d-dbgsym_1.17.3-2-g85e5f334-2023.02.11.02.02_amd64.ddeb
+ 9f2bd67ecbff56b60bd9b123f41f7bbc 26160 misc optional ros-one-costmap-2d_1.17.3-2-g85e5f334-2023.02.11.02.02_amd64.buildinfo
+ d4f5db1c28c662dd5fd91a6df2328ad4 425916 misc optional ros-one-costmap-2d_1.17.3-2-g85e5f334-2023.02.11.02.02_amd64.deb

@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Tue, 02 Aug 2022 00:00:00 -0000
+Source: ros-one-smach-viewer
+Binary: ros-one-smach-viewer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.0.1-11-g2f7a4c8-2023.02.11.05.39
+Distribution: jammy
+Urgency: high
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Changed-By: Jonathan Bohren <jbo@jhu.edu>
+Description:
+ ros-one-smach-viewer - The smach viewer is a GUI that shows the state of hierarchical SM
+Changes:
+ ros-one-smach-viewer (4.0.1-11-g2f7a4c8-2023.02.11.05.39) jammy; urgency=high
+ .
+   * Fix 4.0.0, which does not work on both Melodic/Noetic (#43 <https://github.com/ros-visualization/executive_smach_visualization/issues/43>)
+ .
+       * use LooseVersion(wx.__version__) to support old Melodic (wxPython 3.0)
+       * typos
+       * more deprecated functions to test on melodic
+       * why wouldn't this work with python3 ?
+       * add missing dependency on cv_bridge
+       * update use of deprecated functions
+       * update pckage.xml based on https://github.com/ros-visualization/executive_smach_visualization/pull/39
+       * use catkin_install_python to automatically set /usr/bin/env python3 for noetic, but need to remove smach_viewer/lib/smach_viewer from sys.path
+       * xdot/wxxdot.py: intentionally uses from xdot, instead of from .xdot, because we want to use local xdot for Pytohn2 and sytem xdot for Python3
+       * Revert "apply 2to3 -w -f import *" This reverts commit 4cbd2ab0d16d4123e9227bf6b9e627bd4bd8ea7f.
+ .
+   * Contributors: Kei Okada, Mikael Arguedas
+Checksums-Sha1:
+ 2e2482d401a242bbb187af2646faa5593e0c91f1 12449 ros-one-smach-viewer_4.0.1-11-g2f7a4c8-2023.02.11.05.39_amd64.buildinfo
+ f1d86e8507620cfb8e01985af2c1d62cada02aa9 105348 ros-one-smach-viewer_4.0.1-11-g2f7a4c8-2023.02.11.05.39_amd64.deb
+Checksums-Sha256:
+ 8cb3dbb792724562d7d0e3f639c8a272cd0bb2201fc688ff8c3424cd2cac94b1 12449 ros-one-smach-viewer_4.0.1-11-g2f7a4c8-2023.02.11.05.39_amd64.buildinfo
+ 5dd1b6cb27b434a594e8b35641494174244bee57cc4712b7cc8c5c389005e577 105348 ros-one-smach-viewer_4.0.1-11-g2f7a4c8-2023.02.11.05.39_amd64.deb
+Files:
+ 6c476f029b41ef883cbbaa88c78943d3 12449 misc optional ros-one-smach-viewer_4.0.1-11-g2f7a4c8-2023.02.11.05.39_amd64.buildinfo
+ 7e6219357abf2b5fb66a27a5adaf5e99 105348 misc optional ros-one-smach-viewer_4.0.1-11-g2f7a4c8-2023.02.11.05.39_amd64.deb

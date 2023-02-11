@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: ros-one-rqt-web
+Binary: ros-one-rqt-web
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.10-1-gf5cc983-2023.02.09.20.16
+Distribution: jammy
+Urgency: high
+Maintainer: Scott Logan <scott@openrobotics.org>
+Changed-By: Scott Logan <scott@openrobotics.org>
+Description:
+ ros-one-rqt-web - rqt_web is a simple web content viewer for rqt.
+Changes:
+ ros-one-rqt-web (0.4.10-1-gf5cc983-2023.02.09.20.16) jammy; urgency=high
+ .
+   * fix shebang line for python3 (#4 <https://github.com/ros-visualization/rqt_web/issues/4>)
+   * Contributors: Mikael Arguedas
+Checksums-Sha1:
+ 89a519ab647373c860f8415eb240dc34517a0683 7749 ros-one-rqt-web_0.4.10-1-gf5cc983-2023.02.09.20.16_amd64.buildinfo
+ d925a36b2ca139e7be21605827d9e610a1470029 12918 ros-one-rqt-web_0.4.10-1-gf5cc983-2023.02.09.20.16_amd64.deb
+Checksums-Sha256:
+ 1ca85bb6723acddd2f5c39a083a970d3e733a6a4d416d7181b4a0b67fb7b4e94 7749 ros-one-rqt-web_0.4.10-1-gf5cc983-2023.02.09.20.16_amd64.buildinfo
+ e483e64c1e97fdd846dc83e5847d57446a8b96cbb1691805a205b7186981b2bb 12918 ros-one-rqt-web_0.4.10-1-gf5cc983-2023.02.09.20.16_amd64.deb
+Files:
+ 6f932e827bebc216f27f41a6792d6202 7749 misc optional ros-one-rqt-web_0.4.10-1-gf5cc983-2023.02.09.20.16_amd64.buildinfo
+ 5daedf66ec9b5bc970cd64e2f9057a26 12918 misc optional ros-one-rqt-web_0.4.10-1-gf5cc983-2023.02.09.20.16_amd64.deb

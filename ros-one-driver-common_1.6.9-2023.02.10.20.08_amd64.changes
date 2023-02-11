@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 22 Mar 2021 00:00:00 -0000
+Source: ros-one-driver-common
+Binary: ros-one-driver-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.6.9-2023.02.10.20.08
+Distribution: jammy
+Urgency: high
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Changed-By: Chad Rockey <chadrockey@gmail.com>
+Description:
+ ros-one-driver-common - The driver_common stack contains classes and tools that are usefu
+Changes:
+ ros-one-driver-common (1.6.9-2023.02.10.20.08) jammy; urgency=high
+Checksums-Sha1:
+ 761a5433f7c2bc4a40a911ac0ce140845668d651 7728 ros-one-driver-common_1.6.9-2023.02.10.20.08_amd64.buildinfo
+ c61b2df4d56f8461d4b8d5804fa352ed71e8d9f5 2000 ros-one-driver-common_1.6.9-2023.02.10.20.08_amd64.deb
+Checksums-Sha256:
+ 0e7d77ddbfa67141b64e2488dfbdeafbd51468ca2514a2d988e9da3259807ce9 7728 ros-one-driver-common_1.6.9-2023.02.10.20.08_amd64.buildinfo
+ 1215883f6e3134bbe289f5b89eb1fd93995a697bea72ea950750abc0cdc612fd 2000 ros-one-driver-common_1.6.9-2023.02.10.20.08_amd64.deb
+Files:
+ c84c39bde1aa13c3bb47254ed7cfe145 7728 misc optional ros-one-driver-common_1.6.9-2023.02.10.20.08_amd64.buildinfo
+ 6a3348cc581d723d6fc317139909b75a 2000 misc optional ros-one-driver-common_1.6.9-2023.02.10.20.08_amd64.deb

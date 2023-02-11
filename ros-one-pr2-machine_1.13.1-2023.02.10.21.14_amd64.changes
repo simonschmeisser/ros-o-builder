@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 07 Sep 2022 00:00:00 -0000
+Source: ros-one-pr2-machine
+Binary: ros-one-pr2-machine
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.13.1-2023.02.10.21.14
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-machine - This package contains the xxx.machine files that describe the dif
+Changes:
+ ros-one-pr2-machine (1.13.1-2023.02.10.21.14) jammy; urgency=high
+Checksums-Sha1:
+ 5554161d8dd233a7085faea8f3c2a89c3ec1fc77 7722 ros-one-pr2-machine_1.13.1-2023.02.10.21.14_amd64.buildinfo
+ db81f7bbac59bbdf576aa0789e7429ccb894dd4f 5178 ros-one-pr2-machine_1.13.1-2023.02.10.21.14_amd64.deb
+Checksums-Sha256:
+ 65a4aec91cfe850315bc834e9690238d2b29e551c28aa2c89421dd3a142e865f 7722 ros-one-pr2-machine_1.13.1-2023.02.10.21.14_amd64.buildinfo
+ a91a3c59d31f3e2ce072a874ae866c18780ad564129c25b689c33ec7485034a7 5178 ros-one-pr2-machine_1.13.1-2023.02.10.21.14_amd64.deb
+Files:
+ f9d1c43d9fc02495ba5cf790d65fcc14 7722 misc optional ros-one-pr2-machine_1.13.1-2023.02.10.21.14_amd64.buildinfo
+ cdafdef49079f7f321616da38076a9b8 5178 misc optional ros-one-pr2-machine_1.13.1-2023.02.10.21.14_amd64.deb

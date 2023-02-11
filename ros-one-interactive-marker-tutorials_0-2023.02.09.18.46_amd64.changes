@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 13 May 2020 00:00:00 -0000
+Source: ros-one-interactive-marker-tutorials
+Binary: ros-one-interactive-marker-tutorials
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.02.09.18.46
+Distribution: jammy
+Urgency: high
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Changed-By: Mabel Zhang <mabel@openrobotics.org>
+Description:
+ ros-one-interactive-marker-tutorials - The interactive_marker_tutorials package
+Changes:
+ ros-one-interactive-marker-tutorials (0-2023.02.09.18.46) jammy; urgency=high
+Checksums-Sha1:
+ 737602c5ff69bd05a40ebc542b8d41b53ae9ba38 2576388 ros-one-interactive-marker-tutorials-dbgsym_0-2023.02.09.18.46_amd64.ddeb
+ dbb58dc38381a2f332e435bd43868366d95a171e 22723 ros-one-interactive-marker-tutorials_0-2023.02.09.18.46_amd64.buildinfo
+ 691254538c65b062760895914c19a5b424cadc27 91510 ros-one-interactive-marker-tutorials_0-2023.02.09.18.46_amd64.deb
+Checksums-Sha256:
+ 35c8f76b64470bb58f388a99a4c06a6310b0e66275386deff0bfc21957454d8e 2576388 ros-one-interactive-marker-tutorials-dbgsym_0-2023.02.09.18.46_amd64.ddeb
+ 4359df7522078ee2e8063b33e6381aada2baad5c3218e1c6f0ea9e07c38ed912 22723 ros-one-interactive-marker-tutorials_0-2023.02.09.18.46_amd64.buildinfo
+ 0b7405933c7b1a07bdfb74bedab31c4457cdf7bee825146230001a9f6e376d55 91510 ros-one-interactive-marker-tutorials_0-2023.02.09.18.46_amd64.deb
+Files:
+ 5209945e4454d681fdc1289fee8338e1 2576388 debug optional ros-one-interactive-marker-tutorials-dbgsym_0-2023.02.09.18.46_amd64.ddeb
+ da21df98674da6ad1f5a0ded3339f0d7 22723 misc optional ros-one-interactive-marker-tutorials_0-2023.02.09.18.46_amd64.buildinfo
+ 27b1e8a2f01dd7043b34059c5fc9f824 91510 misc optional ros-one-interactive-marker-tutorials_0-2023.02.09.18.46_amd64.deb

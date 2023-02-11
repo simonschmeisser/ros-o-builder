@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 03 Apr 2020 00:00:00 -0000
+Source: ros-one-camera-info-manager
+Binary: ros-one-camera-info-manager
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.12.0-6-gcd57529-2023.02.09.18.43
+Distribution: jammy
+Urgency: high
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Changed-By: Jack O'Quin <jack.oquin@gmail.com>
+Description:
+ ros-one-camera-info-manager - This package provides a C++ interface for camera calibration info
+Changes:
+ ros-one-camera-info-manager (1.12.0-6-gcd57529-2023.02.09.18.43) jammy; urgency=high
+ .
+   * Noetic release image_common (#155 <https://github.com/ros-perception/image_common/issues/155>)
+     * noetic - Porting Python to Python3
+     Signed-off-by: ahcorde <mailto:ahcorde@gmail.com>
+     * Updated cmake_minimum_required to 3.0.2
+     Signed-off-by: ahcorde <mailto:ahcorde@gmail.com>
+     * changed diskutils.core for setuptools
+     Signed-off-by: ahcorde <mailto:ahcorde@gmail.com>
+     * ported to noetic image_transport tutorial
+     Signed-off-by: ahcorde <mailto:ahcorde@gmail.com>
+   * Contributors: Alejandro Hernández Cordero
+Checksums-Sha1:
+ 248f41c18513da7eac71eb56678f1cd236183151 416644 ros-one-camera-info-manager-dbgsym_1.12.0-6-gcd57529-2023.02.09.18.43_amd64.ddeb
+ 4b06a0eaf54c1fdaef4291979f59705abd16bbb6 19528 ros-one-camera-info-manager_1.12.0-6-gcd57529-2023.02.09.18.43_amd64.buildinfo
+ 66010985912e50fbe30c6f5a886b151c7a83c702 46364 ros-one-camera-info-manager_1.12.0-6-gcd57529-2023.02.09.18.43_amd64.deb
+Checksums-Sha256:
+ 3c2237e71aebdae9c74fd933aaf38e796f0d851fc163aaebcd2bcfd5c134a17f 416644 ros-one-camera-info-manager-dbgsym_1.12.0-6-gcd57529-2023.02.09.18.43_amd64.ddeb
+ 5d006a779f1276c1072ece5f5854369b517a3b359102b6b2052e0103b3e2fa52 19528 ros-one-camera-info-manager_1.12.0-6-gcd57529-2023.02.09.18.43_amd64.buildinfo
+ 42200aef64c8e622824b6b357bca18361967983b4a6ebceaff5c9be75659e738 46364 ros-one-camera-info-manager_1.12.0-6-gcd57529-2023.02.09.18.43_amd64.deb
+Files:
+ 4c698293d0f9a764e244ee69f44fcfac 416644 debug optional ros-one-camera-info-manager-dbgsym_1.12.0-6-gcd57529-2023.02.09.18.43_amd64.ddeb
+ 6fb5b63161f7e604bcc9944c5606cb50 19528 misc optional ros-one-camera-info-manager_1.12.0-6-gcd57529-2023.02.09.18.43_amd64.buildinfo
+ a97b297c14656e419f9eab4a4b8d655e 46364 misc optional ros-one-camera-info-manager_1.12.0-6-gcd57529-2023.02.09.18.43_amd64.deb

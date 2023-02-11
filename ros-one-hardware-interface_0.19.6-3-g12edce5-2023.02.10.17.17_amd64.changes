@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-one-hardware-interface
+Binary: ros-one-hardware-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.19.6-3-g12edce5-2023.02.10.17.17
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-one-hardware-interface - Hardware Interface base class.
+Changes:
+ ros-one-hardware-interface (0.19.6-3-g12edce5-2023.02.10.17.17) jammy; urgency=high
+ .
+   * Update mainpage.dox (#496 <https://github.com/ros-controls/ros_control/issues/496>)
+   * Contributors: PaddyCube
+Checksums-Sha1:
+ d7c8fd5a6cd9638dd1e00899c2eb77732fa11afe 10504 ros-one-hardware-interface_0.19.6-3-g12edce5-2023.02.10.17.17_amd64.buildinfo
+ 6579deb47e614486acb851bd6b3ae26cd20352eb 24886 ros-one-hardware-interface_0.19.6-3-g12edce5-2023.02.10.17.17_amd64.deb
+Checksums-Sha256:
+ 240bcc5bc76961aee839f094259bc21c6cf5eb86f516886c94d2791af59485fb 10504 ros-one-hardware-interface_0.19.6-3-g12edce5-2023.02.10.17.17_amd64.buildinfo
+ 460d26b250ae57af0f5e8ebd9f4f481646aaafcced5a923ac71a2238c8217fec 24886 ros-one-hardware-interface_0.19.6-3-g12edce5-2023.02.10.17.17_amd64.deb
+Files:
+ 8e8982433a943b476d41eb2c90baea3c 10504 misc optional ros-one-hardware-interface_0.19.6-3-g12edce5-2023.02.10.17.17_amd64.buildinfo
+ 6924fae38fe189621522b5ec142baa89 24886 misc optional ros-one-hardware-interface_0.19.6-3-g12edce5-2023.02.10.17.17_amd64.deb

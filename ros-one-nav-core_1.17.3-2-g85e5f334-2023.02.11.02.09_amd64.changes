@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-one-nav-core
+Binary: ros-one-nav-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.02.11.02.09
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-one-nav-core - This package provides common interfaces for navigation specific r
+Changes:
+ ros-one-nav-core (1.17.3-2-g85e5f334-2023.02.11.02.09) jammy; urgency=high
+Checksums-Sha1:
+ 90284ae81181defd15477a3ab50d72c71b876063 22376 ros-one-nav-core_1.17.3-2-g85e5f334-2023.02.11.02.09_amd64.buildinfo
+ fcfd8a6b1beb619270fb931081af10159cbe1dcd 8570 ros-one-nav-core_1.17.3-2-g85e5f334-2023.02.11.02.09_amd64.deb
+Checksums-Sha256:
+ 84f82117de23a4dd6be36801f574f709fa3e748693040f68dff84edba2ec69a7 22376 ros-one-nav-core_1.17.3-2-g85e5f334-2023.02.11.02.09_amd64.buildinfo
+ c4ff7266ed344d679bbea401985bde629bfb21f849a560fa911fec6fa9be6b8e 8570 ros-one-nav-core_1.17.3-2-g85e5f334-2023.02.11.02.09_amd64.deb
+Files:
+ 3a40d2db6d9a3a83aa88321626c0f53f 22376 misc optional ros-one-nav-core_1.17.3-2-g85e5f334-2023.02.11.02.09_amd64.buildinfo
+ 2fde2ed25821cff1c3491b58a0afcb1c 8570 misc optional ros-one-nav-core_1.17.3-2-g85e5f334-2023.02.11.02.09_amd64.deb

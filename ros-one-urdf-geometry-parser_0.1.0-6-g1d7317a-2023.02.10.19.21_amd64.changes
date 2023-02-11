@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 05 Apr 2020 00:00:00 -0000
+Source: ros-one-urdf-geometry-parser
+Binary: ros-one-urdf-geometry-parser
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.1.0-6-g1d7317a-2023.02.10.19.21
+Distribution: jammy
+Urgency: high
+Maintainer: Vincent Rousseau <vincent.rousseau@irstea.fr>
+Changed-By: Vincent Rousseau <vincent.rousseau@irstea.fr>
+Description:
+ ros-one-urdf-geometry-parser - Extract geometry value of a vehicle from urdf.
+Changes:
+ ros-one-urdf-geometry-parser (0.1.0-6-g1d7317a-2023.02.10.19.21) jammy; urgency=high
+ .
+   * Remove tf2 dependency
+   * Add license
+   * Bump CMake version to avoid CMP0048 warning
+   * Cleanup CMakeLists.txt and package.xml
+   * Contributors: Bence Magyar, Matt Reynolds, Vincent Rousseau
+Checksums-Sha1:
+ fe2c3f4daffe8d8d0913a20978e35f8043f94db8 289046 ros-one-urdf-geometry-parser-dbgsym_0.1.0-6-g1d7317a-2023.02.10.19.21_amd64.ddeb
+ 57f295861c922eb9a1e53c23f1b1c956005c55f1 19584 ros-one-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.02.10.19.21_amd64.buildinfo
+ 181ca8e36b5eda93fca4ae36a0776c1dc76d2f4e 22214 ros-one-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.02.10.19.21_amd64.deb
+Checksums-Sha256:
+ ec85ff8deb301c952470b2c246b5531ee96fa956117f6d84eee4e8a0f10effa6 289046 ros-one-urdf-geometry-parser-dbgsym_0.1.0-6-g1d7317a-2023.02.10.19.21_amd64.ddeb
+ 64136dd48c7e0fb651a993bbd1a8ca01ccb32ef4c66def9df58d6d76a514c2f6 19584 ros-one-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.02.10.19.21_amd64.buildinfo
+ aa6cf5ab723e7f6354d5017a60baa009de7e8d1c39d83a0ca2a34ca4ec868c48 22214 ros-one-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.02.10.19.21_amd64.deb
+Files:
+ 9bfb12c234a84ce89fccf0c3fb3b2c3c 289046 debug optional ros-one-urdf-geometry-parser-dbgsym_0.1.0-6-g1d7317a-2023.02.10.19.21_amd64.ddeb
+ 59fe1b7ea2728a42453523e53796f64a 19584 misc optional ros-one-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.02.10.19.21_amd64.buildinfo
+ 7cad5fb4d6563eae660e6d9b2b3e5473 22214 misc optional ros-one-urdf-geometry-parser_0.1.0-6-g1d7317a-2023.02.10.19.21_amd64.deb

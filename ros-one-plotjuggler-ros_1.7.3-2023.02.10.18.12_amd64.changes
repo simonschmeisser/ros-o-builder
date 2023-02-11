@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sat, 14 Jan 2023 00:00:00 -0000
+Source: ros-one-plotjuggler-ros
+Binary: ros-one-plotjuggler-ros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.3-2023.02.10.18.12
+Distribution: jammy
+Urgency: high
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Changed-By: Davide Faconti <davide.faconti@gmail.com>
+Description:
+ ros-one-plotjuggler-ros - PlotJuggler plugin for ROS
+Changes:
+ ros-one-plotjuggler-ros (1.7.3-2023.02.10.18.12) jammy; urgency=high
+ .
+   * Fix mapping of multiple pal_statistics topics (#61 <https://github.com/PlotJuggler/plotjuggler-ros-plugins/issues/61>)
+   * fix implicit uint8_t -> double narrowing (#42 <https://github.com/PlotJuggler/plotjuggler-ros-plugins/issues/42>)
+     YES, the standard committee believes this might be narrowing
+     and clang 12 throws this error:
+     > error: non-constant-expression cannot be narrowed from type 'uint8_t' (aka 'unsigned char') to 'double' in initializer list [-Wc++11-narrowing]
+   * Contributors: Michael Görner, Victor Lopez
+Checksums-Sha1:
+ c3812e5f80b99c9335859e51d50552266308e2af 17060582 ros-one-plotjuggler-ros-dbgsym_1.7.3-2023.02.10.18.12_amd64.ddeb
+ 02c0348b8c3bd3ddd2b67a013f1f8b5f47bfff21 26184 ros-one-plotjuggler-ros_1.7.3-2023.02.10.18.12_amd64.buildinfo
+ 92b220b77a52c16163c664b78b6dab46fadc2504 495732 ros-one-plotjuggler-ros_1.7.3-2023.02.10.18.12_amd64.deb
+Checksums-Sha256:
+ f877ca58bb2f6d3f9bea9762e9c1ec327760aa9e5b6259dd4675c41beaef45c1 17060582 ros-one-plotjuggler-ros-dbgsym_1.7.3-2023.02.10.18.12_amd64.ddeb
+ f6302e614d1ee89644b78c18c000e944e78403614d930927200da1879208275b 26184 ros-one-plotjuggler-ros_1.7.3-2023.02.10.18.12_amd64.buildinfo
+ 0b2a228fe617c9b80212cbd1bec342b6c6f7c843f14f0031a7fc3651458fb08b 495732 ros-one-plotjuggler-ros_1.7.3-2023.02.10.18.12_amd64.deb
+Files:
+ c9b0a91bd79c05b704efafa9d5132844 17060582 debug optional ros-one-plotjuggler-ros-dbgsym_1.7.3-2023.02.10.18.12_amd64.ddeb
+ 7a413c6143f624ba4582316e1cb2d75d 26184 misc optional ros-one-plotjuggler-ros_1.7.3-2023.02.10.18.12_amd64.buildinfo
+ 3a4741e0ea38db68ad95d67c753d4922 495732 misc optional ros-one-plotjuggler-ros_1.7.3-2023.02.10.18.12_amd64.deb

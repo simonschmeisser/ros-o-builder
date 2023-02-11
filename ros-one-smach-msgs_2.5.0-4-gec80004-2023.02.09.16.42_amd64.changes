@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: ros-one-smach-msgs
+Binary: ros-one-smach-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.0-4-gec80004-2023.02.09.16.42
+Distribution: jammy
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ ros-one-smach-msgs - this package contains a set of messages that are used by the intr
+Changes:
+ ros-one-smach-msgs (2.5.0-4-gec80004-2023.02.09.16.42) jammy; urgency=high
+ .
+   * Python 3 compatibility #71 <https://github.com/ros/executive_smach/issues/71>
+   * Bump CMake version to avoid CMP0048 warning
+   * Contributors: Shane Loretz, ahcorde
+Checksums-Sha1:
+ ad4d9117872333fc7817f2f7c9fdbc108a311591 9378 ros-one-smach-msgs_2.5.0-4-gec80004-2023.02.09.16.42_amd64.buildinfo
+ 9f44d5cb0252edc43b771c1bb9d9ed90cb63caa4 22064 ros-one-smach-msgs_2.5.0-4-gec80004-2023.02.09.16.42_amd64.deb
+Checksums-Sha256:
+ a811e7e6b38278b3c5d5ff0b88be6c64c32f766d204be9c8fbececea2555e9cc 9378 ros-one-smach-msgs_2.5.0-4-gec80004-2023.02.09.16.42_amd64.buildinfo
+ 470c01c64ff260b6827534ac6f08dac80c53bfc8e2b4e81deffdbb0f147c4205 22064 ros-one-smach-msgs_2.5.0-4-gec80004-2023.02.09.16.42_amd64.deb
+Files:
+ b7ec30a5d4fa120793860974f04dc10a 9378 misc optional ros-one-smach-msgs_2.5.0-4-gec80004-2023.02.09.16.42_amd64.buildinfo
+ 4d60a464b6e2fcc3983e52d5b9a5fcc6 22064 misc optional ros-one-smach-msgs_2.5.0-4-gec80004-2023.02.09.16.42_amd64.deb

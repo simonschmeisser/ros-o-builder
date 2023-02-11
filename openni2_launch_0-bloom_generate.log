@@ -1,0 +1,12 @@
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning:  is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning:  is an invalid version and will not be supported in a future release
+  warnings.warn(
+[31m[1mCould not resolve rosdep key 'rgbd_launch'[0m
+[31m[1mTry to resolve the problem with rosdep and then continue.[0m
+[1m[32m==> [0m[0mGenerating debs for [36mubuntu:jammy[0m for package(s) ['openni2_launch'][0m[0m
+[33mNo homepage set, defaulting to ''[0m
+ROS Distro index file associate with commit '4b7fb961ad829ef1433ff9e1b2b45a615e52ff00'[0m
+New ROS Distro index url: 'https://raw.githubusercontent.com/ros/rosdistro/4b7fb961ad829ef1433ff9e1b2b45a615e52ff00/index-v4.yaml'[0m
+[31m[1merror: (25, 'Inappropriate ioctl for device')[0m
+[33mThis version of bloom is '0.10.7', but the newest available version is '0.11.2'. Please update.[0m

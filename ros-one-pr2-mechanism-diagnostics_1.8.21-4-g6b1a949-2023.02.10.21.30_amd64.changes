@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 22 Jun 2022 00:00:00 -0000
+Source: ros-one-pr2-mechanism-diagnostics
+Binary: ros-one-pr2-mechanism-diagnostics
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.8.21-4-g6b1a949-2023.02.10.21.30
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-mechanism-diagnostics - The `pr2_mechanism_diagnostics` node subscribes to `mechanism_sta
+Changes:
+ ros-one-pr2-mechanism-diagnostics (1.8.21-4-g6b1a949-2023.02.10.21.30) jammy; urgency=high
+ .
+   * set catkin_add_gtest within CATKIN_ENABLE_TESTING (#346 <https://github.com/pr2/pr2_mechanism/issues/346>)
+     fix with CATKIN_ENABLE_TESTING=OFF
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 67567a6ad2f66209ebe92aa86565793626fce72b 857894 ros-one-pr2-mechanism-diagnostics-dbgsym_1.8.21-4-g6b1a949-2023.02.10.21.30_amd64.ddeb
+ 688623e60e8a57f9ee97b567621d2ea298c59d64 20368 ros-one-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.02.10.21.30_amd64.buildinfo
+ b864a0590acd2da71dec5cea2172847e3482bcc3 55540 ros-one-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.02.10.21.30_amd64.deb
+Checksums-Sha256:
+ 527f32db9ab0a72ecd82fd4fe35b786fc3a595f0ad19174381ee235a6df6bf03 857894 ros-one-pr2-mechanism-diagnostics-dbgsym_1.8.21-4-g6b1a949-2023.02.10.21.30_amd64.ddeb
+ 5e44fc66544d12af24ae065ca0221adfce15501954d204274424a37a21f19aa3 20368 ros-one-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.02.10.21.30_amd64.buildinfo
+ 9e50b43ef7e42fe052d203e671e24b987e61b2233e54e7061299e586807cc9be 55540 ros-one-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.02.10.21.30_amd64.deb
+Files:
+ 6cc16d1502da6606cd4267840daa752b 857894 debug optional ros-one-pr2-mechanism-diagnostics-dbgsym_1.8.21-4-g6b1a949-2023.02.10.21.30_amd64.ddeb
+ 4550f48f13034fac02202c454e49bf06 20368 misc optional ros-one-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.02.10.21.30_amd64.buildinfo
+ e02500a0deb9363442f74200481015aa 55540 misc optional ros-one-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.02.10.21.30_amd64.deb

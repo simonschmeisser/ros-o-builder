@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 07 Oct 2021 00:00:00 -0000
+Source: ros-one-test-nodelet-topic-tools
+Binary: ros-one-test-nodelet-topic-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.10.2-3-g6265cac-2023.02.09.17.53
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-test-nodelet-topic-tools - A package for nodelet_topic_tools unit tests.
+Changes:
+ ros-one-test-nodelet-topic-tools (1.10.2-3-g6265cac-2023.02.09.17.53) jammy; urgency=high
+Checksums-Sha1:
+ a42c05b09a3411eca30eee02e0a104dd9088a750 20312 ros-one-test-nodelet-topic-tools_1.10.2-3-g6265cac-2023.02.09.17.53_amd64.buildinfo
+ 546469722e51540ff20e3b57425bf512abc264df 6022 ros-one-test-nodelet-topic-tools_1.10.2-3-g6265cac-2023.02.09.17.53_amd64.deb
+Checksums-Sha256:
+ 2e321d427c99c4dc1e37baec99588629c623c535c2e414d4112e913f5e9f70f7 20312 ros-one-test-nodelet-topic-tools_1.10.2-3-g6265cac-2023.02.09.17.53_amd64.buildinfo
+ 660badd0b07bb3ca83b1184dd610a4450d6362706947c1bc4d029fbd237f277e 6022 ros-one-test-nodelet-topic-tools_1.10.2-3-g6265cac-2023.02.09.17.53_amd64.deb
+Files:
+ c97500a6bf00e3e243894525bdc7b1bf 20312 misc optional ros-one-test-nodelet-topic-tools_1.10.2-3-g6265cac-2023.02.09.17.53_amd64.buildinfo
+ c98fc1b9ecec91ea41b036cbd38bc11d 6022 misc optional ros-one-test-nodelet-topic-tools_1.10.2-3-g6265cac-2023.02.09.17.53_amd64.deb

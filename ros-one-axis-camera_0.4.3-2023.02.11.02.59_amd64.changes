@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 22 Aug 2022 00:00:00 -0000
+Source: ros-one-axis-camera
+Binary: ros-one-axis-camera
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.3-2023.02.11.02.59
+Distribution: jammy
+Urgency: high
+Maintainer: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Changed-By: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Description:
+ ros-one-axis-camera - Python ROS drivers for accessing an Axis camera's MJPG stream.
+Changes:
+ ros-one-axis-camera (0.4.3-2023.02.11.02.59) jammy; urgency=high
+ .
+   * Merge pull request #73 <https://github.com/ros-drivers/axis_camera/issues/73> from jhiggins-cpr/noetic-devel
+     Add frames-per-second (fps) as a configurable option
+   * Reverting package change as it happens automatically
+   * Add frames-per-second (fps) as a configurable option
+   * Contributors: Jason Higgins, Tony Baltovski
+Checksums-Sha1:
+ d2f418403ae5a27db927c9c1704b11ecd8481f10 21971 ros-one-axis-camera_0.4.3-2023.02.11.02.59_amd64.buildinfo
+ 06c738b8d4f8ba8aa8c6357ed137dbb37630ce89 29694 ros-one-axis-camera_0.4.3-2023.02.11.02.59_amd64.deb
+Checksums-Sha256:
+ f30b7a42c6259ff0daef69e326ea5e72181f748622ee1f6f7a62b43d19c2599a 21971 ros-one-axis-camera_0.4.3-2023.02.11.02.59_amd64.buildinfo
+ 97731abfcc0af77a6ac2d82d2f864b374601e4caa440cad646efff9253357e4d 29694 ros-one-axis-camera_0.4.3-2023.02.11.02.59_amd64.deb
+Files:
+ bf73e70defdd1050481a0fa255a1d6e4 21971 misc optional ros-one-axis-camera_0.4.3-2023.02.11.02.59_amd64.buildinfo
+ 0edfafd9c453bcb575158860c471b177 29694 misc optional ros-one-axis-camera_0.4.3-2023.02.11.02.59_amd64.deb

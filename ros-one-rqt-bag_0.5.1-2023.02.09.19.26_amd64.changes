@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 18 Feb 2021 00:00:00 -0000
+Source: ros-one-rqt-bag
+Binary: ros-one-rqt-bag
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.5.1-2023.02.09.19.26
+Distribution: jammy
+Urgency: high
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Changed-By: Mabel Zhang <mabel@openrobotics.org>
+Description:
+ ros-one-rqt-bag - rqt_bag provides a GUI plugin for displaying and replaying ROS ba
+Changes:
+ ros-one-rqt-bag (0.5.1-2023.02.09.19.26) jammy; urgency=high
+ .
+   * Fix merge sort in bag export. (#96 <https://github.com/ros-visualization/rqt_bag/issues/96>)
+   * Reset timeline zoom after loading a new bag. (#97 <https://github.com/ros-visualization/rqt_bag/issues/97>)
+   * Fix raw view (#94 <https://github.com/ros-visualization/rqt_bag/issues/94>)
+   * Fix crash during merge sort of bag entries (fixes #90 <https://github.com/ros-visualization/rqt_bag/issues/90>) (#93 <https://github.com/ros-visualization/rqt_bag/issues/93>)
+   * Contributors: Martin Pecka, Michael Grupp
+Checksums-Sha1:
+ aa35b852cf24361d076ed3c19133b9320dc02ecb 7701 ros-one-rqt-bag_0.5.1-2023.02.09.19.26_amd64.buildinfo
+ f716656c50efb6b0a3ec3a6d88f4ac37b2c6be96 78518 ros-one-rqt-bag_0.5.1-2023.02.09.19.26_amd64.deb
+Checksums-Sha256:
+ bc64a301e896bd55fbdb19a4b87e8d4ac3cf1d272c2c02e1dad7d9c924f5f809 7701 ros-one-rqt-bag_0.5.1-2023.02.09.19.26_amd64.buildinfo
+ 90171ebe6aa1d2d80c58a1f42d4c2a89e6fb9e337cc959e2518335216effc0a0 78518 ros-one-rqt-bag_0.5.1-2023.02.09.19.26_amd64.deb
+Files:
+ cc6e9893e6b288a8da4132f1f3636a72 7701 misc optional ros-one-rqt-bag_0.5.1-2023.02.09.19.26_amd64.buildinfo
+ 07b22a6b2d18d5706a360da767f73a15 78518 misc optional ros-one-rqt-bag_0.5.1-2023.02.09.19.26_amd64.deb

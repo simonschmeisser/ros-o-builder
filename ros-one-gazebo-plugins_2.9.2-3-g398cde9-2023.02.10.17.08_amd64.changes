@@ -1,0 +1,57 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: ros-one-gazebo-plugins
+Binary: ros-one-gazebo-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.9.2-3-g398cde9-2023.02.10.17.08
+Distribution: jammy
+Urgency: high
+Maintainer: Alejandro Hernández Cordero <ahcorde@osrfoundation.org>
+Changed-By: Alejandro Hernández Cordero <ahcorde@osrfoundation.org>
+Description:
+ ros-one-gazebo-plugins - Robot-independent Gazebo plugins for sensors, motors and dynamic
+Changes:
+ ros-one-gazebo-plugins (2.9.2-3-g398cde9-2023.02.10.17.08) jammy; urgency=high
+ .
+   * gazebo_ros_utils: don't set tf_prefix if empty (#1173 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1173>)
+     Similar changes were made in #1143 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1143> to address #554 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/554>,
+     but this class wasn't included.
+   * Update test worlds to use the correct element names for xyzOffset and rpyOffset (#1206 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1206>)
+     The test worlds add an extra 's' character, but the real names are singular.
+   * [noetic][planar_move_controller] add cmdTimeout param (#1133 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1133>)
+     Co-authored-by: Alejandro Hernández Cordero <mailto:ahcorde@gmail.com>
+   * [noetic][Windows] Removing extra CameraPlugin header inclusion from gazebo_ros_camera_utils (#1161 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1161>)
+   * multi roboti example updated for noetic (#1154 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1154>)
+   * Leave empty tf_prefix values unset (#1143 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1143>)
+     As reported in #554 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/554>, tf_prefix has been long deprecated,
+     so if it is unset, leave it empty instead of giving a default value.
+     Fixes #554 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/554>.
+   * Added directives if profiler is not installed (#1144 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1144>)
+   * colcon.pkg: build gazebo first in colcon workspace (#1135 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1135>)
+     Add a colcon.pkg file to gazebo_dev with gazebo's cmake project  name "Gazebo" listed as a dependency to support building
+     gazebo from source in a colcon workspace. Add colcon.pkg files for other packages
+     Copy colcon.pkg to gazebo_ros, gazebo_plugins, and  gazebo_ros_control so that --merge-install won't be required.
+   * [Noetic] Added Ignition common profiler to gazebo_plugins (#1139 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1139>)
+     * Added Ignition common profiler
+     * Fixed typo
+   * WheelSlip.cfg: ignore default parameter values (#1126 <https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1126>)
+     The WheelSlipPlugin already has default values for the slip
+     compliance parameters, so ignore the default values set in
+     WheelSlip.cfg by making them negative and instruct the
+     callback to ignore negative values.
+     Also, ignore the level variable in callback so that
+     parameters set in launch file will not be ignored.
+   * Contributors: Alejandro Hernández Cordero, G.Doisy, Jacob Perron, Markus Bader, Sean Yen, Steve Peters
+Checksums-Sha1:
+ d0cabc24a4ea8bee6f6955b81cf9ad38cb8f543a 48960870 ros-one-gazebo-plugins-dbgsym_2.9.2-3-g398cde9-2023.02.10.17.08_amd64.ddeb
+ 43cc701ae800376ff41c202e590daeeaaaee1b79 41700 ros-one-gazebo-plugins_2.9.2-3-g398cde9-2023.02.10.17.08_amd64.buildinfo
+ 83011bbf363b00402d70286f348d32aa44eeeaff 1728468 ros-one-gazebo-plugins_2.9.2-3-g398cde9-2023.02.10.17.08_amd64.deb
+Checksums-Sha256:
+ d197d85df4e58f4751a76838c0cbd1f12327e23b599fa1d3cf193f83d3a35eeb 48960870 ros-one-gazebo-plugins-dbgsym_2.9.2-3-g398cde9-2023.02.10.17.08_amd64.ddeb
+ ab95dfe5f0da142569e94725f02ca48f961018b76627a18a6a9e099fb9a26f7a 41700 ros-one-gazebo-plugins_2.9.2-3-g398cde9-2023.02.10.17.08_amd64.buildinfo
+ d17447d7dc947eae8b3bc11cc9fe88c065224c4f00a3c2a80bb5a76a394e1476 1728468 ros-one-gazebo-plugins_2.9.2-3-g398cde9-2023.02.10.17.08_amd64.deb
+Files:
+ de0358fe266b5f20ced57c4f5ee93603 48960870 debug optional ros-one-gazebo-plugins-dbgsym_2.9.2-3-g398cde9-2023.02.10.17.08_amd64.ddeb
+ 14ea1b7636e62a3f7013bfb3cee7adc3 41700 misc optional ros-one-gazebo-plugins_2.9.2-3-g398cde9-2023.02.10.17.08_amd64.buildinfo
+ cd0019f15a31d384c0e01e5f7d7bf47b 1728468 misc optional ros-one-gazebo-plugins_2.9.2-3-g398cde9-2023.02.10.17.08_amd64.deb

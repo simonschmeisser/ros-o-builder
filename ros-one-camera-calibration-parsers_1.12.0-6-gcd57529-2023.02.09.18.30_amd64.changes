@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 03 Apr 2020 00:00:00 -0000
+Source: ros-one-camera-calibration-parsers
+Binary: ros-one-camera-calibration-parsers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.12.0-6-gcd57529-2023.02.09.18.30
+Distribution: jammy
+Urgency: high
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Changed-By: Jack O'Quin <jack.oquin@gmail.com>
+Description:
+ ros-one-camera-calibration-parsers - camera_calibration_parsers contains routines for reading and writ
+Changes:
+ ros-one-camera-calibration-parsers (1.12.0-6-gcd57529-2023.02.09.18.30) jammy; urgency=high
+ .
+   * Noetic release image_common (#155 <https://github.com/ros-perception/image_common/issues/155>)
+     * noetic - Porting Python to Python3
+     Signed-off-by: ahcorde <mailto:ahcorde@gmail.com>
+     * Updated cmake_minimum_required to 3.0.2
+     Signed-off-by: ahcorde <mailto:ahcorde@gmail.com>
+     * changed diskutils.core for setuptools
+     Signed-off-by: ahcorde <mailto:ahcorde@gmail.com>
+     * ported to noetic image_transport tutorial
+     Signed-off-by: ahcorde <mailto:ahcorde@gmail.com>
+   * Contributors: Alejandro Hernández Cordero
+Checksums-Sha1:
+ 93da513d9cb7a8a68ce5a1d4367ff3765976fcd9 1052674 ros-one-camera-calibration-parsers-dbgsym_1.12.0-6-gcd57529-2023.02.09.18.30_amd64.ddeb
+ 15cd0e1506f8213e3ee4ea538e23df9a686681a7 17418 ros-one-camera-calibration-parsers_1.12.0-6-gcd57529-2023.02.09.18.30_amd64.buildinfo
+ 143eb7049351721c728ec98ce80e0de4d018192c 64418 ros-one-camera-calibration-parsers_1.12.0-6-gcd57529-2023.02.09.18.30_amd64.deb
+Checksums-Sha256:
+ 62cdf4773a53cd1aefd6682c13b5a1dd248f7de2be278dd4559d21a5befc5c42 1052674 ros-one-camera-calibration-parsers-dbgsym_1.12.0-6-gcd57529-2023.02.09.18.30_amd64.ddeb
+ 215d916f89068f43ce97dee14a9d3da6f0e094c645170139e1b9a6681d25e3f8 17418 ros-one-camera-calibration-parsers_1.12.0-6-gcd57529-2023.02.09.18.30_amd64.buildinfo
+ 4cbe0fcdb389e1becbd7fcefdc14f886d39cbd3de492f20c3f8354d5ce3e16bf 64418 ros-one-camera-calibration-parsers_1.12.0-6-gcd57529-2023.02.09.18.30_amd64.deb
+Files:
+ fae5860a4efe9ed86652f0328f7c7c8e 1052674 debug optional ros-one-camera-calibration-parsers-dbgsym_1.12.0-6-gcd57529-2023.02.09.18.30_amd64.ddeb
+ 84f613330081ef729e55d946f82c44dc 17418 misc optional ros-one-camera-calibration-parsers_1.12.0-6-gcd57529-2023.02.09.18.30_amd64.buildinfo
+ 191305149c09030cc18a04b2c079fbff 64418 misc optional ros-one-camera-calibration-parsers_1.12.0-6-gcd57529-2023.02.09.18.30_amd64.deb

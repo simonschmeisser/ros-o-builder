@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 30 Apr 2017 00:00:00 -0000
+Source: ros-one-stage-ros
+Binary: ros-one-stage-ros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.8.0-2023.02.10.19.08
+Distribution: jammy
+Urgency: high
+Maintainer: William Woodall <william@osrfoundation.org>
+Changed-By: William Woodall <william@osrfoundation.org>
+Description:
+ ros-one-stage-ros - This package provides ROS specific hooks for stage
+Changes:
+ ros-one-stage-ros (1.8.0-2023.02.10.19.08) jammy; urgency=high
+ .
+   * Now uses Stage's native event loop properly and added reassuring startup output.
+   * Added a GUI section so that the world starts in a good place.
+   * Fixed issue such that ranger intensity values are no longer clipped to 256
+     See: #31 <https://github.com/ros-simulation/stage_ros/issues/31>
+   * Contributors: Richard Vaughan, Shane Loretz, William Woodall, gerkey
+Checksums-Sha1:
+ 0509d8806a53e07ac4cd2e4ab4e62fe3db1f5509 738310 ros-one-stage-ros-dbgsym_1.8.0-2023.02.10.19.08_amd64.ddeb
+ f911675429e9b50472ae68530dd867cc3859d73c 27313 ros-one-stage-ros_1.8.0-2023.02.10.19.08_amd64.buildinfo
+ abab89c995dda61993a9612c681a7cfa03f1846e 104428 ros-one-stage-ros_1.8.0-2023.02.10.19.08_amd64.deb
+Checksums-Sha256:
+ f1f73ae9f14cea69a073da74324f3a7be7ae3a70935a3f434a2d777606925f9c 738310 ros-one-stage-ros-dbgsym_1.8.0-2023.02.10.19.08_amd64.ddeb
+ 5226de363619acb7e6fc206921fb3ed4f30aea891a9b72c0cd77faa8665aa612 27313 ros-one-stage-ros_1.8.0-2023.02.10.19.08_amd64.buildinfo
+ f20f6fa5abe44ee1c1008d38631cbe8c5360b8edf98eff5061718dd0b9646754 104428 ros-one-stage-ros_1.8.0-2023.02.10.19.08_amd64.deb
+Files:
+ 9a745fd073e678a947ab894e6dfccdb3 738310 debug optional ros-one-stage-ros-dbgsym_1.8.0-2023.02.10.19.08_amd64.ddeb
+ 96bf15c859a7733105495bdda7989f9d 27313 misc optional ros-one-stage-ros_1.8.0-2023.02.10.19.08_amd64.buildinfo
+ c1a33917eca6b3ec49d477b028b0fba9 104428 misc optional ros-one-stage-ros_1.8.0-2023.02.10.19.08_amd64.deb

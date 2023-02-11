@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 24 Jul 2020 00:00:00 -0000
+Source: ros-one-qt-gui-app
+Binary: ros-one-qt-gui-app
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.2-8-g7831026-2023.02.09.19.07
+Distribution: jammy
+Urgency: high
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Changed-By: Scott Logan <cottsay@openrobotics.org>
+Description:
+ ros-one-qt-gui-app - qt_gui_app provides the main to start an instance of the integrat
+Changes:
+ ros-one-qt-gui-app (0.4.2-8-g7831026-2023.02.09.19.07) jammy; urgency=high
+ .
+   * fix shebang line for python3 (#223 <https://github.com/ros-visualization/qt_gui_core/issues/223>)
+Checksums-Sha1:
+ abbdbc2a5e72fbe4bbfa9b1954d6d87c3189dcd8 7757 ros-one-qt-gui-app_0.4.2-8-g7831026-2023.02.09.19.07_amd64.buildinfo
+ b9d430e655ad81470d5eea8f437b84d574d132e6 6136 ros-one-qt-gui-app_0.4.2-8-g7831026-2023.02.09.19.07_amd64.deb
+Checksums-Sha256:
+ 5cb8a2f93035191f6d5e68489cf5995f4e7e171fed3c72b8065ac65135ae36fc 7757 ros-one-qt-gui-app_0.4.2-8-g7831026-2023.02.09.19.07_amd64.buildinfo
+ d909cd9106ce86a6e9d81cbcd900681a5c5aa8ae06b1bbd869f6a89d786dcc2e 6136 ros-one-qt-gui-app_0.4.2-8-g7831026-2023.02.09.19.07_amd64.deb
+Files:
+ a4670613c3dd8b65b442080ee7a7c64b 7757 misc optional ros-one-qt-gui-app_0.4.2-8-g7831026-2023.02.09.19.07_amd64.buildinfo
+ 277a70e1814682969433d09bf99474dc 6136 misc optional ros-one-qt-gui-app_0.4.2-8-g7831026-2023.02.09.19.07_amd64.deb

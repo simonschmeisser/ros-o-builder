@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 31 Dec 2021 00:00:00 -0000
+Source: ros-one-test-diagnostic-aggregator
+Binary: ros-one-test-diagnostic-aggregator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.11.0-7-gda86650-2023.02.09.17.26
+Distribution: jammy
+Urgency: high
+Maintainer: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Changed-By: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Description:
+ ros-one-test-diagnostic-aggregator - Basic diagnostic_aggregator tests are in the
+Changes:
+ ros-one-test-diagnostic-aggregator (1.11.0-7-gda86650-2023.02.09.17.26) jammy; urgency=high
+Checksums-Sha1:
+ 16ff22b1b142b698e58e194535520cb889b36d17 19071 ros-one-test-diagnostic-aggregator_1.11.0-7-gda86650-2023.02.09.17.26_amd64.buildinfo
+ 83692c9ab030ad9e99e85e0ac2a075df50a24fc7 7766 ros-one-test-diagnostic-aggregator_1.11.0-7-gda86650-2023.02.09.17.26_amd64.deb
+Checksums-Sha256:
+ 0208f6114ae1036f66c7aeec6fa9289c77186e5bedd9cc96d277a21924dd39e9 19071 ros-one-test-diagnostic-aggregator_1.11.0-7-gda86650-2023.02.09.17.26_amd64.buildinfo
+ 4d7047e69f328e09d5970c15b080e5846c9ae3b29c2452c232ffc762194fac17 7766 ros-one-test-diagnostic-aggregator_1.11.0-7-gda86650-2023.02.09.17.26_amd64.deb
+Files:
+ ec2c455a2b92400f82ffbfb6a831edd2 19071 misc optional ros-one-test-diagnostic-aggregator_1.11.0-7-gda86650-2023.02.09.17.26_amd64.buildinfo
+ 47de185d0a51c9e4a0e50e2245730b72 7766 misc optional ros-one-test-diagnostic-aggregator_1.11.0-7-gda86650-2023.02.09.17.26_amd64.deb

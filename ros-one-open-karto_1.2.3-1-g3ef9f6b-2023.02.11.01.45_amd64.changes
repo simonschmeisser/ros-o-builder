@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 10 Nov 2020 00:00:00 -0000
+Source: ros-one-open-karto
+Binary: ros-one-open-karto
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.2.3-1-g3ef9f6b-2023.02.11.01.45
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Ferguson <mfergs7@gmail.com>
+Changed-By: Michael Ferguson <mfergs7@gmail.com>
+Description:
+ ros-one-open-karto - Catkinized ROS packaging of the OpenKarto library
+Changes:
+ ros-one-open-karto (1.2.3-1-g3ef9f6b-2023.02.11.01.45) jammy; urgency=high
+ .
+   * update destructor to not use c11 feature (#26 <https://github.com/ros-perception/open_karto/issues/26>)
+   * fix parameter passing bug of first link to other robots (#23 <https://github.com/ros-perception/open_karto/issues/23>)
+   * Fix -Wdelete-non-virtual-dtor and -Wreorder warnings (#24 <https://github.com/ros-perception/open_karto/issues/24>)
+   * Contributors: Michael Ferguson, Survy Vaish, Zezhou.Sun
+Checksums-Sha1:
+ 3ab313109be5c4c85419ad242bee3399964511da 1002096 ros-one-open-karto-dbgsym_1.2.3-1-g3ef9f6b-2023.02.11.01.45_amd64.ddeb
+ 496432c7cf652e7d3903eeb6cba70429557102e7 17338 ros-one-open-karto_1.2.3-1-g3ef9f6b-2023.02.11.01.45_amd64.buildinfo
+ 3b73e66eb7cbff25f4ec047098b8fdf27e63d30c 119714 ros-one-open-karto_1.2.3-1-g3ef9f6b-2023.02.11.01.45_amd64.deb
+Checksums-Sha256:
+ b1f6249847a3d9b7ffe0caa1bc39de883c948246d3e32fd0c3f82d2ce97a186c 1002096 ros-one-open-karto-dbgsym_1.2.3-1-g3ef9f6b-2023.02.11.01.45_amd64.ddeb
+ 7e6cc25db61975903f16af3a75a3d467c2a72db4d1a1dd78b0ee4d7f120d706e 17338 ros-one-open-karto_1.2.3-1-g3ef9f6b-2023.02.11.01.45_amd64.buildinfo
+ a3c25dce51db026d5607fb742b67c2e91107b7d41a5f7c2b317d088f2ce849d5 119714 ros-one-open-karto_1.2.3-1-g3ef9f6b-2023.02.11.01.45_amd64.deb
+Files:
+ efa0f19dbb3a61abf4106fbd4f960334 1002096 debug optional ros-one-open-karto-dbgsym_1.2.3-1-g3ef9f6b-2023.02.11.01.45_amd64.ddeb
+ 7ccc7f64569242b008a43fd708073ba2 17338 misc optional ros-one-open-karto_1.2.3-1-g3ef9f6b-2023.02.11.01.45_amd64.buildinfo
+ 0c2867b70226002e952c55a61404f88d 119714 misc optional ros-one-open-karto_1.2.3-1-g3ef9f6b-2023.02.11.01.45_amd64.deb

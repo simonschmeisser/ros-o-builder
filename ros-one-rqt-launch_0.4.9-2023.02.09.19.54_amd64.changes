@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 13 Oct 2020 00:00:00 -0000
+Source: ros-one-rqt-launch
+Binary: ros-one-rqt-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.9-2023.02.09.19.54
+Distribution: jammy
+Urgency: high
+Maintainer: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Changed-By: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Description:
+ ros-one-rqt-launch - This rqt plugin ROS package provides easy view of .launch files.
+Changes:
+ ros-one-rqt-launch (0.4.9-2023.02.09.19.54) jammy; urgency=high
+ .
+   * fix shebang line for Python 3 (#24 <https://github.com/ros-visualization/rqt_launch/issues/24>)
+   * refactor get spawn count text (#23 <https://github.com/ros-visualization/rqt_launch/issues/23>)
+   * bump CMake minimum version to avoid CMP0048 warning
+   * autopep8 (#19 <https://github.com/ros-visualization/rqt_launch/issues/19>)
+   * add Ryan Sinnet co-maintainer, update the current maintainer contact info
+Checksums-Sha1:
+ c12301f43ceade33cf2ed0d0ac2509c68ecf007b 23706 ros-one-rqt-launch_0.4.9-2023.02.09.19.54_amd64.buildinfo
+ 2fab8c4a32446d8cc428dcc25f7c2747f5b4b87d 24208 ros-one-rqt-launch_0.4.9-2023.02.09.19.54_amd64.deb
+Checksums-Sha256:
+ af535afe224d59fcef970af2f968815053d13451ef5c5ab124e00a02ec2ae874 23706 ros-one-rqt-launch_0.4.9-2023.02.09.19.54_amd64.buildinfo
+ 7fd3e021b544bc695bc8d762aabd3612aad2f5ee46d01a44edfa3d58073dcef5 24208 ros-one-rqt-launch_0.4.9-2023.02.09.19.54_amd64.deb
+Files:
+ e45e5a28b1bb9b636579bf5305b00332 23706 misc optional ros-one-rqt-launch_0.4.9-2023.02.09.19.54_amd64.buildinfo
+ 22ff32728828edaf3d3c624ce0a85157 24208 misc optional ros-one-rqt-launch_0.4.9-2023.02.09.19.54_amd64.deb

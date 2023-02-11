@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 09 Oct 2020 00:00:00 -0000
+Source: ros-one-rviz-visual-tools
+Binary: ros-one-rviz-visual-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.9.1-6-g4f972da-2023.02.10.18.58
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Changed-By: Dave Coleman <davetcoleman@gmail.com>
+Description:
+ ros-one-rviz-visual-tools - Utility functions for displaying and debugging data in Rviz via p
+Changes:
+ ros-one-rviz-visual-tools (3.9.1-6-g4f972da-2023.02.10.18.58) jammy; urgency=high
+ .
+   * [maint] add soname versions to libraries (#166 <https://github.com/tylerjw/rviz_visual_tools/issues/166>)
+   * [maint] Apply clang-format-10 (#173 <https://github.com/tylerjw/rviz_visual_tools/issues/173>)
+   * Contributors: Tyler Weaver
+Checksums-Sha1:
+ 031640920fef0e5ffd7084d84bf5f37f159eeaf4 7421006 ros-one-rviz-visual-tools-dbgsym_3.9.1-6-g4f972da-2023.02.10.18.58_amd64.ddeb
+ 0d3578594a675342ba2a351236686ba856b2ce78 28755 ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.02.10.18.58_amd64.buildinfo
+ 08579a32e41e678cd05d48e74fe1dc862e4746af 1461734 ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.02.10.18.58_amd64.deb
+Checksums-Sha256:
+ d37a0457656b2893bd19b745401abe09bfa50f3e11034101049faaaf709c60f8 7421006 ros-one-rviz-visual-tools-dbgsym_3.9.1-6-g4f972da-2023.02.10.18.58_amd64.ddeb
+ 1c897090ab8092987765d5faebb199ef6f94692e0458db167b93098c258af192 28755 ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.02.10.18.58_amd64.buildinfo
+ 852feeab2bc7521ec12dee68c8c216e1c55dca386cad7496dd75e3bcec66b9c3 1461734 ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.02.10.18.58_amd64.deb
+Files:
+ d2102e5d9362cc44af2632e169f1ef3e 7421006 debug optional ros-one-rviz-visual-tools-dbgsym_3.9.1-6-g4f972da-2023.02.10.18.58_amd64.ddeb
+ 55a8c66be75688314f7b38a8202e58ad 28755 misc optional ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.02.10.18.58_amd64.buildinfo
+ 3cf50385cc2e48767416719e31524f49 1461734 misc optional ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.02.10.18.58_amd64.deb

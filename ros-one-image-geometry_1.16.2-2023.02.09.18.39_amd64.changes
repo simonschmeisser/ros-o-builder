@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 03 Oct 2022 00:00:00 -0000
+Source: ros-one-image-geometry
+Binary: ros-one-image-geometry
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.16.2-2023.02.09.18.39
+Distribution: jammy
+Urgency: high
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Changed-By: Vincent Rabaud <vincent.rabaud@gmail.com>
+Description:
+ ros-one-image-geometry - `image_geometry` contains C++ and Python libraries for interpreti
+Changes:
+ ros-one-image-geometry (1.16.2-2023.02.09.18.39) jammy; urgency=high
+ .
+   * Add fovX and fovY functions in python, cpp, also some typo fixes (#428 <https://github.com/ros-perception/vision_opencv/issues/428>)
+   * Contributors: Chris Thierauf, Kenji Brameld
+Checksums-Sha1:
+ ca9f0f96d4590e8d762f8562d464e31d840949ea 240416 ros-one-image-geometry-dbgsym_1.16.2-2023.02.09.18.39_amd64.ddeb
+ 3ced0440f62cbf88854a2ab6fb393e00c1622b8b 20600 ros-one-image-geometry_1.16.2-2023.02.09.18.39_amd64.buildinfo
+ f7b2621a0dd2b161f5bfd6122a8490bce129979e 35370 ros-one-image-geometry_1.16.2-2023.02.09.18.39_amd64.deb
+Checksums-Sha256:
+ a5da74bd6549a9957bca6f34f03ffcaefd77ad8bbe09d92c40b0bf492265335a 240416 ros-one-image-geometry-dbgsym_1.16.2-2023.02.09.18.39_amd64.ddeb
+ 0ac7084402b502bdc7ef2535db74a0095ca7b620c53d4d5cff9090eb30cc68cc 20600 ros-one-image-geometry_1.16.2-2023.02.09.18.39_amd64.buildinfo
+ 6e5f102066c2e27a4dd53169d28f3eecd8509c393328c8e6b66052fe19eefe04 35370 ros-one-image-geometry_1.16.2-2023.02.09.18.39_amd64.deb
+Files:
+ c6076e223fa13fcde9034cfad8d25dfb 240416 debug optional ros-one-image-geometry-dbgsym_1.16.2-2023.02.09.18.39_amd64.ddeb
+ b719c305d068de900cacda3339536baa 20600 misc optional ros-one-image-geometry_1.16.2-2023.02.09.18.39_amd64.buildinfo
+ ebddf83fda1a1beebb2ebea0d12e5088 35370 misc optional ros-one-image-geometry_1.16.2-2023.02.09.18.39_amd64.deb

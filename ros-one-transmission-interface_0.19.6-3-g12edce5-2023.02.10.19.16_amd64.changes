@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-one-transmission-interface
+Binary: ros-one-transmission-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.19.6-3-g12edce5-2023.02.10.19.16
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-one-transmission-interface - Transmission Interface.
+Changes:
+ ros-one-transmission-interface (0.19.6-3-g12edce5-2023.02.10.19.16) jammy; urgency=high
+Checksums-Sha1:
+ 395840bdee20617270ad4944486792259618bcde 4461078 ros-one-transmission-interface-dbgsym_0.19.6-3-g12edce5-2023.02.10.19.16_amd64.ddeb
+ efbbe7fa8e91ae18af854d7ccd3ca5720454811b 18498 ros-one-transmission-interface_0.19.6-3-g12edce5-2023.02.10.19.16_amd64.buildinfo
+ 524628538d97c853d06b6cd70c24b2f7191a1da3 202778 ros-one-transmission-interface_0.19.6-3-g12edce5-2023.02.10.19.16_amd64.deb
+Checksums-Sha256:
+ 17510e28f6d205239e212dcf5a86e8dddd6899ba9da04c4bdc4de15e1f9f9b4e 4461078 ros-one-transmission-interface-dbgsym_0.19.6-3-g12edce5-2023.02.10.19.16_amd64.ddeb
+ 900878e0ff98d259280a4ead11aaa096c1994aae0a12af42958a37def7298a09 18498 ros-one-transmission-interface_0.19.6-3-g12edce5-2023.02.10.19.16_amd64.buildinfo
+ 9726db5845bda8eaeca3e8bc39cfb8314e4a8b2e0ab38cf0d850a2ea3b89b03b 202778 ros-one-transmission-interface_0.19.6-3-g12edce5-2023.02.10.19.16_amd64.deb
+Files:
+ 49502baffdea06d29e2675eacba300cf 4461078 debug optional ros-one-transmission-interface-dbgsym_0.19.6-3-g12edce5-2023.02.10.19.16_amd64.ddeb
+ 36b9f2000ecfaa476a3801a459492de2 18498 misc optional ros-one-transmission-interface_0.19.6-3-g12edce5-2023.02.10.19.16_amd64.buildinfo
+ c5f1f69652277b65f022971918c98b17 202778 misc optional ros-one-transmission-interface_0.19.6-3-g12edce5-2023.02.10.19.16_amd64.deb

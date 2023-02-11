@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sun, 14 Aug 2022 00:00:00 -0000
+Source: ros-one-rviz
+Binary: ros-one-rviz
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.14.19-4-gd122ab11-2023.02.09.20.18
+Distribution: jammy
+Urgency: high
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Changed-By: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Description:
+ ros-one-rviz - 3D visualization tool for ROS.
+Changes:
+ ros-one-rviz (1.14.19-4-gd122ab11-2023.02.09.20.18) jammy; urgency=high
+ .
+   * Fixup to #1760 <https://github.com/ros-visualization/rviz/issues/1760>, SplitterHandle (#1766 <https://github.com/ros-visualization/rviz/issues/1766>)
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 931b095b332ee478cf0cc6e79695c7f6c0ed961b 62484204 ros-one-rviz-dbgsym_1.14.19-4-gd122ab11-2023.02.09.20.18_amd64.ddeb
+ 589aa847a6b721e846061535184c27f5d244788b 28172 ros-one-rviz_1.14.19-4-gd122ab11-2023.02.09.20.18_amd64.buildinfo
+ ec0a21102e0f17a5d6069e1a31e29ff79cd4da5b 2278558 ros-one-rviz_1.14.19-4-gd122ab11-2023.02.09.20.18_amd64.deb
+Checksums-Sha256:
+ 9368af330d831d6006b5800e02b50fd18ceed3b2d5d558647c8ceabdf3cceca2 62484204 ros-one-rviz-dbgsym_1.14.19-4-gd122ab11-2023.02.09.20.18_amd64.ddeb
+ dca464d82e26386d08b159c5e2ba7a27cecab826afec782ad21d9dec41ded9df 28172 ros-one-rviz_1.14.19-4-gd122ab11-2023.02.09.20.18_amd64.buildinfo
+ ae3a2131d1e15aaf2e5d8bc89948426baded924f2d679acfed2dab139a431dda 2278558 ros-one-rviz_1.14.19-4-gd122ab11-2023.02.09.20.18_amd64.deb
+Files:
+ af14d03454d4f6724e33a7155308ba44 62484204 debug optional ros-one-rviz-dbgsym_1.14.19-4-gd122ab11-2023.02.09.20.18_amd64.ddeb
+ d5fc2f758c6870f9cbba35ea08a5417d 28172 misc optional ros-one-rviz_1.14.19-4-gd122ab11-2023.02.09.20.18_amd64.buildinfo
+ 1e9ce999deb4a4b00bac9664baca06c8 2278558 misc optional ros-one-rviz_1.14.19-4-gd122ab11-2023.02.09.20.18_amd64.deb

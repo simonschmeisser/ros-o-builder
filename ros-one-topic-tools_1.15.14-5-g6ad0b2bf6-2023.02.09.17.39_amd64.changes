@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 06 Jan 2022 00:00:00 -0000
+Source: ros-one-topic-tools
+Binary: ros-one-topic-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.15.14-5-g6ad0b2bf6-2023.02.09.17.39
+Distribution: jammy
+Urgency: high
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Changed-By: Jacob Perron <jacob@openrobotics.org>
+Description:
+ ros-one-topic-tools - Tools for directing, throttling, selecting, and otherwise messing
+Changes:
+ ros-one-topic-tools (1.15.14-5-g6ad0b2bf6-2023.02.09.17.39) jammy; urgency=high
+Checksums-Sha1:
+ 60ef6ed1ff9231988e7a4a04a6e63ca29dff7b9e 2525632 ros-one-topic-tools-dbgsym_1.15.14-5-g6ad0b2bf6-2023.02.09.17.39_amd64.ddeb
+ 5f188a73be9166bed850f74bb1fa7f80f0610af4 12935 ros-one-topic-tools_1.15.14-5-g6ad0b2bf6-2023.02.09.17.39_amd64.buildinfo
+ c7bff10080397a2d7a2b68e9a302d1fb3a3daa7e 159412 ros-one-topic-tools_1.15.14-5-g6ad0b2bf6-2023.02.09.17.39_amd64.deb
+Checksums-Sha256:
+ 0ebcb22e3094519995e584f8ca1d7ac4fcdadac21ff084c60b647d8f7d395e40 2525632 ros-one-topic-tools-dbgsym_1.15.14-5-g6ad0b2bf6-2023.02.09.17.39_amd64.ddeb
+ 5812a8b98e3cbb911d952b1b4e53289fca8a01e486a250fa0a26f27942364931 12935 ros-one-topic-tools_1.15.14-5-g6ad0b2bf6-2023.02.09.17.39_amd64.buildinfo
+ 98f7d0d6ed94ff12da19146989b42d9b669409abc1b7cec4c45e7a99c0cd9d49 159412 ros-one-topic-tools_1.15.14-5-g6ad0b2bf6-2023.02.09.17.39_amd64.deb
+Files:
+ 4d56683a9b5b1a283793d43abd6b853d 2525632 debug optional ros-one-topic-tools-dbgsym_1.15.14-5-g6ad0b2bf6-2023.02.09.17.39_amd64.ddeb
+ fd6f2cc8c2d04a945bf41c2a09bfec3c 12935 misc optional ros-one-topic-tools_1.15.14-5-g6ad0b2bf6-2023.02.09.17.39_amd64.buildinfo
+ a58848947474e298ef03a3d40049cf80 159412 misc optional ros-one-topic-tools_1.15.14-5-g6ad0b2bf6-2023.02.09.17.39_amd64.deb

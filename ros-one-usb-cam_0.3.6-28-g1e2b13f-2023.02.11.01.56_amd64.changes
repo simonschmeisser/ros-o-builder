@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 15 Jun 2017 00:00:00 -0000
+Source: ros-one-usb-cam
+Binary: ros-one-usb-cam
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.3.6-28-g1e2b13f-2023.02.11.01.56
+Distribution: jammy
+Urgency: high
+Maintainer: Andrey Vukolov <andrey.vukolov@elettra.eu>
+Changed-By: Andrey Vukolov <andrey.vukolov@elettra.eu>
+Description:
+ ros-one-usb-cam - A ROS Driver for V4L USB Cameras
+Changes:
+ ros-one-usb-cam (0.3.6-28-g1e2b13f-2023.02.11.01.56) jammy; urgency=high
+ .
+   * .travis.yml: udpate to trusty
+   * add AV_ prefix to PIX_FMT_* for X,Y (#71 <https://github.com/ros-drivers/usb_cam/issues/71>)
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ fb23e6c677c79966af86e871411b5fda872b3efa 629790 ros-one-usb-cam-dbgsym_0.3.6-28-g1e2b13f-2023.02.11.01.56_amd64.ddeb
+ 6668fa992a1444a9e5d3f29918a449bc237694b4 29843 ros-one-usb-cam_0.3.6-28-g1e2b13f-2023.02.11.01.56_amd64.buildinfo
+ c009c3b78ab1783bde387deda2787efe3aa50ebb 56040 ros-one-usb-cam_0.3.6-28-g1e2b13f-2023.02.11.01.56_amd64.deb
+Checksums-Sha256:
+ ea82f633ab9f00b652214714a286c853d8d69f28ad61d5599b78f2d03594b654 629790 ros-one-usb-cam-dbgsym_0.3.6-28-g1e2b13f-2023.02.11.01.56_amd64.ddeb
+ 2c0ceb12910a987bf489a1cfc4f2b69f19f14875aee8f9449c0ec44d4d880672 29843 ros-one-usb-cam_0.3.6-28-g1e2b13f-2023.02.11.01.56_amd64.buildinfo
+ f7c979377690228ec336b0c20f36a1ad7d42a3ec02172669ebfd266e95488550 56040 ros-one-usb-cam_0.3.6-28-g1e2b13f-2023.02.11.01.56_amd64.deb
+Files:
+ d5b4cedcc8c4303803863f51e7b1f40f 629790 debug optional ros-one-usb-cam-dbgsym_0.3.6-28-g1e2b13f-2023.02.11.01.56_amd64.ddeb
+ ef119bd518ddac864c7a1ec5ba5dc7aa 29843 misc optional ros-one-usb-cam_0.3.6-28-g1e2b13f-2023.02.11.01.56_amd64.buildinfo
+ f209fe8bcbb83feb4a0f892ea184921b 56040 misc optional ros-one-usb-cam_0.3.6-28-g1e2b13f-2023.02.11.01.56_amd64.deb

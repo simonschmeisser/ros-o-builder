@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 31 Jan 2023 00:00:00 -0000
+Source: ros-one-four-wheel-steering-controller
+Binary: ros-one-four-wheel-steering-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.21.1-2023.02.10.19.24
+Distribution: jammy
+Urgency: high
+Maintainer: Vincent Rousseau <vincent.rousseau@irstea.fr>
+Changed-By: Vincent Rousseau <vincent.rousseau@irstea.fr>
+Description:
+ ros-one-four-wheel-steering-controller - Controller for a four wheel steering mobile base.
+Changes:
+ ros-one-four-wheel-steering-controller (0.21.1-2023.02.10.19.24) jammy; urgency=high
+ .
+   * Don't hardcode plugin library path
+   * add_dependencies was added to the CMakeLists.txt in four_wheel_steering_controller
+   * Contributors: Jochen Sprickerhof, pavel
+Checksums-Sha1:
+ 7efb0969dd93f2efd6be811e90573a9a56fdd1c5 1177302 ros-one-four-wheel-steering-controller-dbgsym_0.21.1-2023.02.10.19.24_amd64.ddeb
+ f3d5f4760c766c99792eb35d1de9b769c4564940 23368 ros-one-four-wheel-steering-controller_0.21.1-2023.02.10.19.24_amd64.buildinfo
+ eac67e538ffc1ff4c635f46428b83fa8f2ea4ec9 88882 ros-one-four-wheel-steering-controller_0.21.1-2023.02.10.19.24_amd64.deb
+Checksums-Sha256:
+ 3a217d752d6b2e25d7b5708400c2585053f4d81d2126dc5a2afc83ebffdedf01 1177302 ros-one-four-wheel-steering-controller-dbgsym_0.21.1-2023.02.10.19.24_amd64.ddeb
+ 377ef3dff3a7885ef010df0b6c7b1345721a008a5c7269af6026bab65ff68255 23368 ros-one-four-wheel-steering-controller_0.21.1-2023.02.10.19.24_amd64.buildinfo
+ b6f5573d2eba71af3b96f3c87d55a99665f9aa63c1f8938a88a4dd70f1555e6e 88882 ros-one-four-wheel-steering-controller_0.21.1-2023.02.10.19.24_amd64.deb
+Files:
+ e1b8cd7ae63d3dc97758f15d492b1629 1177302 debug optional ros-one-four-wheel-steering-controller-dbgsym_0.21.1-2023.02.10.19.24_amd64.ddeb
+ 0985b78421ab26e502c961186abe8102 23368 misc optional ros-one-four-wheel-steering-controller_0.21.1-2023.02.10.19.24_amd64.buildinfo
+ 2996ada011a0a3aabd2a4fd0e93a9712 88882 misc optional ros-one-four-wheel-steering-controller_0.21.1-2023.02.10.19.24_amd64.deb

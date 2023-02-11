@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 06 Jan 2022 00:00:00 -0000
+Source: ros-one-rostest
+Binary: ros-one-rostest
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.15.14-5-g6ad0b2bf6-2023.02.09.16.27
+Distribution: jammy
+Urgency: high
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Changed-By: Jacob Perron <jacob@openrobotics.org>
+Description:
+ ros-one-rostest - Integration test suite based on roslaunch that is compatible with
+Changes:
+ ros-one-rostest (1.15.14-5-g6ad0b2bf6-2023.02.09.16.27) jammy; urgency=high
+Checksums-Sha1:
+ 22edc2770d9d7cd1e040c96e210bda05eae7b4f6 9757 ros-one-rostest_1.15.14-5-g6ad0b2bf6-2023.02.09.16.27_amd64.buildinfo
+ 1f94fbfb6642eda9667f1d85846e208b575c5b7e 32378 ros-one-rostest_1.15.14-5-g6ad0b2bf6-2023.02.09.16.27_amd64.deb
+Checksums-Sha256:
+ 1eed5f8818693a58ab5ab9d94883e39ebc3bbd5ae60d71d7fe226b4f5efd2301 9757 ros-one-rostest_1.15.14-5-g6ad0b2bf6-2023.02.09.16.27_amd64.buildinfo
+ 4916274252f0679854da20540358ab83aa958791b3ce96c21c4c6956ee26bbf4 32378 ros-one-rostest_1.15.14-5-g6ad0b2bf6-2023.02.09.16.27_amd64.deb
+Files:
+ c78f4a260f873754ed6fe626c210f981 9757 misc optional ros-one-rostest_1.15.14-5-g6ad0b2bf6-2023.02.09.16.27_amd64.buildinfo
+ 8c17ac06fa8bb224d3397870df8d2bc9 32378 misc optional ros-one-rostest_1.15.14-5-g6ad0b2bf6-2023.02.09.16.27_amd64.deb
