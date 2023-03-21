@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 21 Jul 2021 00:00:00 -0000
+Source: ros-one-view-controller-msgs
+Binary: ros-one-view-controller-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-2023.03.21.10.44
+Distribution: jammy
+Urgency: high
+Maintainer: Evan Flynn <evanflynn.msu@gmail.com>
+Changed-By: Evan Flynn <evanflynn.msu@gmail.com>
+Description:
+ ros-one-view-controller-msgs - Messages for (camera) view controllers
+Changes:
+ ros-one-view-controller-msgs (0.2.0-2023.03.21.10.44) jammy; urgency=high
+ .
+   * add new status badge
+   * remove ci badge for now
+   * add gh actions for noetic and melodic
+   * major version bump since added new msgs
+   * Merge pull request #8 <https://github.com/ros-visualization/view_controller_msgs/issues/8> from Razlaw/camera_trajectories
+     add messages to support moving view camera along trajectory
+   * add CameraMovement and CameraTrajectory messages to support moving view camera along trajectory
+   * take over maintenance from orphaned package group (#7 <https://github.com/ros-visualization/view_controller_msgs/issues/7>)
+   * Contributors: Evan Flynn, razlaw
+Checksums-Sha1:
+ 70d3e7527f8e0b9725d4ede8c0e928853324a3bb 9436 ros-one-view-controller-msgs_0.2.0-2023.03.21.10.44_amd64.buildinfo
+ 93983cc155919deddcfd8cfe1ee1fbc2f9203a86 30718 ros-one-view-controller-msgs_0.2.0-2023.03.21.10.44_amd64.deb
+Checksums-Sha256:
+ f0de45f5264b21ff4eab66a5f7a2be153dae453cd7dc3bdb66d852c02b4d8576 9436 ros-one-view-controller-msgs_0.2.0-2023.03.21.10.44_amd64.buildinfo
+ 5a08f96cd1c774bfbf594dcb774a46881d668785f941d0c15eca8eb04cf76c63 30718 ros-one-view-controller-msgs_0.2.0-2023.03.21.10.44_amd64.deb
+Files:
+ f54ba26f2c11d275057e445c28537985 9436 misc optional ros-one-view-controller-msgs_0.2.0-2023.03.21.10.44_amd64.buildinfo
+ e5df96b90ea9dd1d62983a9f14780730 30718 misc optional ros-one-view-controller-msgs_0.2.0-2023.03.21.10.44_amd64.deb

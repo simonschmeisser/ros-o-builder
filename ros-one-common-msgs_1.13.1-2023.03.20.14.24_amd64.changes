@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 11 Jan 2021 00:00:00 -0000
+Source: ros-one-common-msgs
+Binary: ros-one-common-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.13.1-2023.03.20.14.24
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-common-msgs - common_msgs contains messages that are widely used by other ROS p
+Changes:
+ ros-one-common-msgs (1.13.1-2023.03.20.14.24) jammy; urgency=high
+ .
+   * Update package maintainers (#168 <https://github.com/ros/common_msgs/issues/168>)
+   * Contributors: Michel Hidalgo
+Checksums-Sha1:
+ 89647a49c72079cb2b660f88970fce06a2fdff84 7722 ros-one-common-msgs_1.13.1-2023.03.20.14.24_amd64.buildinfo
+ 127fa21924df7b5174f3a1fb16adc8d04ccbeec9 2610 ros-one-common-msgs_1.13.1-2023.03.20.14.24_amd64.deb
+Checksums-Sha256:
+ d4219e9b481c00e7dc52b254f5c1a4eb27dcbee9fb4f601b40c459ee2c37a0a4 7722 ros-one-common-msgs_1.13.1-2023.03.20.14.24_amd64.buildinfo
+ 33bb75110126e4f6b40b26bf560bc79b8bb7e3518a65ee44a409b607bf7e319e 2610 ros-one-common-msgs_1.13.1-2023.03.20.14.24_amd64.deb
+Files:
+ e2c23b51edee5090896d937fa8e2a6b0 7722 misc optional ros-one-common-msgs_1.13.1-2023.03.20.14.24_amd64.buildinfo
+ 3bd9a4d95fd21e7b29f191807e8ed4e4 2610 misc optional ros-one-common-msgs_1.13.1-2023.03.20.14.24_amd64.deb

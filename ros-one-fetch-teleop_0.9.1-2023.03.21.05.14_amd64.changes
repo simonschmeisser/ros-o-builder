@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 05 Mar 2021 00:00:00 -0000
+Source: ros-one-fetch-teleop
+Binary: ros-one-fetch-teleop
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.9.1-2023.03.21.05.14
+Distribution: jammy
+Urgency: high
+Maintainer: Carl Saldanha <csaldanha@fetchrobotics.com>
+Changed-By: Carl Saldanha <csaldanha@fetchrobotics.com>
+Description:
+ ros-one-fetch-teleop - Teleoperation for fetch and freight.
+Changes:
+ ros-one-fetch-teleop (0.9.1-2023.03.21.05.14) jammy; urgency=high
+Checksums-Sha1:
+ 78ce56f39dc3372e919fdc401a71d89068e3972e 1705020 ros-one-fetch-teleop-dbgsym_0.9.1-2023.03.21.05.14_amd64.ddeb
+ df2d7f8472e8e70a1b119c0d6fedfb6935538d33 13315 ros-one-fetch-teleop_0.9.1-2023.03.21.05.14_amd64.buildinfo
+ ba6f04333c66e92625391177049c31f04f160c8c 154752 ros-one-fetch-teleop_0.9.1-2023.03.21.05.14_amd64.deb
+Checksums-Sha256:
+ 6e164dfce4d139c7e1bb47d990584a2f98030456b35bc2f637018f3716833bfe 1705020 ros-one-fetch-teleop-dbgsym_0.9.1-2023.03.21.05.14_amd64.ddeb
+ 6c70b10d972217e0f05feb02d571788d1361ef2c481219926ebd6905a920ac52 13315 ros-one-fetch-teleop_0.9.1-2023.03.21.05.14_amd64.buildinfo
+ e7e06c35a73a23a774b1258b1ce23e5dde10ee0535144998b0ff4aa35e8a473f 154752 ros-one-fetch-teleop_0.9.1-2023.03.21.05.14_amd64.deb
+Files:
+ 9890e918260f88f005561bffb2d1d8cb 1705020 debug optional ros-one-fetch-teleop-dbgsym_0.9.1-2023.03.21.05.14_amd64.ddeb
+ 07d6fceb52baac51f55506efd7ac9843 13315 misc optional ros-one-fetch-teleop_0.9.1-2023.03.21.05.14_amd64.buildinfo
+ 36193dbea459cb7f55fcc66d5a876751 154752 misc optional ros-one-fetch-teleop_0.9.1-2023.03.21.05.14_amd64.deb

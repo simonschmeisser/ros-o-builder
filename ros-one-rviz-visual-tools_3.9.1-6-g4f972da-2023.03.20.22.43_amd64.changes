@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 09 Oct 2020 00:00:00 -0000
+Source: ros-one-rviz-visual-tools
+Binary: ros-one-rviz-visual-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.9.1-6-g4f972da-2023.03.20.22.43
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Changed-By: Dave Coleman <davetcoleman@gmail.com>
+Description:
+ ros-one-rviz-visual-tools - Utility functions for displaying and debugging data in Rviz via p
+Changes:
+ ros-one-rviz-visual-tools (3.9.1-6-g4f972da-2023.03.20.22.43) jammy; urgency=high
+ .
+   * [maint] add soname versions to libraries (#166 <https://github.com/tylerjw/rviz_visual_tools/issues/166>)
+   * [maint] Apply clang-format-10 (#173 <https://github.com/tylerjw/rviz_visual_tools/issues/173>)
+   * Contributors: Tyler Weaver
+Checksums-Sha1:
+ 320a6efce1e63b17d3f49736a2107b4ddde78f15 7419428 ros-one-rviz-visual-tools-dbgsym_3.9.1-6-g4f972da-2023.03.20.22.43_amd64.ddeb
+ 4ad81cdbeaec0665193dbf4c952bc773713f9d83 28755 ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.03.20.22.43_amd64.buildinfo
+ e7626d2c0dc0ed0b6c6967398bd6ea32aa1f2de2 1461698 ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.03.20.22.43_amd64.deb
+Checksums-Sha256:
+ 908f550d2e1d7c407c1fc3474f5d53c82a1ac34d6eb431a80230cbcd6bc7fb85 7419428 ros-one-rviz-visual-tools-dbgsym_3.9.1-6-g4f972da-2023.03.20.22.43_amd64.ddeb
+ d92549eb00837d34d043b4a0eb5208c5d809bc4508e3c253e68a7887f4e9d1dd 28755 ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.03.20.22.43_amd64.buildinfo
+ dc3949e37f0d910c3a045d70ad0ad4c9da3106564e0b017cc60843a722d8e878 1461698 ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.03.20.22.43_amd64.deb
+Files:
+ 441f7a970df130e734c2bb2662ba2e77 7419428 debug optional ros-one-rviz-visual-tools-dbgsym_3.9.1-6-g4f972da-2023.03.20.22.43_amd64.ddeb
+ ba78f56a155cffc23f7642408a98d04a 28755 misc optional ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.03.20.22.43_amd64.buildinfo
+ c16cad155634d88700b36b2a0a88c0b4 1461698 misc optional ros-one-rviz-visual-tools_3.9.1-6-g4f972da-2023.03.20.22.43_amd64.deb

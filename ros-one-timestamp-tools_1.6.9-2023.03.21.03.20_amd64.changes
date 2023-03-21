@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Mon, 22 Mar 2021 00:00:00 -0000
+Source: ros-one-timestamp-tools
+Binary: ros-one-timestamp-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.6.9-2023.03.21.03.20
+Distribution: jammy
+Urgency: high
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Changed-By: Chad Rockey <chadrockey@gmail.com>
+Description:
+ ros-one-timestamp-tools - This package is currently for internal use only.
+Changes:
+ ros-one-timestamp-tools (1.6.9-2023.03.21.03.20) jammy; urgency=high
+ .
+   * Merge pull request #11 <https://github.com/ros-drivers/driver_common/issues/11> from PR2-prime/indigo-devel
+     updates for compile on focal/noetic
+   * Merge pull request #1 <https://github.com/ros-drivers/driver_common/issues/1> from PR2-prime/noetic-devel
+     Noetic devel
+   * Merge branch 'indigo-devel' into noetic-devel
+   * fix to make tests compile under focal/noetic
+   * fixed boost time duration error with doubles no longer being supported
+   * fixed dependency issue in timestamp_tools
+   * updated header due to boost changes in focal/noetic
+   * Merge pull request #7 <https://github.com/ros-drivers/driver_common/issues/7> from AurelienBallier/indigo-devel
+     Fix CATKIN_ENABLE_TESTING set to False issue.
+   * Fix CATKIN_ENABLE_TESTING set to False issue.
+   * Contributors: Aurélien Ballier, Chad Rockey, Dave Feil-Seifer
+Checksums-Sha1:
+ 512afe4a31e3f2a3d297a972e237561e54f327a4 11440 ros-one-timestamp-tools_1.6.9-2023.03.21.03.20_amd64.buildinfo
+ df8a38421f7323254af1c5a7c5b8fd165d11cc7c 9380 ros-one-timestamp-tools_1.6.9-2023.03.21.03.20_amd64.deb
+Checksums-Sha256:
+ 7b9c52c9a917ce877fa4e420e453078da13c5e5d25eeefdf48ac2b3a339cb2b8 11440 ros-one-timestamp-tools_1.6.9-2023.03.21.03.20_amd64.buildinfo
+ f82cd19d29c0b7a941c8bff77a7ea518a29663cdfa24d87ef13c1ed0fa3e2808 9380 ros-one-timestamp-tools_1.6.9-2023.03.21.03.20_amd64.deb
+Files:
+ 48656e016005e86e332695f0abdd8fd6 11440 misc optional ros-one-timestamp-tools_1.6.9-2023.03.21.03.20_amd64.buildinfo
+ 135a35b2ff40b9dfd7ba644533b96725 9380 misc optional ros-one-timestamp-tools_1.6.9-2023.03.21.03.20_amd64.deb

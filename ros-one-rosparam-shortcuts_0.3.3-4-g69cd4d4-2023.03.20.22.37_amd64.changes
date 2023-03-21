@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Tue, 24 Sep 2019 00:00:00 -0000
+Source: ros-one-rosparam-shortcuts
+Binary: ros-one-rosparam-shortcuts
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.3.3-4-g69cd4d4-2023.03.20.22.37
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Changed-By: Dave Coleman <davetcoleman@gmail.com>
+Description:
+ ros-one-rosparam-shortcuts - Quickly load variables from rosparam with good command line error
+Changes:
+ ros-one-rosparam-shortcuts (0.3.3-4-g69cd4d4-2023.03.20.22.37) jammy; urgency=high
+ .
+   * Switch run_depend to eigen_conversions. (#12 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/12>)
+     Eigen is header-only (so no run_depend needed), but eigen_conversions
+     has a library that needs to be pulled in at runtime.
+     Signed-off-by: Chris Lalancette <mailto:clalancette@openrobotics.org>
+   * Contributors: Chris Lalancette
+Checksums-Sha1:
+ f8b468e058581a3230a55fcfa077b528fd82a0dc 906118 ros-one-rosparam-shortcuts-dbgsym_0.3.3-4-g69cd4d4-2023.03.20.22.37_amd64.ddeb
+ 0b1f3fd1dbea46829e4566f0f3b788520ab5f063 11282 ros-one-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.03.20.22.37_amd64.buildinfo
+ c1476fac0f9f933de3c4dcea5452c18e7bfab0b9 42658 ros-one-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.03.20.22.37_amd64.deb
+Checksums-Sha256:
+ 8e4e49f6fc577469cc08f6ae9ca007dd0571d0cbd945a26fa5bce31f6419f26e 906118 ros-one-rosparam-shortcuts-dbgsym_0.3.3-4-g69cd4d4-2023.03.20.22.37_amd64.ddeb
+ 7a026e9dfaab484b0274a0a4fe231a36fd4fa1b26eccf069c42ca2a55920ac0d 11282 ros-one-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.03.20.22.37_amd64.buildinfo
+ 4d2171b6f1cf4e79d33da299d8142925fca3ab0229e0182689a912ba4ee207db 42658 ros-one-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.03.20.22.37_amd64.deb
+Files:
+ 8a5452aa774d4ed21071571828589e26 906118 debug optional ros-one-rosparam-shortcuts-dbgsym_0.3.3-4-g69cd4d4-2023.03.20.22.37_amd64.ddeb
+ 357de3192847226662249f8a675a8adc 11282 misc optional ros-one-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.03.20.22.37_amd64.buildinfo
+ 03b91a55d8af5b28fcb854e206aeaff6 42658 misc optional ros-one-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.03.20.22.37_amd64.deb

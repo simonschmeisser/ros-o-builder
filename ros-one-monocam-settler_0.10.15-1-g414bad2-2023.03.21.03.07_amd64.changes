@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Tue, 11 May 2021 00:00:00 -0000
+Source: ros-one-monocam-settler
+Binary: ros-one-monocam-settler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.10.15-1-g414bad2-2023.03.21.03.07
+Distribution: jammy
+Urgency: high
+Maintainer: David Feil-Seifer <david.feilseifer@gmail.com>
+Changed-By: David Feil-Seifer <david.feilseifer@gmail.com>
+Description:
+ ros-one-monocam-settler - Listens on a ImageFeatures topic, and waits for the data to settl
+Changes:
+ ros-one-monocam-settler (0.10.15-1-g414bad2-2023.03.21.03.07) jammy; urgency=high
+ .
+   * Merge pull request #47 <https://github.com/ros-perception/calibration/issues/47> from PR2-prime/noetic-devel
+     Noetic devel
+   * fixes for compiler warnings CMP0048 and CMP0046
+   * update maintainer for most packages; first try at setup for travis testing (#46 <https://github.com/ros-perception/calibration/issues/46>)
+   * Contributors: Dave Feil-Seifer
+Checksums-Sha1:
+ 3a23fde7f1a0f175bcb3cb82690a0c8a74bde7c0 1068044 ros-one-monocam-settler-dbgsym_0.10.15-1-g414bad2-2023.03.21.03.07_amd64.ddeb
+ 8be03a00923afb1d9d43e7d72cb32548fbdd1ca8 18291 ros-one-monocam-settler_0.10.15-1-g414bad2-2023.03.21.03.07_amd64.buildinfo
+ ec3f3eb80ebd112f489555fbabe350a66f5258f9 119058 ros-one-monocam-settler_0.10.15-1-g414bad2-2023.03.21.03.07_amd64.deb
+Checksums-Sha256:
+ 523caade1d3e509c86c114ec203358ae0fa3036cdfa5a095d391ea706140f0c4 1068044 ros-one-monocam-settler-dbgsym_0.10.15-1-g414bad2-2023.03.21.03.07_amd64.ddeb
+ 42528c9023007c84fe8099504c71572f29f6911656618a88187817aa86f5f263 18291 ros-one-monocam-settler_0.10.15-1-g414bad2-2023.03.21.03.07_amd64.buildinfo
+ 3d18a6ae1bfa79bcb4bcf80c0c671fea6e845eade134b044f7744c3b5e376558 119058 ros-one-monocam-settler_0.10.15-1-g414bad2-2023.03.21.03.07_amd64.deb
+Files:
+ cb9c67928fd3b773a1ac409055a0b6be 1068044 debug optional ros-one-monocam-settler-dbgsym_0.10.15-1-g414bad2-2023.03.21.03.07_amd64.ddeb
+ 88a2c52c2af46117fe9c06b8e4e7b1f8 18291 misc optional ros-one-monocam-settler_0.10.15-1-g414bad2-2023.03.21.03.07_amd64.buildinfo
+ 62a616be678f412b66dcbd66d9e220b7 119058 misc optional ros-one-monocam-settler_0.10.15-1-g414bad2-2023.03.21.03.07_amd64.deb

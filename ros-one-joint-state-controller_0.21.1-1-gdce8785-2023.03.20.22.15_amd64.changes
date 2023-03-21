@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 31 Jan 2023 00:00:00 -0000
+Source: ros-one-joint-state-controller
+Binary: ros-one-joint-state-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.21.1-1-gdce8785-2023.03.20.22.15
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-one-joint-state-controller - Controller to publish joint state
+Changes:
+ ros-one-joint-state-controller (0.21.1-1-gdce8785-2023.03.20.22.15) jammy; urgency=high
+ .
+   * Don't hardcode plugin library path
+   * Contributors: Jochen Sprickerhof
+Checksums-Sha1:
+ 7a1a4b452ffeb3330903aead5a9c942ed3b2fe89 582794 ros-one-joint-state-controller-dbgsym_0.21.1-1-gdce8785-2023.03.20.22.15_amd64.ddeb
+ 8c62f384a5e0d618af8d46d78174b6e158eaa881 19568 ros-one-joint-state-controller_0.21.1-1-gdce8785-2023.03.20.22.15_amd64.buildinfo
+ 30a212eb1dd3849f5778c056a13f676e951923ea 51212 ros-one-joint-state-controller_0.21.1-1-gdce8785-2023.03.20.22.15_amd64.deb
+Checksums-Sha256:
+ e7e01158faccfa6afbe3ca995ff6e11a47e9d1bb65acd14e2128938ab9f5d553 582794 ros-one-joint-state-controller-dbgsym_0.21.1-1-gdce8785-2023.03.20.22.15_amd64.ddeb
+ 923d1f1e8f9ec02e5298e503737d7a4513a24ac266a518c442ffdbe4e225f8ca 19568 ros-one-joint-state-controller_0.21.1-1-gdce8785-2023.03.20.22.15_amd64.buildinfo
+ 99f4c2b56adc19358b5096471198b9ed4d88fa67798624c6d19e2c91ca906234 51212 ros-one-joint-state-controller_0.21.1-1-gdce8785-2023.03.20.22.15_amd64.deb
+Files:
+ 2d10a3c520fdaab33ad9fb718c9187de 582794 debug optional ros-one-joint-state-controller-dbgsym_0.21.1-1-gdce8785-2023.03.20.22.15_amd64.ddeb
+ b38960053f53ff03e421720e3e150e53 19568 misc optional ros-one-joint-state-controller_0.21.1-1-gdce8785-2023.03.20.22.15_amd64.buildinfo
+ 8a3f9b9a23dc3c6a38423f303ab927bf 51212 misc optional ros-one-joint-state-controller_0.21.1-1-gdce8785-2023.03.20.22.15_amd64.deb

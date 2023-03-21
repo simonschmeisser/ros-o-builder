@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 26 May 2021 00:00:00 -0000
+Source: ros-one-pr2-computer-monitor
+Binary: ros-one-pr2-computer-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.6.32-12-g6363d53-2023.03.21.01.58
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Changed-By: Dave Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-pr2-computer-monitor - Monitors the computer's processor and hard drives of the PR2 and
+Changes:
+ ros-one-pr2-computer-monitor (1.6.32-12-g6363d53-2023.03.21.01.58) jammy; urgency=high
+ .
+   * Merge pull request #268 <https://github.com/pr2/pr2_robot/issues/268> from k-okada/fix_for_noetic
+   * run 2to3 -w -fexcept .
+   * run 2to3 -w -fprint .
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 477e24681228f32375495e92c46856e6fba205b7 209156 ros-one-pr2-computer-monitor-dbgsym_1.6.32-12-g6363d53-2023.03.21.01.58_amd64.ddeb
+ a99050c1c86ee286d29909e5cd9d0aabfee342a3 11119 ros-one-pr2-computer-monitor_1.6.32-12-g6363d53-2023.03.21.01.58_amd64.buildinfo
+ 1d44fcc9323ed5a90b741dc77f8c5b160d5930e0 33382 ros-one-pr2-computer-monitor_1.6.32-12-g6363d53-2023.03.21.01.58_amd64.deb
+Checksums-Sha256:
+ caf3e622b8f5d7083d3eed866f6f9e7242252b7399f6e2fe39cedb6fa3a9050d 209156 ros-one-pr2-computer-monitor-dbgsym_1.6.32-12-g6363d53-2023.03.21.01.58_amd64.ddeb
+ 0f0f55fd8ab56a85ed71e7ec448795125c5201dcaa08407268051d8bad0758d6 11119 ros-one-pr2-computer-monitor_1.6.32-12-g6363d53-2023.03.21.01.58_amd64.buildinfo
+ 9c1f00b27dd92e4163fdc2c1a586f080e65c53c8601cb0cad13a7e68d598e4cc 33382 ros-one-pr2-computer-monitor_1.6.32-12-g6363d53-2023.03.21.01.58_amd64.deb
+Files:
+ e8bbb342697b18a2987ead6f726c0f70 209156 debug optional ros-one-pr2-computer-monitor-dbgsym_1.6.32-12-g6363d53-2023.03.21.01.58_amd64.ddeb
+ cbacece4d22f4d2b0abd91f83fcc32cf 11119 misc optional ros-one-pr2-computer-monitor_1.6.32-12-g6363d53-2023.03.21.01.58_amd64.buildinfo
+ 77f318ac6d92eb51417ade6e5e199eb6 33382 misc optional ros-one-pr2-computer-monitor_1.6.32-12-g6363d53-2023.03.21.01.58_amd64.deb

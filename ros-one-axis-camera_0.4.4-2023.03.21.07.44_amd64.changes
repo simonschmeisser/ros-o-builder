@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Fri, 17 Mar 2023 00:00:00 -0000
+Source: ros-one-axis-camera
+Binary: ros-one-axis-camera
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.4-2023.03.21.07.44
+Distribution: jammy
+Urgency: high
+Maintainer: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Changed-By: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Description:
+ ros-one-axis-camera - Python ROS drivers for accessing an Axis camera's MJPG stream.
+Changes:
+ ros-one-axis-camera (0.4.4-2023.03.21.07.44) jammy; urgency=high
+ .
+   * Improve support for the F34 multi-camera controller by adding default values for the camera index (1-4). Change the camera arg in view_axis to camera_name, change its default IP address to better-match with the main axis.launch file
+   * Merge latest changes in master into noetic-devel
+   * Merge Q62 support into noetic-devel branch (#76 <https://github.com/ros-drivers/axis_camera/issues/76>)
+     * Add support for the Q6215 IR mode, defogger, and wiper
+     * Ensure that wiper, defog, IR modes are all disabled on startup
+     * Add a launch argument to expose the encrypted password option
+     * Add support for basic & digest HTTP authorization
+     * Rewrite some of the underling CGI calls to use requests to make the code easier to maintain
+     * Add support for authentication to the PTZ node
+     * Enable password encryption in view_axis.launch
+     * Expand the readme with details on usage, supported devices, available topics & services
+     * Add python3-requests as a dependendency
+     * Add support for the autoiris feature available on some cameras
+   * Contributors: Chris Iverach-Brereton
+Checksums-Sha1:
+ fdc0bac85ca738baf12e2f1f07881e93e691123e 21971 ros-one-axis-camera_0.4.4-2023.03.21.07.44_amd64.buildinfo
+ c561a5516e27a8c4dde687d50e3fd31c1054ce54 31744 ros-one-axis-camera_0.4.4-2023.03.21.07.44_amd64.deb
+Checksums-Sha256:
+ 019c496bf9d8bcdcbdd86e25a1d95477356a477e257aa9ee4d0cd8d9909404e5 21971 ros-one-axis-camera_0.4.4-2023.03.21.07.44_amd64.buildinfo
+ ee25ace4c59c47cf88bf11a73ec814eb921ba0dc79d7dd068aa4ac46df063953 31744 ros-one-axis-camera_0.4.4-2023.03.21.07.44_amd64.deb
+Files:
+ 340ce7c5b73e31bb2a5681b5549fb2cb 21971 misc optional ros-one-axis-camera_0.4.4-2023.03.21.07.44_amd64.buildinfo
+ 3cbdf39d594aa62c0fbd346aed94949f 31744 misc optional ros-one-axis-camera_0.4.4-2023.03.21.07.44_amd64.deb

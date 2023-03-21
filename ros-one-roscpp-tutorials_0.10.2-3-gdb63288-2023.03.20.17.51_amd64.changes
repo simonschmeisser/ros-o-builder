@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 31 Jul 2020 00:00:00 -0000
+Source: ros-one-roscpp-tutorials
+Binary: ros-one-roscpp-tutorials
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.10.2-3-gdb63288-2023.03.20.17.51
+Distribution: jammy
+Urgency: high
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Changed-By: Mabel Zhang <mabel@openrobotics.org>
+Description:
+ ros-one-roscpp-tutorials - This package attempts to show the features of ROS step-by-step, i
+Changes:
+ ros-one-roscpp-tutorials (0.10.2-3-gdb63288-2023.03.20.17.51) jammy; urgency=high
+Checksums-Sha1:
+ 734fba69a9751ebbfcec96e6a55bdd47130bfba3 5212292 ros-one-roscpp-tutorials-dbgsym_0.10.2-3-gdb63288-2023.03.20.17.51_amd64.ddeb
+ 6e313ff35370c466add20c908b544baf5ef4f82d 10929 ros-one-roscpp-tutorials_0.10.2-3-gdb63288-2023.03.20.17.51_amd64.buildinfo
+ 8b4175da9860cd928d10c6ce826afbe4e809b7e7 152582 ros-one-roscpp-tutorials_0.10.2-3-gdb63288-2023.03.20.17.51_amd64.deb
+Checksums-Sha256:
+ f0d90695bd59fecca9cb974623ea38e73358a1fa78216202597fa6df34920f3d 5212292 ros-one-roscpp-tutorials-dbgsym_0.10.2-3-gdb63288-2023.03.20.17.51_amd64.ddeb
+ cd0a976fc986232bc0e83df76fa24939d6e138cebf106230d1968493a0a25997 10929 ros-one-roscpp-tutorials_0.10.2-3-gdb63288-2023.03.20.17.51_amd64.buildinfo
+ 8e60b195ab2edde3711e259f31fca79c47aebbe70eb5df3600259f2e780949a7 152582 ros-one-roscpp-tutorials_0.10.2-3-gdb63288-2023.03.20.17.51_amd64.deb
+Files:
+ bf041cb17980f83567f9714d31e9c777 5212292 debug optional ros-one-roscpp-tutorials-dbgsym_0.10.2-3-gdb63288-2023.03.20.17.51_amd64.ddeb
+ 8f641217471c8674094f73da9acc01c1 10929 misc optional ros-one-roscpp-tutorials_0.10.2-3-gdb63288-2023.03.20.17.51_amd64.buildinfo
+ 46b447a67a292b936e2e2b4335def57e 152582 misc optional ros-one-roscpp-tutorials_0.10.2-3-gdb63288-2023.03.20.17.51_amd64.deb

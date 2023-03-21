@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 02 Oct 2020 00:00:00 -0000
+Source: ros-one-slam-gmapping
+Binary: ros-one-slam-gmapping
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2023.03.21.06.24
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-slam-gmapping - slam_gmapping contains a wrapper around gmapping which provides S
+Changes:
+ ros-one-slam-gmapping (1.4.2-2023.03.21.06.24) jammy; urgency=high
+Checksums-Sha1:
+ c4a2204587ea278d29c59fd30016ec893f3ebfbf 7728 ros-one-slam-gmapping_1.4.2-2023.03.21.06.24_amd64.buildinfo
+ 92aa80fa89479352de37be0f1ffed97780b88719 1838 ros-one-slam-gmapping_1.4.2-2023.03.21.06.24_amd64.deb
+Checksums-Sha256:
+ 910084807ac73a5501998f360ede00e484dc6eee5d62f36083a1e56512e5db9c 7728 ros-one-slam-gmapping_1.4.2-2023.03.21.06.24_amd64.buildinfo
+ e05f852dad81403d6c6d0c9b7a2e1b6f8ccd472e57716b3c89ab09d6e2af7263 1838 ros-one-slam-gmapping_1.4.2-2023.03.21.06.24_amd64.deb
+Files:
+ c13423f57bc1919b6265bc51f8fef253 7728 misc optional ros-one-slam-gmapping_1.4.2-2023.03.21.06.24_amd64.buildinfo
+ 13024e1f2a51eb13c08802c2d1f5aa61 1838 misc optional ros-one-slam-gmapping_1.4.2-2023.03.21.06.24_amd64.deb

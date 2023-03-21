@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 06 Jan 2022 00:00:00 -0000
+Source: ros-one-rosbag
+Binary: ros-one-rosbag
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.15.14-5-g6ad0b2bf6-2023.03.20.16.07
+Distribution: jammy
+Urgency: high
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Changed-By: Jacob Perron <jacob@openrobotics.org>
+Description:
+ ros-one-rosbag - This is a set of tools for recording from and playing back to ROS
+Changes:
+ ros-one-rosbag (1.15.14-5-g6ad0b2bf6-2023.03.20.16.07) jammy; urgency=high
+Checksums-Sha1:
+ bd18dba0fca34f645052a1078803aebfca8c2366 4204684 ros-one-rosbag-dbgsym_1.15.14-5-g6ad0b2bf6-2023.03.20.16.07_amd64.ddeb
+ 64d5541a283a7316bca6e0e31a9aafcb30f0a414 19630 ros-one-rosbag_1.15.14-5-g6ad0b2bf6-2023.03.20.16.07_amd64.buildinfo
+ 0fd1784c87410235949b13fa20ce0204583cf16f 350416 ros-one-rosbag_1.15.14-5-g6ad0b2bf6-2023.03.20.16.07_amd64.deb
+Checksums-Sha256:
+ cf7eb4b5c8e4ccd96e3c3a50467198c22bdcf64ec4fbd9db451983bf00769616 4204684 ros-one-rosbag-dbgsym_1.15.14-5-g6ad0b2bf6-2023.03.20.16.07_amd64.ddeb
+ ce1740995b5c15888d391ba8b41af21f27b90f591e32a296eb71f6aa58203c39 19630 ros-one-rosbag_1.15.14-5-g6ad0b2bf6-2023.03.20.16.07_amd64.buildinfo
+ 3a46fa1cf2b20bda015e477fb1f4a9fac814c207423c3cdf741ba0ccfee83307 350416 ros-one-rosbag_1.15.14-5-g6ad0b2bf6-2023.03.20.16.07_amd64.deb
+Files:
+ 523d10791b2c65d8c86bd322ee7fce52 4204684 debug optional ros-one-rosbag-dbgsym_1.15.14-5-g6ad0b2bf6-2023.03.20.16.07_amd64.ddeb
+ c50fe5e3903e8accd634dd2b5ff1c5c5 19630 misc optional ros-one-rosbag_1.15.14-5-g6ad0b2bf6-2023.03.20.16.07_amd64.buildinfo
+ 8d4dc97c81cdbaea4d8fa179ab4163b3 350416 misc optional ros-one-rosbag_1.15.14-5-g6ad0b2bf6-2023.03.20.16.07_amd64.deb

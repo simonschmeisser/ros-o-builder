@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 03 Apr 2020 00:00:00 -0000
+Source: ros-one-image-transport
+Binary: ros-one-image-transport
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.12.0-6-gcd57529-2023.03.20.17.09
+Distribution: jammy
+Urgency: high
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Changed-By: Jack O'Quin <jack.oquin@gmail.com>
+Description:
+ ros-one-image-transport - image_transport should always be used to subscribe to and publish
+Changes:
+ ros-one-image-transport (1.12.0-6-gcd57529-2023.03.20.17.09) jammy; urgency=high
+ .
+   * Noetic release image_common (#155 <https://github.com/ros-perception/image_common/issues/155>)
+   * Contributors: Alejandro Hernández Cordero
+Checksums-Sha1:
+ 9b7e76bf3f00b9ad7333a5a5c4531d0fa83af70c 4410998 ros-one-image-transport-dbgsym_1.12.0-6-gcd57529-2023.03.20.17.09_amd64.ddeb
+ 75f197be4ac2345f39391d718cf33ed9db0e70f4 18346 ros-one-image-transport_1.12.0-6-gcd57529-2023.03.20.17.09_amd64.buildinfo
+ d45b3ee081a2579c8297eb6b82d275427d20a37c 236394 ros-one-image-transport_1.12.0-6-gcd57529-2023.03.20.17.09_amd64.deb
+Checksums-Sha256:
+ cbe49fcacaf76019b6cc6af81c13cb88c144923fe81f3b80819ce22a81df2d3d 4410998 ros-one-image-transport-dbgsym_1.12.0-6-gcd57529-2023.03.20.17.09_amd64.ddeb
+ c575edd4a248064c5237dbbf433f8ab56b73bd8cfb315f70fe998fe05fa06084 18346 ros-one-image-transport_1.12.0-6-gcd57529-2023.03.20.17.09_amd64.buildinfo
+ 62cf5797f369d4597b331e372ce7740caf0f1b3b55ac6ca1992f4c782ab65f17 236394 ros-one-image-transport_1.12.0-6-gcd57529-2023.03.20.17.09_amd64.deb
+Files:
+ bcca3051e842b56b6cffbb533e96d186 4410998 debug optional ros-one-image-transport-dbgsym_1.12.0-6-gcd57529-2023.03.20.17.09_amd64.ddeb
+ fd4cf3f9e19c6449288bec459d372927 18346 misc optional ros-one-image-transport_1.12.0-6-gcd57529-2023.03.20.17.09_amd64.buildinfo
+ cac2628cbb0462fdb369a5b3a716ea40 236394 misc optional ros-one-image-transport_1.12.0-6-gcd57529-2023.03.20.17.09_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 31 Jan 2023 00:00:00 -0000
+Source: ros-one-velocity-controllers
+Binary: ros-one-velocity-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.21.1-1-gdce8785-2023.03.20.23.16
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-one-velocity-controllers - velocity_controllers
+Changes:
+ ros-one-velocity-controllers (0.21.1-1-gdce8785-2023.03.20.23.16) jammy; urgency=high
+ .
+   * Don't hardcode plugin library path
+   * Contributors: Jochen Sprickerhof
+Checksums-Sha1:
+ f66407ae83ecedcf8533209dcb73fc6e211c5c3b 1244258 ros-one-velocity-controllers-dbgsym_0.21.1-1-gdce8785-2023.03.20.23.16_amd64.ddeb
+ 31348ba82aab403befd6b3f7cbb90545c40305bf 21512 ros-one-velocity-controllers_0.21.1-1-gdce8785-2023.03.20.23.16_amd64.buildinfo
+ c50ae9967fe5e1c70af485b8e3a37da042363210 63354 ros-one-velocity-controllers_0.21.1-1-gdce8785-2023.03.20.23.16_amd64.deb
+Checksums-Sha256:
+ aabba4d2adc398adc977fab57c72be55739fc1c67c59bd82be25ed602dac019d 1244258 ros-one-velocity-controllers-dbgsym_0.21.1-1-gdce8785-2023.03.20.23.16_amd64.ddeb
+ 7495d4a690c2ac0748ef19d76838e5679fdd67523dcc74fd2cbfd0ff3b76b8bf 21512 ros-one-velocity-controllers_0.21.1-1-gdce8785-2023.03.20.23.16_amd64.buildinfo
+ c00c4789346bb0219a716304648389c78b3b235d298254336b2c7b330f8e7f96 63354 ros-one-velocity-controllers_0.21.1-1-gdce8785-2023.03.20.23.16_amd64.deb
+Files:
+ 03d8bc8265ef8ef86e9c71854bf29400 1244258 debug optional ros-one-velocity-controllers-dbgsym_0.21.1-1-gdce8785-2023.03.20.23.16_amd64.ddeb
+ 039294f9c6567cfbd5ffa4d16b8a0aa2 21512 misc optional ros-one-velocity-controllers_0.21.1-1-gdce8785-2023.03.20.23.16_amd64.buildinfo
+ 9a6babf6111301e726a26a0109eccac0 63354 misc optional ros-one-velocity-controllers_0.21.1-1-gdce8785-2023.03.20.23.16_amd64.deb

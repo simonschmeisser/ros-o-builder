@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Tue, 11 May 2021 00:00:00 -0000
+Source: ros-one-joint-states-settler
+Binary: ros-one-joint-states-settler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.10.15-1-g414bad2-2023.03.21.02.59
+Distribution: jammy
+Urgency: high
+Maintainer: David Feil-Seifer <david.feilseifer@gmail.com>
+Changed-By: David Feil-Seifer <david.feilseifer@gmail.com>
+Description:
+ ros-one-joint-states-settler - Provides a node that reports how long a subset of joints has been
+Changes:
+ ros-one-joint-states-settler (0.10.15-1-g414bad2-2023.03.21.02.59) jammy; urgency=high
+ .
+   * Merge pull request #47 <https://github.com/ros-perception/calibration/issues/47> from PR2-prime/noetic-devel
+     Noetic devel
+   * fixes for compiler warnings CMP0048 and CMP0046
+   * update maintainer for most packages; first try at setup for travis testing (#46 <https://github.com/ros-perception/calibration/issues/46>)
+   * Contributors: Dave Feil-Seifer
+Checksums-Sha1:
+ 84e7c7a17a0c0e3dde786c0cff5a9f9d7432b8f8 1442170 ros-one-joint-states-settler-dbgsym_0.10.15-1-g414bad2-2023.03.21.02.59_amd64.ddeb
+ caf2f1262524d17fb51b5946942843361c57919a 18336 ros-one-joint-states-settler_0.10.15-1-g414bad2-2023.03.21.02.59_amd64.buildinfo
+ 46761c177bd486e045bbd6f2800bdb1dcd8ca774 139734 ros-one-joint-states-settler_0.10.15-1-g414bad2-2023.03.21.02.59_amd64.deb
+Checksums-Sha256:
+ c16419110a897044337ea3ac724e1d403fc09db4488ff96920d16c31052def16 1442170 ros-one-joint-states-settler-dbgsym_0.10.15-1-g414bad2-2023.03.21.02.59_amd64.ddeb
+ d89d7413f441a9ab1b5393c791d6510033274a8fd7c5fa1263b8b84104a1af46 18336 ros-one-joint-states-settler_0.10.15-1-g414bad2-2023.03.21.02.59_amd64.buildinfo
+ f934e6b33388a6137c83b2dae6604f3b377801cf02103abf94278e65f1b2b346 139734 ros-one-joint-states-settler_0.10.15-1-g414bad2-2023.03.21.02.59_amd64.deb
+Files:
+ 73887015f16c8ffb79b4a7ebd345c3a8 1442170 debug optional ros-one-joint-states-settler-dbgsym_0.10.15-1-g414bad2-2023.03.21.02.59_amd64.ddeb
+ 6e51911c7195f4c21818e81be8b20a3a 18336 misc optional ros-one-joint-states-settler_0.10.15-1-g414bad2-2023.03.21.02.59_amd64.buildinfo
+ 9e9e66626c0714ded6464b75f143f6c3 139734 misc optional ros-one-joint-states-settler_0.10.15-1-g414bad2-2023.03.21.02.59_amd64.deb

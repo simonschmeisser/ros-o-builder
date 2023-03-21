@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 26 May 2021 00:00:00 -0000
+Source: ros-one-pr2-ethercat
+Binary: ros-one-pr2-ethercat
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.6.32-12-g6363d53-2023.03.21.02.01
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Changed-By: Dave Feil-Seifer <dave@cse.unr.edu>
+Description:
+ ros-one-pr2-ethercat - Main loop that runs the robot.
+Changes:
+ ros-one-pr2-ethercat (1.6.32-12-g6363d53-2023.03.21.02.01) jammy; urgency=high
+ .
+   * Merge pull request #268 <https://github.com/pr2/pr2_robot/issues/268> from k-okada/fix_for_noetic
+   * run 2to3 -w -fprint .
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 3efec39be33af0380ae11b3d09d93e269d227d46 888726 ros-one-pr2-ethercat-dbgsym_1.6.32-12-g6363d53-2023.03.21.02.01_amd64.ddeb
+ 52f64c7601349a3b7aeb1a417049a6dc44a308b6 24065 ros-one-pr2-ethercat_1.6.32-12-g6363d53-2023.03.21.02.01_amd64.buildinfo
+ a6cf37dc9bf3ef3251772f8f6233df447247ff3b 53510 ros-one-pr2-ethercat_1.6.32-12-g6363d53-2023.03.21.02.01_amd64.deb
+Checksums-Sha256:
+ a9a6584954bea64a9c3a15fd638e1db98c050c2da385e3ad6c6e9b406e65aabf 888726 ros-one-pr2-ethercat-dbgsym_1.6.32-12-g6363d53-2023.03.21.02.01_amd64.ddeb
+ 9fb8e6306bad63818e76749da2c12aea65bacee372f158dc10cba05caca625da 24065 ros-one-pr2-ethercat_1.6.32-12-g6363d53-2023.03.21.02.01_amd64.buildinfo
+ bf1163e624996e54f0155012ce4b362717fd0f6dfba98a1dc3b0c4e141e62d22 53510 ros-one-pr2-ethercat_1.6.32-12-g6363d53-2023.03.21.02.01_amd64.deb
+Files:
+ d7e2519eaabfa4db44d90ef8198aa8c4 888726 debug optional ros-one-pr2-ethercat-dbgsym_1.6.32-12-g6363d53-2023.03.21.02.01_amd64.ddeb
+ 07162267566c48388da5ed4844c7a7c6 24065 misc optional ros-one-pr2-ethercat_1.6.32-12-g6363d53-2023.03.21.02.01_amd64.buildinfo
+ 7a667d94387c86a5941a2c1aac53f8fd 53510 misc optional ros-one-pr2-ethercat_1.6.32-12-g6363d53-2023.03.21.02.01_amd64.deb

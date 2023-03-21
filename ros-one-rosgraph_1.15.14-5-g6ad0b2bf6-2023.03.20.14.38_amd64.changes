@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 06 Jan 2022 00:00:00 -0000
+Source: ros-one-rosgraph
+Binary: ros-one-rosgraph
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.15.14-5-g6ad0b2bf6-2023.03.20.14.38
+Distribution: jammy
+Urgency: high
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Changed-By: Jacob Perron <jacob@openrobotics.org>
+Description:
+ ros-one-rosgraph - rosgraph contains the rosgraph command-line tool, which prints in
+Changes:
+ ros-one-rosgraph (1.15.14-5-g6ad0b2bf6-2023.03.20.14.38) jammy; urgency=high
+Checksums-Sha1:
+ 86fb0fe8e08e4f4f28c7d3250957a43c149de3aa 7826 ros-one-rosgraph_1.15.14-5-g6ad0b2bf6-2023.03.20.14.38_amd64.buildinfo
+ 97f6ca33f1d0f6972c7b6fb24828c33fb71f1676 52196 ros-one-rosgraph_1.15.14-5-g6ad0b2bf6-2023.03.20.14.38_amd64.deb
+Checksums-Sha256:
+ 9389d008c51e9d9808595536ac3d9c8c7ff2626c3068a3cddbb367c4afdb0e24 7826 ros-one-rosgraph_1.15.14-5-g6ad0b2bf6-2023.03.20.14.38_amd64.buildinfo
+ 015e02f3718e0c983321f6a1e05af6242cf4ff4bb3cbfe05229ec77cef97d931 52196 ros-one-rosgraph_1.15.14-5-g6ad0b2bf6-2023.03.20.14.38_amd64.deb
+Files:
+ 1db21fa16b5fbc044f962aed32d39a90 7826 misc optional ros-one-rosgraph_1.15.14-5-g6ad0b2bf6-2023.03.20.14.38_amd64.buildinfo
+ 0a9ff51790fc4a1a6b42b079353cea4a 52196 misc optional ros-one-rosgraph_1.15.14-5-g6ad0b2bf6-2023.03.20.14.38_amd64.deb

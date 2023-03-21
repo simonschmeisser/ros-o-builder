@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 15 Feb 2023 00:00:00 -0000
+Source: ros-one-smach-ros
+Binary: ros-one-smach-ros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.1-2023.03.20.15.51
+Distribution: jammy
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ ros-one-smach-ros - The smach_ros package contains extensions for the SMACH library t
+Changes:
+ ros-one-smach-ros (2.5.1-2023.03.20.15.51) jammy; urgency=high
+ .
+   * Fix: response_slots when action goal is lost #64 <https://github.com/ros/executive_smach/issues/64>
+   * Fix: Typos
+Checksums-Sha1:
+ dddb1d30d663ac91737419abc54554e220bd6244 12383 ros-one-smach-ros_2.5.1-2023.03.20.15.51_amd64.buildinfo
+ 0cfb8ede7fff9d72c8f345d36aa98640ad463964 31150 ros-one-smach-ros_2.5.1-2023.03.20.15.51_amd64.deb
+Checksums-Sha256:
+ c70c7052aec2a96611c6e7518c79f35bf31da922da4dedf4b7f61f47aa91e829 12383 ros-one-smach-ros_2.5.1-2023.03.20.15.51_amd64.buildinfo
+ dd135528225575f557fba87d821fe6632b95a8b251f9dde2a172d1a06b568f01 31150 ros-one-smach-ros_2.5.1-2023.03.20.15.51_amd64.deb
+Files:
+ 5f8cb886df20147c724016948346aafb 12383 misc optional ros-one-smach-ros_2.5.1-2023.03.20.15.51_amd64.buildinfo
+ 8a8c5cad5b548f498b531e82138ffffd 31150 misc optional ros-one-smach-ros_2.5.1-2023.03.20.15.51_amd64.deb

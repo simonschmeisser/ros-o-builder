@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 28 May 2020 00:00:00 -0000
+Source: ros-one-rostime
+Binary: ros-one-rostime
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.2-1-g72ce04f-2023.03.20.14.46
+Distribution: jammy
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-one-rostime - Time and Duration implementations for C++ libraries, including ro
+Changes:
+ ros-one-rostime (0.7.2-1-g72ce04f-2023.03.20.14.46) jammy; urgency=high
+ .
+   * [Windows] Using C++11 std::chrono for ros_walltime & ros_steadytime (#121 <https://github.com/ros/roscpp_core/issues/121>)
+Checksums-Sha1:
+ a650a342e9958a67b7d5f4d96b99af5b3ecf74e7 230938 ros-one-rostime-dbgsym_0.7.2-1-g72ce04f-2023.03.20.14.46_amd64.ddeb
+ 41e9fe0e6698af46b13e0879a412a0872747f30a 9018 ros-one-rostime_0.7.2-1-g72ce04f-2023.03.20.14.46_amd64.buildinfo
+ f5fb6e9c4f9f58672d3ac1ee213406eb2dc5dad1 38110 ros-one-rostime_0.7.2-1-g72ce04f-2023.03.20.14.46_amd64.deb
+Checksums-Sha256:
+ c7e133dcb29082068c81dc0ebdef4315f6ebc307e6bbec398fb2ade371abf4b0 230938 ros-one-rostime-dbgsym_0.7.2-1-g72ce04f-2023.03.20.14.46_amd64.ddeb
+ b1df0f61a61ae15ffc2433e5c050231c4226946cdecf1878ed9837e1f80ce533 9018 ros-one-rostime_0.7.2-1-g72ce04f-2023.03.20.14.46_amd64.buildinfo
+ 33126604e4fe1ba4ce7c4f476e601cb60f80065556d60056e355ea32071329ef 38110 ros-one-rostime_0.7.2-1-g72ce04f-2023.03.20.14.46_amd64.deb
+Files:
+ cd2dccb7587dffb35e2841253c9ea73d 230938 debug optional ros-one-rostime-dbgsym_0.7.2-1-g72ce04f-2023.03.20.14.46_amd64.ddeb
+ cd3380e1526c51224ae6aa5335f255ae 9018 misc optional ros-one-rostime_0.7.2-1-g72ce04f-2023.03.20.14.46_amd64.buildinfo
+ f04de9ef413227d82a6251073758e023 38110 misc optional ros-one-rostime_0.7.2-1-g72ce04f-2023.03.20.14.46_amd64.deb

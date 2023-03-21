@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 08 Jun 2020 00:00:00 -0000
+Source: ros-one-eigen-conversions
+Binary: ros-one-eigen-conversions
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.13.2-7-g86ff4b1-2023.03.20.15.07
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-eigen-conversions - Conversion functions between: - Eigen and KDL - Eigen and geometr
+Changes:
+ ros-one-eigen-conversions (1.13.2-7-g86ff4b1-2023.03.20.15.07) jammy; urgency=high
+Checksums-Sha1:
+ 62758ca8ae724e86e24f95968c396e4e99788c37 360308 ros-one-eigen-conversions-dbgsym_1.13.2-7-g86ff4b1-2023.03.20.15.07_amd64.ddeb
+ 52c79f6c6b3c52e6ac7b2fba1686160eb444f77e 9753 ros-one-eigen-conversions_1.13.2-7-g86ff4b1-2023.03.20.15.07_amd64.buildinfo
+ c6410cd354de35406ada9b0a4d3a7337d17206cd 12752 ros-one-eigen-conversions_1.13.2-7-g86ff4b1-2023.03.20.15.07_amd64.deb
+Checksums-Sha256:
+ 98f625a3415cc8b6c04c0ebbb80b7cd483a9c81e904efbbcccd1bb4e19fac5f0 360308 ros-one-eigen-conversions-dbgsym_1.13.2-7-g86ff4b1-2023.03.20.15.07_amd64.ddeb
+ ecd39408fc39b3d6ae6f4de4f68677d84f849f41eb420614ed2808d495460548 9753 ros-one-eigen-conversions_1.13.2-7-g86ff4b1-2023.03.20.15.07_amd64.buildinfo
+ 879a8d3911ff889d658c8ef1921749385c782b6efbe51e8bdc871617da75139e 12752 ros-one-eigen-conversions_1.13.2-7-g86ff4b1-2023.03.20.15.07_amd64.deb
+Files:
+ cfde3114fd6ee056045e8fd92c8a40ba 360308 debug optional ros-one-eigen-conversions-dbgsym_1.13.2-7-g86ff4b1-2023.03.20.15.07_amd64.ddeb
+ a4f07ed7bc9a04a8dde8f86ad7f1ded9 9753 misc optional ros-one-eigen-conversions_1.13.2-7-g86ff4b1-2023.03.20.15.07_amd64.buildinfo
+ 37fddd25bd2893d96e7ea0bb338ccb5d 12752 misc optional ros-one-eigen-conversions_1.13.2-7-g86ff4b1-2023.03.20.15.07_amd64.deb

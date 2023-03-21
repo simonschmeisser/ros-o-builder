@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 31 Jan 2023 00:00:00 -0000
+Source: ros-one-rqt-joint-trajectory-controller
+Binary: ros-one-rqt-joint-trajectory-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.21.1-1-gdce8785-2023.03.20.22.41
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-one-rqt-joint-trajectory-controller - Graphical frontend for interacting with joint_trajectory_controll
+Changes:
+ ros-one-rqt-joint-trajectory-controller (0.21.1-1-gdce8785-2023.03.20.22.41) jammy; urgency=high
+Checksums-Sha1:
+ 8fb538ecd8cb165c93761ad5b01a21a9e72d65b4 7869 ros-one-rqt-joint-trajectory-controller_0.21.1-1-gdce8785-2023.03.20.22.41_amd64.buildinfo
+ 41a8286762e013422eed68e0519a1d03b6d70983 31844 ros-one-rqt-joint-trajectory-controller_0.21.1-1-gdce8785-2023.03.20.22.41_amd64.deb
+Checksums-Sha256:
+ 18fa35282100ea39787f45a0ff64e2737d05f43099ed271a4629bad034e1af27 7869 ros-one-rqt-joint-trajectory-controller_0.21.1-1-gdce8785-2023.03.20.22.41_amd64.buildinfo
+ ae69fb90765144f17e2bcada867529986144aa1e4e5130a4f2c32db9b4e7c846 31844 ros-one-rqt-joint-trajectory-controller_0.21.1-1-gdce8785-2023.03.20.22.41_amd64.deb
+Files:
+ 86e629df52dd0a3824ebb87f1a8dbcd5 7869 misc optional ros-one-rqt-joint-trajectory-controller_0.21.1-1-gdce8785-2023.03.20.22.41_amd64.buildinfo
+ 08dcbbd2e51be23b45c4c3ca2a4f13eb 31844 misc optional ros-one-rqt-joint-trajectory-controller_0.21.1-1-gdce8785-2023.03.20.22.41_amd64.deb

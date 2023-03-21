@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 15 Feb 2023 00:00:00 -0000
+Source: ros-one-smach
+Binary: ros-one-smach
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.1-2023.03.20.14.59
+Distribution: jammy
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ ros-one-smach - SMACH is a task-level architecture for rapidly creating complex r
+Changes:
+ ros-one-smach (2.5.1-2023.03.20.14.59) jammy; urgency=high
+ .
+   * Fix: state machines cannot be pickled #86 <https://github.com/ros/executive_smach/issues/86>
+   * Fix: Python 3.9 compatibility  #82 <https://github.com/ros/executive_smach/issues/82>
+   * Typo
+Checksums-Sha1:
+ a1f5dbbb267a32ff2824da68b7841cbcb2467df0 7691 ros-one-smach_2.5.1-2023.03.20.14.59_amd64.buildinfo
+ 335c7c6ee482d882ca7e53e7de50abaaada6270f 38454 ros-one-smach_2.5.1-2023.03.20.14.59_amd64.deb
+Checksums-Sha256:
+ a990e8ee6eee74742aaf7193218f081672a2d86c9939553f58e1c7fbf70ca8bf 7691 ros-one-smach_2.5.1-2023.03.20.14.59_amd64.buildinfo
+ acdae16f4a1b6c5383a59602e74d3511073e0559cd012cb528e3df6bee6a4ea9 38454 ros-one-smach_2.5.1-2023.03.20.14.59_amd64.deb
+Files:
+ fe064226627bfccc307babfb1ef4d297 7691 misc optional ros-one-smach_2.5.1-2023.03.20.14.59_amd64.buildinfo
+ 74712691489286a7c2b7924bf4614264 38454 misc optional ros-one-smach_2.5.1-2023.03.20.14.59_amd64.deb

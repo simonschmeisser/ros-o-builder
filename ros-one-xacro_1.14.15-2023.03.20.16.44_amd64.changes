@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 27 Feb 2023 00:00:00 -0000
+Source: ros-one-xacro
+Binary: ros-one-xacro
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.14.15-2023.03.20.16.44
+Distribution: jammy
+Urgency: high
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Changed-By: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Description:
+ ros-one-xacro - Xacro (XML Macros) Xacro is an XML macro language.
+Changes:
+ ros-one-xacro (1.14.15-2023.03.20.16.44) jammy; urgency=high
+ .
+   * Evaluate ``arg`` value as str/unicode (#322 <https://github.com/ros/xacro/issues/322>)
+   * Remove obsolete options from completion
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 29bcfe2244212a18652e995c748772028a5cb693 12428 ros-one-xacro_1.14.15-2023.03.20.16.44_amd64.buildinfo
+ a0a04ffe08a13799ef597833e0c64f9be3c41849 48550 ros-one-xacro_1.14.15-2023.03.20.16.44_amd64.deb
+Checksums-Sha256:
+ 8b6b8cd9e435604d0fea9fece57d53978719aaf2ff0ff7bfffe69c021c0476e5 12428 ros-one-xacro_1.14.15-2023.03.20.16.44_amd64.buildinfo
+ d71daf924dff2b24ab2e9a5767e2044d2eb831a976357e45dcd0324a787768e4 48550 ros-one-xacro_1.14.15-2023.03.20.16.44_amd64.deb
+Files:
+ e2ec7c1a5f6f37aede9cbfc77fcd802e 12428 misc optional ros-one-xacro_1.14.15-2023.03.20.16.44_amd64.buildinfo
+ 1abd906c0dd20c5f547370973c0453b5 48550 misc optional ros-one-xacro_1.14.15-2023.03.20.16.44_amd64.deb

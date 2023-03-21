@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 09 Mar 2020 00:00:00 -0000
+Source: ros-one-media-export
+Binary: ros-one-media-export
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.3.0-2023.03.20.17.23
+Distribution: jammy
+Urgency: high
+Maintainer: William Woodall <william@osrfoundation.org>
+Changed-By: William Woodall <william@osrfoundation.org>
+Description:
+ ros-one-media-export - Placeholder package enabling generic export of media paths.
+Changes:
+ ros-one-media-export (0.3.0-2023.03.20.17.23) jammy; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048 warning (#2 <https://github.com/ros/media_export/issues/2>)
+   * Contributors: Shane Loretz
+Checksums-Sha1:
+ bf9d9cd082762ec5f179ce6f738e05049716216b 7723 ros-one-media-export_0.3.0-2023.03.20.17.23_amd64.buildinfo
+ 210e394b093e97a70ff1d60dc900351fd45edb74 4578 ros-one-media-export_0.3.0-2023.03.20.17.23_amd64.deb
+Checksums-Sha256:
+ aea5cffe93dad1f67c4463da2cdbc37cc886166048937d202f1d6da1664fffaf 7723 ros-one-media-export_0.3.0-2023.03.20.17.23_amd64.buildinfo
+ 7014c655eeccaaa2820393b916e985a350a38b9d7eb395f29f1f89adf1c08cfb 4578 ros-one-media-export_0.3.0-2023.03.20.17.23_amd64.deb
+Files:
+ 5e761c74ef47dfe1f49bc3438cb37c20 7723 misc optional ros-one-media-export_0.3.0-2023.03.20.17.23_amd64.buildinfo
+ 29eee19a85460faa67fd1e4a955cdad3 4578 misc optional ros-one-media-export_0.3.0-2023.03.20.17.23_amd64.deb

@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 26 Apr 2020 00:00:00 -0000
+Source: ros-one-interactive-markers
+Binary: ros-one-interactive-markers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.12.0-1-g22f95a6-2023.03.20.17.13
+Distribution: jammy
+Urgency: high
+Maintainer: William Woodall <william@osrfoundation.org>
+Changed-By: William Woodall <william@osrfoundation.org>
+Description:
+ ros-one-interactive-markers - 3D interactive marker communication library for RViz and similar
+Changes:
+ ros-one-interactive-markers (1.12.0-1-g22f95a6-2023.03.20.17.13) jammy; urgency=high
+ .
+   * [maintanence] fix signed / unsigned warning
+   * [maintanence] Migration to tf2
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 029abc00c662114ab8dfde41aae6603505acfa26 1895382 ros-one-interactive-markers-dbgsym_1.12.0-1-g22f95a6-2023.03.20.17.13_amd64.ddeb
+ e7b5a95d313d927bf458ed57caf66fb26f1161df 13710 ros-one-interactive-markers_1.12.0-1-g22f95a6-2023.03.20.17.13_amd64.buildinfo
+ 27eaa685269bcdff66248ddd74501def5df46b77 128262 ros-one-interactive-markers_1.12.0-1-g22f95a6-2023.03.20.17.13_amd64.deb
+Checksums-Sha256:
+ bb13450f18d66521cfc7c6dd8601e6192fd74ad09113f9a207b6b1fa8128d6f2 1895382 ros-one-interactive-markers-dbgsym_1.12.0-1-g22f95a6-2023.03.20.17.13_amd64.ddeb
+ 216bdff2446615d224dd06480d43b0b68ef0496e6c138e0c992f638640424b5d 13710 ros-one-interactive-markers_1.12.0-1-g22f95a6-2023.03.20.17.13_amd64.buildinfo
+ 4bbf5e5809fec2045c5e46e895884b04b4a10049e5007d56d41e555c851e8072 128262 ros-one-interactive-markers_1.12.0-1-g22f95a6-2023.03.20.17.13_amd64.deb
+Files:
+ 8abebda741e30f3d9a2591a931db7408 1895382 debug optional ros-one-interactive-markers-dbgsym_1.12.0-1-g22f95a6-2023.03.20.17.13_amd64.ddeb
+ 0754612a51908c26bcf2ae7b2eb3d902 13710 misc optional ros-one-interactive-markers_1.12.0-1-g22f95a6-2023.03.20.17.13_amd64.buildinfo
+ ec0d4c0e21417d4873288c38b5abd829 128262 misc optional ros-one-interactive-markers_1.12.0-1-g22f95a6-2023.03.20.17.13_amd64.deb

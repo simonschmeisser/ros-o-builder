@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Sun, 18 Dec 2022 00:00:00 -0000
+Source: ros-one-plotjuggler
+Binary: ros-one-plotjuggler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.6.1-11-g95ff88f0-2023.03.20.21.37
+Distribution: jammy
+Urgency: high
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Changed-By: Davide Faconti <davide.faconti@gmail.com>
+Description:
+ ros-one-plotjuggler - PlotJuggler: juggle with data
+Changes:
+ ros-one-plotjuggler (3.6.1-11-g95ff88f0-2023.03.20.21.37) jammy; urgency=high
+ .
+   * apply changes suggested in #767 <https://github.com/facontidavide/PlotJuggler/issues/767>
+   * fix parsing of custom types added multiple times in messages (#769 <https://github.com/facontidavide/PlotJuggler/issues/769>)
+   * ZMQ: Add topics filtering (#730 <https://github.com/facontidavide/PlotJuggler/issues/730>)
+   * Add CSV loader date-time format help dialog (#731 <https://github.com/facontidavide/PlotJuggler/issues/731>)
+   * Set MQTT topics list to be multi-selectable (#745 <https://github.com/facontidavide/PlotJuggler/issues/745>)
+   * Always use topic names for creating MQTT parsers (#746 <https://github.com/facontidavide/PlotJuggler/issues/746>)
+   * fix typo (#770 <https://github.com/facontidavide/PlotJuggler/issues/770>)
+   * Fix/add other dds vendors (#763 <https://github.com/facontidavide/PlotJuggler/issues/763>)
+   * Add option to build plotjuggler_base to shared library (#757 <https://github.com/facontidavide/PlotJuggler/issues/757>)
+   * Add a new meme with The Rock (#751 <https://github.com/facontidavide/PlotJuggler/issues/751>)
+   * Add precision to CSV export to handle geocoordinates (#753 <https://github.com/facontidavide/PlotJuggler/issues/753>)
+   * compile: add cmake to brew install (#742 <https://github.com/facontidavide/PlotJuggler/issues/742>)
+   * Add MIT license notice to QCodeEditor dddition (#733 <https://github.com/facontidavide/PlotJuggler/issues/733>)
+     Added per https://github.com/facontidavide/PlotJuggler/issues/732
+   * Fix multi-plugin selection (#739 <https://github.com/facontidavide/PlotJuggler/issues/739>)
+     Broken in #726 <https://github.com/facontidavide/PlotJuggler/issues/726>. If all plugins are enabled, then opening a file supported by multiple plugins does not work.
+   *
+ .
+       * Add drag n drop (#726 <https://github.com/facontidavide/PlotJuggler/issues/726>)
+       * Ignore VSCode and OS X files
+ .
+   * readme: add details about default snap command (#727 <https://github.com/facontidavide/PlotJuggler/issues/727>)
+   * Add mac compilation section (#725 <https://github.com/facontidavide/PlotJuggler/issues/725>)
+   * Update README.md (#723 <https://github.com/facontidavide/PlotJuggler/issues/723>)
+     minor typos
+   * Update README.md
+   * Update COMPILE.md
+   * Contributors: Andrew Van Overloop, Bartimaeus-, Bonkura, Davide Faconti, Guillaume Beuzeboc, Jeff Ithier, Jeremie Deray, Mark Cutler, Orhan G. Hafif, Romain Reignier, Zach Davis
+Checksums-Sha1:
+ 88a0382fc23874ffd7197b303220309a503fac11 76971092 ros-one-plotjuggler-dbgsym_3.6.1-11-g95ff88f0-2023.03.20.21.37_amd64.ddeb
+ 159ab29f13c5e745306e99e9670b3d55246042e7 21376 ros-one-plotjuggler_3.6.1-11-g95ff88f0-2023.03.20.21.37_amd64.buildinfo
+ d619aa45abfd59a275b5f1115031585e8df9ebd5 8088988 ros-one-plotjuggler_3.6.1-11-g95ff88f0-2023.03.20.21.37_amd64.deb
+Checksums-Sha256:
+ b640ba789732b9924270389c0fbcd2a1d354f1e44afef86f0875db2537a73f22 76971092 ros-one-plotjuggler-dbgsym_3.6.1-11-g95ff88f0-2023.03.20.21.37_amd64.ddeb
+ 630acde7d124c48946cda5f2d8fb1eb3c4e28c94ef9a549e681e62b89952558b 21376 ros-one-plotjuggler_3.6.1-11-g95ff88f0-2023.03.20.21.37_amd64.buildinfo
+ 215e9ac10413882068b62636013caf82b22f4f253eff11fb5e88339e98d32de2 8088988 ros-one-plotjuggler_3.6.1-11-g95ff88f0-2023.03.20.21.37_amd64.deb
+Files:
+ 5396625124e5e74e96a477c63d84bc9a 76971092 debug optional ros-one-plotjuggler-dbgsym_3.6.1-11-g95ff88f0-2023.03.20.21.37_amd64.ddeb
+ e5f9e46350174514a11dfd0ef99144c9 21376 misc optional ros-one-plotjuggler_3.6.1-11-g95ff88f0-2023.03.20.21.37_amd64.buildinfo
+ 59dbb69e671345e471d8dd990643e6c1 8088988 misc optional ros-one-plotjuggler_3.6.1-11-g95ff88f0-2023.03.20.21.37_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 11 Jun 2020 00:00:00 -0000
+Source: ros-one-python-qt-binding
+Binary: ros-one-python-qt-binding
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.3-8-g221b4f4-2023.03.20.17.32
+Distribution: jammy
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-one-python-qt-binding - This stack provides Python bindings for Qt.
+Changes:
+ ros-one-python-qt-binding (0.4.3-8-g221b4f4-2023.03.20.17.32) jammy; urgency=high
+ .
+   * fix linking with non framework builds of qt (e.g. from conda-forge) (#84 <https://github.com/ros-visualization/python_qt_binding/issues/84>)
+Checksums-Sha1:
+ 7330352990e180369e679a8f8fdf68aa9887c0ad 14340 ros-one-python-qt-binding_0.4.3-8-g221b4f4-2023.03.20.17.32_amd64.buildinfo
+ d8d58060713f59f3564063537c9ede9539e3145d 20188 ros-one-python-qt-binding_0.4.3-8-g221b4f4-2023.03.20.17.32_amd64.deb
+Checksums-Sha256:
+ 5eebe36b7bb1df81a1bc5b16a6059eb5e38f50d84809a58d7bb807a6090dbcbc 14340 ros-one-python-qt-binding_0.4.3-8-g221b4f4-2023.03.20.17.32_amd64.buildinfo
+ 648a4b9d4e84763d78aa3a31d8c6bb890a4242e1beae2230a96da21b932d9816 20188 ros-one-python-qt-binding_0.4.3-8-g221b4f4-2023.03.20.17.32_amd64.deb
+Files:
+ 8b6eb89ccbae12ce09a3ecfbf33c22fe 14340 misc optional ros-one-python-qt-binding_0.4.3-8-g221b4f4-2023.03.20.17.32_amd64.buildinfo
+ bdac7d6a381afbf3a8f54a25fa726239 20188 misc optional ros-one-python-qt-binding_0.4.3-8-g221b4f4-2023.03.20.17.32_amd64.deb

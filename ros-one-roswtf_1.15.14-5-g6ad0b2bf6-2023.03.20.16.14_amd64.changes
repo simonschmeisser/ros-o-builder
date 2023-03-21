@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 06 Jan 2022 00:00:00 -0000
+Source: ros-one-roswtf
+Binary: ros-one-roswtf
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.15.14-5-g6ad0b2bf6-2023.03.20.16.14
+Distribution: jammy
+Urgency: high
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Changed-By: Jacob Perron <jacob@openrobotics.org>
+Description:
+ ros-one-roswtf - roswtf is a tool for diagnosing issues with a running ROS system.
+Changes:
+ ros-one-roswtf (1.15.14-5-g6ad0b2bf6-2023.03.20.16.14) jammy; urgency=high
+Checksums-Sha1:
+ 4692cc195128284abafb467a83fb0cc860b6250f 19809 ros-one-roswtf_1.15.14-5-g6ad0b2bf6-2023.03.20.16.14_amd64.buildinfo
+ b699ed30c69f4bb1a0db966d1565c365dc971b80 43962 ros-one-roswtf_1.15.14-5-g6ad0b2bf6-2023.03.20.16.14_amd64.deb
+Checksums-Sha256:
+ a21ea73b3002b1ff069fdcded89ebc95eaa934e9dc76d2a981a2d7d7dd8fd434 19809 ros-one-roswtf_1.15.14-5-g6ad0b2bf6-2023.03.20.16.14_amd64.buildinfo
+ 81c65cf3c799dc4be99f916f41f0fafdf17ffbcec52f186474a7f06404efec5b 43962 ros-one-roswtf_1.15.14-5-g6ad0b2bf6-2023.03.20.16.14_amd64.deb
+Files:
+ 4c58ce4b08b3b1b6ca5e340837120d23 19809 misc optional ros-one-roswtf_1.15.14-5-g6ad0b2bf6-2023.03.20.16.14_amd64.buildinfo
+ 22a78aa32cf9c3d8dbf10606496af811 43962 misc optional ros-one-roswtf_1.15.14-5-g6ad0b2bf6-2023.03.20.16.14_amd64.deb

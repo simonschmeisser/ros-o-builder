@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Sat, 08 May 2021 00:00:00 -0000
+Source: ros-one-pr2-gripper-action
+Binary: ros-one-pr2-gripper-action
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.10.18-3-g8e8dfa0-2023.03.21.02.45
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-gripper-action - The pr2_gripper_action provides an action interface for using the
+Changes:
+ ros-one-pr2-gripper-action (1.10.18-3-g8e8dfa0-2023.03.21.02.45) jammy; urgency=high
+Checksums-Sha1:
+ ed1b680d42937f6e34472a30c088494301596c42 811070 ros-one-pr2-gripper-action-dbgsym_1.10.18-3-g8e8dfa0-2023.03.21.02.45_amd64.ddeb
+ 1fc8d03bb992a4baab1792fa7d16c2b863235b02 25021 ros-one-pr2-gripper-action_1.10.18-3-g8e8dfa0-2023.03.21.02.45_amd64.buildinfo
+ d8572b15d195dcfc5f420bb51da92ac3e99c2095 74950 ros-one-pr2-gripper-action_1.10.18-3-g8e8dfa0-2023.03.21.02.45_amd64.deb
+Checksums-Sha256:
+ c051fba15ad1b964b66c53059fc06a4b030225ea4fc34fe1bb22448720d981ff 811070 ros-one-pr2-gripper-action-dbgsym_1.10.18-3-g8e8dfa0-2023.03.21.02.45_amd64.ddeb
+ 965900f64cb5cbc354b7691975959727dc9c9b2bb337ec7c3c38fdc8ad217899 25021 ros-one-pr2-gripper-action_1.10.18-3-g8e8dfa0-2023.03.21.02.45_amd64.buildinfo
+ 191d95229b2c1fa611e7d32cba41a474b1567351ff4daeb6d1d4c12afb63ef0d 74950 ros-one-pr2-gripper-action_1.10.18-3-g8e8dfa0-2023.03.21.02.45_amd64.deb
+Files:
+ 9bb15969a327c8d548bcb63040dd7be7 811070 debug optional ros-one-pr2-gripper-action-dbgsym_1.10.18-3-g8e8dfa0-2023.03.21.02.45_amd64.ddeb
+ 2d7545b16169d8c830388e3c6c337a59 25021 misc optional ros-one-pr2-gripper-action_1.10.18-3-g8e8dfa0-2023.03.21.02.45_amd64.buildinfo
+ 89420d8c8ec37e501f9bcdc91bce7290 74950 misc optional ros-one-pr2-gripper-action_1.10.18-3-g8e8dfa0-2023.03.21.02.45_amd64.deb

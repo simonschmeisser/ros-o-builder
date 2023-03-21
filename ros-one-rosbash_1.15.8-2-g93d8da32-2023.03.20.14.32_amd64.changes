@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 21 Jul 2021 00:00:00 -0000
+Source: ros-one-rosbash
+Binary: ros-one-rosbash
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.15.8-2-g93d8da32-2023.03.20.14.32
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-rosbash - Assorted shell commands for using ros with bash.
+Changes:
+ ros-one-rosbash (1.15.8-2-g93d8da32-2023.03.20.14.32) jammy; urgency=high
+ .
+   * Fix variable name (from $arg to $argv) in rosfish (#279 <https://github.com/ros/ros/issues/279>)
+   * Update maintainers (#272 <https://github.com/ros/ros/issues/272>)
+   * Contributors: Jacob Perron, Yuma Hiramatsu
+Checksums-Sha1:
+ 74c870173faaa1ec8f7fd5fa1e4d346cf5cebaab 7753 ros-one-rosbash_1.15.8-2-g93d8da32-2023.03.20.14.32_amd64.buildinfo
+ 8f4b356b0e7097eaea2565f80fe4666b635edaaf 21614 ros-one-rosbash_1.15.8-2-g93d8da32-2023.03.20.14.32_amd64.deb
+Checksums-Sha256:
+ 79e0bfb3272721242876f9ff69a4fbaa5e3833ed59ec6319259badda57c817f5 7753 ros-one-rosbash_1.15.8-2-g93d8da32-2023.03.20.14.32_amd64.buildinfo
+ f414595b8fabcc59201e5044c08328029c8d645915e6a8adf1818b7c197892a9 21614 ros-one-rosbash_1.15.8-2-g93d8da32-2023.03.20.14.32_amd64.deb
+Files:
+ 4c74836c1bfc0c9656d2084896cda012 7753 misc optional ros-one-rosbash_1.15.8-2-g93d8da32-2023.03.20.14.32_amd64.buildinfo
+ edd1516644af58752dd56e78f960723a 21614 misc optional ros-one-rosbash_1.15.8-2-g93d8da32-2023.03.20.14.32_amd64.deb

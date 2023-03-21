@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-one-executive-smach-visualization
+Binary: ros-one-executive-smach-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.1.0-2023.03.21.07.59
+Distribution: jammy
+Urgency: high
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Changed-By: Jonathan Bohren <jbo@jhu.edu>
+Description:
+ ros-one-executive-smach-visualization - This metapackage depends on the SMACH visualization tools.
+Changes:
+ ros-one-executive-smach-visualization (4.1.0-2023.03.21.07.59) jammy; urgency=high
+Checksums-Sha1:
+ 96090f01768833dd3019d7aad8d59cea3595221c 7808 ros-one-executive-smach-visualization_4.1.0-2023.03.21.07.59_amd64.buildinfo
+ 775331fa4cf7976a26739ee00d820270ad4eabc4 1784 ros-one-executive-smach-visualization_4.1.0-2023.03.21.07.59_amd64.deb
+Checksums-Sha256:
+ 7eedf61501d2e6118f22f429ec0862bda6d976b4d6d74ecdb2b311ba7af947c2 7808 ros-one-executive-smach-visualization_4.1.0-2023.03.21.07.59_amd64.buildinfo
+ 590054a33dec28fb32d94adfcfdcd3d3579ffaf8c0a093c0440e23e74350e824 1784 ros-one-executive-smach-visualization_4.1.0-2023.03.21.07.59_amd64.deb
+Files:
+ cc1711cfa23abb4227f212135d1aa79c 7808 misc optional ros-one-executive-smach-visualization_4.1.0-2023.03.21.07.59_amd64.buildinfo
+ 434f8f87a4c9550ab9ef6c50797d11b3 1784 misc optional ros-one-executive-smach-visualization_4.1.0-2023.03.21.07.59_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 31 Jan 2023 00:00:00 -0000
+Source: ros-one-effort-controllers
+Binary: ros-one-effort-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.21.1-1-gdce8785-2023.03.20.22.18
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-one-effort-controllers - effort_controllers
+Changes:
+ ros-one-effort-controllers (0.21.1-1-gdce8785-2023.03.20.22.18) jammy; urgency=high
+ .
+   * Don't hardcode plugin library path
+   * Contributors: Jochen Sprickerhof
+Checksums-Sha1:
+ 0d84619ec66709be42ebb9155dc0dfddaf7a6a9f 1891102 ros-one-effort-controllers-dbgsym_0.21.1-1-gdce8785-2023.03.20.22.18_amd64.ddeb
+ 0c89419db29b41499aa4735336e80b060e485ca3 23967 ros-one-effort-controllers_0.21.1-1-gdce8785-2023.03.20.22.18_amd64.buildinfo
+ 387b8e24a879bd038a97975a75a78448bf79afdc 73508 ros-one-effort-controllers_0.21.1-1-gdce8785-2023.03.20.22.18_amd64.deb
+Checksums-Sha256:
+ 87d316c0c5de3fe957d961c3fc58ebe6928fdb589427da3ec5055d6ba2829ea1 1891102 ros-one-effort-controllers-dbgsym_0.21.1-1-gdce8785-2023.03.20.22.18_amd64.ddeb
+ b57826f68695cd32667646719e22c9f54e055b94ee3aaa17445697841ac0c3a4 23967 ros-one-effort-controllers_0.21.1-1-gdce8785-2023.03.20.22.18_amd64.buildinfo
+ 58d74adbf229b830a15db4a9c1ddd63e83fefeb28ab2d54d662f7f9a11915897 73508 ros-one-effort-controllers_0.21.1-1-gdce8785-2023.03.20.22.18_amd64.deb
+Files:
+ 59d035381cf9c06e6b21e5d18a2b7079 1891102 debug optional ros-one-effort-controllers-dbgsym_0.21.1-1-gdce8785-2023.03.20.22.18_amd64.ddeb
+ 59b903f4c2ef717ceeb62bd1447b1515 23967 misc optional ros-one-effort-controllers_0.21.1-1-gdce8785-2023.03.20.22.18_amd64.buildinfo
+ 8cb134278452a6f4e9ab56687e1168f4 73508 misc optional ros-one-effort-controllers_0.21.1-1-gdce8785-2023.03.20.22.18_amd64.deb

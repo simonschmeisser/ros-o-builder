@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 11 Oct 2022 00:00:00 -0000
+Source: ros-one-tf2-msgs
+Binary: ros-one-tf2-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.6-2-gc92cd9a-2023.03.20.15.16
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-tf2-msgs - tf2_msgs
+Changes:
+ ros-one-tf2-msgs (0.7.6-2-gc92cd9a-2023.03.20.15.16) jammy; urgency=high
+Checksums-Sha1:
+ d9731c0d5cf2f048f5179105973552af8dd97d40 9473 ros-one-tf2-msgs_0.7.6-2-gc92cd9a-2023.03.20.15.16_amd64.buildinfo
+ 51e2fa874caa42b36d0b7b5e2c6eab157ce59ad9 45434 ros-one-tf2-msgs_0.7.6-2-gc92cd9a-2023.03.20.15.16_amd64.deb
+Checksums-Sha256:
+ c2fbf13aedd8cfccf0aec4955bf04b7793bfe16a9bdaeb4f9e0ce8ff1cf353c9 9473 ros-one-tf2-msgs_0.7.6-2-gc92cd9a-2023.03.20.15.16_amd64.buildinfo
+ ed7d77395cc77e671b7a6ee8263a925d1d164376f4a45be57b617a207c7496ce 45434 ros-one-tf2-msgs_0.7.6-2-gc92cd9a-2023.03.20.15.16_amd64.deb
+Files:
+ 8f82becfdf36393a0f20fbf1ebb76f95 9473 misc optional ros-one-tf2-msgs_0.7.6-2-gc92cd9a-2023.03.20.15.16_amd64.buildinfo
+ 2e0dfb0a55573edb896b23f7ee5749ac 45434 misc optional ros-one-tf2-msgs_0.7.6-2-gc92cd9a-2023.03.20.15.16_amd64.deb

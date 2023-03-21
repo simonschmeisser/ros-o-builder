@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Sat, 08 May 2021 00:00:00 -0000
+Source: ros-one-single-joint-position-action
+Binary: ros-one-single-joint-position-action
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.10.18-3-g8e8dfa0-2023.03.21.03.10
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-single-joint-position-action - The single joint position action is a node that provides an actio
+Changes:
+ ros-one-single-joint-position-action (1.10.18-3-g8e8dfa0-2023.03.21.03.10) jammy; urgency=high
+Checksums-Sha1:
+ 55978d1599ebb3d328b9d7572f3a69eaad0a500d 933252 ros-one-single-joint-position-action-dbgsym_1.10.18-3-g8e8dfa0-2023.03.21.03.10_amd64.ddeb
+ 3aaaad1156e368d54f6f6c1c524b2eeb82b881d0 13393 ros-one-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.03.21.03.10_amd64.buildinfo
+ 74fb367210fdfb392a2251aee0ad1a982402b059 82538 ros-one-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.03.21.03.10_amd64.deb
+Checksums-Sha256:
+ 62f7c3c1a7bddc269f3cbe7f23862bf70c1c9f88d52dc1984c3841390c26e54c 933252 ros-one-single-joint-position-action-dbgsym_1.10.18-3-g8e8dfa0-2023.03.21.03.10_amd64.ddeb
+ 92ba728293ff1cde0a30bf6f398ed38fe7ac94ff7ad1c24c5b3046cfe53cfab2 13393 ros-one-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.03.21.03.10_amd64.buildinfo
+ 7523889be687b30eb19d57ded42b66dcaf374b158b8aeac6312eede0a851fbec 82538 ros-one-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.03.21.03.10_amd64.deb
+Files:
+ 41e15578f87743fbc3a7ac5348a19641 933252 debug optional ros-one-single-joint-position-action-dbgsym_1.10.18-3-g8e8dfa0-2023.03.21.03.10_amd64.ddeb
+ 56c26964060e89233d1b5df69e35f9d7 13393 misc optional ros-one-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.03.21.03.10_amd64.buildinfo
+ 61b255326216508b05b03b17b1f0da5f 82538 misc optional ros-one-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.03.21.03.10_amd64.deb

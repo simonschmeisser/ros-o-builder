@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 31 Jan 2023 00:00:00 -0000
+Source: ros-one-four-wheel-steering-controller
+Binary: ros-one-four-wheel-steering-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.21.1-1-gdce8785-2023.03.20.23.12
+Distribution: jammy
+Urgency: high
+Maintainer: Vincent Rousseau <vincent.rousseau@irstea.fr>
+Changed-By: Vincent Rousseau <vincent.rousseau@irstea.fr>
+Description:
+ ros-one-four-wheel-steering-controller - Controller for a four wheel steering mobile base.
+Changes:
+ ros-one-four-wheel-steering-controller (0.21.1-1-gdce8785-2023.03.20.23.12) jammy; urgency=high
+ .
+   * Don't hardcode plugin library path
+   * add_dependencies was added to the CMakeLists.txt in four_wheel_steering_controller
+   * Contributors: Jochen Sprickerhof, pavel
+Checksums-Sha1:
+ d833f5d58bd4e00ae4387423960dbb4013548bac 1177316 ros-one-four-wheel-steering-controller-dbgsym_0.21.1-1-gdce8785-2023.03.20.23.12_amd64.ddeb
+ 3720d56d9eefc5a1879963b5ecfc5e909f5b8997 23434 ros-one-four-wheel-steering-controller_0.21.1-1-gdce8785-2023.03.20.23.12_amd64.buildinfo
+ ed0134dcd4e394510173cbabafc89d233c8f35ac 88892 ros-one-four-wheel-steering-controller_0.21.1-1-gdce8785-2023.03.20.23.12_amd64.deb
+Checksums-Sha256:
+ 3ae18d743ed10bd3d0d881d30b49eaefb1e2713a5123ad717f3995aeeea3f567 1177316 ros-one-four-wheel-steering-controller-dbgsym_0.21.1-1-gdce8785-2023.03.20.23.12_amd64.ddeb
+ 28e609972068fe02a0e36370941e6bb31e7e1aafd3e735ae08880807d0bfbca7 23434 ros-one-four-wheel-steering-controller_0.21.1-1-gdce8785-2023.03.20.23.12_amd64.buildinfo
+ 6f273d48a78b06c3753b96d53ab05a1f03d38a09efa40b2ffad03c6055197f11 88892 ros-one-four-wheel-steering-controller_0.21.1-1-gdce8785-2023.03.20.23.12_amd64.deb
+Files:
+ ce9eba653092bc8de9c7622cacd471b3 1177316 debug optional ros-one-four-wheel-steering-controller-dbgsym_0.21.1-1-gdce8785-2023.03.20.23.12_amd64.ddeb
+ 9c909a2e362e5db9f018a3ed811f8ff9 23434 misc optional ros-one-four-wheel-steering-controller_0.21.1-1-gdce8785-2023.03.20.23.12_amd64.buildinfo
+ 6f1d923b737877cc505a7705910d8b12 88892 misc optional ros-one-four-wheel-steering-controller_0.21.1-1-gdce8785-2023.03.20.23.12_amd64.deb

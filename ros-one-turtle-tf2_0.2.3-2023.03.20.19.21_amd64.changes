@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Thu, 02 Apr 2020 00:00:00 -0000
+Source: ros-one-turtle-tf2
+Binary: ros-one-turtle-tf2
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.3-2023.03.20.19.21
+Distribution: jammy
+Urgency: high
+Maintainer: Denis Štogl <denis.stogl@mailbox.org>
+Changed-By: Denis Štogl <denis.stogl@mailbox.org>
+Description:
+ ros-one-turtle-tf2 - turtle_tf2 demonstrates how to write a tf2 broadcaster and listen
+Changes:
+ ros-one-turtle-tf2 (0.2.3-2023.03.20.19.21) jammy; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048 warning (#29 <https://github.com/ros/geometry_tutorials//issues/29>)
+   * Unify tf2 frame broadcasters (#27 <https://github.com/ros/geometry_tutorials//issues/27>)
+   * Merge pull request #26 <https://github.com/ros/geometry_tutorials//issues/26> from jwhendy/tutorial-node-name-fix
+   * updated node names in all tf and tf2 nodes/.py files to match filenames for simplicity
+   * Merge pull request #24 <https://github.com/ros/geometry_tutorials//issues/24> from vincentrou/message_filter_tutorial
+   * Merge pull request #23 <https://github.com/ros/geometry_tutorials//issues/23> from vincentrou/fix_frame_name
+   * [turtle_tf2] Do not use pointer for MessageFilter
+   * [turtle_tf2] Add message filter tutorial
+   * [turtle_tf2] Fix frame name
+   * Contributors: Alejandro Hernández Cordero, John Henderson, John Hendy, Tully Foote, Vincent Rousseau
+Checksums-Sha1:
+ 242fc0582618f192f2facd606eccf55ea8bb4cf6 693842 ros-one-turtle-tf2-dbgsym_0.2.3-2023.03.20.19.21_amd64.ddeb
+ ae6e7b59563cd82420923cc94e1f575519886c20 16365 ros-one-turtle-tf2_0.2.3-2023.03.20.19.21_amd64.buildinfo
+ 0a480a37aabc02562cf44f7d927c96532fd70591 47660 ros-one-turtle-tf2_0.2.3-2023.03.20.19.21_amd64.deb
+Checksums-Sha256:
+ 8867a6e8e53e70d6502da858272c96865e14638cac48307b20996d6dfb79282f 693842 ros-one-turtle-tf2-dbgsym_0.2.3-2023.03.20.19.21_amd64.ddeb
+ 4ea5f84750a929c2b88d8446d79b81053c057d84c25f0b3dc558c9de5a7ae9b9 16365 ros-one-turtle-tf2_0.2.3-2023.03.20.19.21_amd64.buildinfo
+ 7d3d2e0779f6cf01524ca41df6f8cdb8abffcc385bf86cdafc06b0a27c5f0e0c 47660 ros-one-turtle-tf2_0.2.3-2023.03.20.19.21_amd64.deb
+Files:
+ 35e1da9cd97908e0f86feec824b7f8ba 693842 debug optional ros-one-turtle-tf2-dbgsym_0.2.3-2023.03.20.19.21_amd64.ddeb
+ cf0ea1a8a79a74e7930d2dd1b8dbaab3 16365 misc optional ros-one-turtle-tf2_0.2.3-2023.03.20.19.21_amd64.buildinfo
+ 7790931055752821d0e3e39652d30dd9 47660 misc optional ros-one-turtle-tf2_0.2.3-2023.03.20.19.21_amd64.deb

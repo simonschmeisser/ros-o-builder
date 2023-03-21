@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 21 Apr 2021 00:00:00 -0000
+Source: ros-one-rqt-top
+Binary: ros-one-rqt-top
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.10-1-gb2caab1-2023.03.20.18.43
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rqt-top - RQT plugin for monitoring ROS processes.
+Changes:
+ ros-one-rqt-top (0.4.10-1-gb2caab1-2023.03.20.18.43) jammy; urgency=high
+ .
+   * Merge pull request #13 <https://github.com/ros-visualization/rqt_top/issues/13> from ros-visualization/sloretz-update-maintainers
+     Update maintainers in package.xml
+   * Update maintainers in package.xml
+   * fix shebang line for python3 (#9 <https://github.com/ros-visualization/rqt_top/issues/9>)
+   * Contributors: Michael Carroll, Mikael Arguedas, Shane Loretz
+Checksums-Sha1:
+ 72e66df057a3db8bc1765354aab02158422f6d2d 7749 ros-one-rqt-top_0.4.10-1-gb2caab1-2023.03.20.18.43_amd64.buildinfo
+ 568368dda975a03a4e94e6afbbeb728546192e48 15194 ros-one-rqt-top_0.4.10-1-gb2caab1-2023.03.20.18.43_amd64.deb
+Checksums-Sha256:
+ b3ec00c27538f518dc2d1f437b4c1bf5592e756d683accf6a01b2c97213f5ffe 7749 ros-one-rqt-top_0.4.10-1-gb2caab1-2023.03.20.18.43_amd64.buildinfo
+ 27ae0f6812e171d1b5c7ddb651215d99d3cdf9442fbbf30221f5c8acdd2dc6fe 15194 ros-one-rqt-top_0.4.10-1-gb2caab1-2023.03.20.18.43_amd64.deb
+Files:
+ fc1bbd499e701bc06f41704a040d3204 7749 misc optional ros-one-rqt-top_0.4.10-1-gb2caab1-2023.03.20.18.43_amd64.buildinfo
+ 727dfedc9812f3ebad330aa038f670fd 15194 misc optional ros-one-rqt-top_0.4.10-1-gb2caab1-2023.03.20.18.43_amd64.deb

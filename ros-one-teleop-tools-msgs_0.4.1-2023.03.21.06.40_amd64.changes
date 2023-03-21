@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sun, 23 May 2021 00:00:00 -0000
+Source: ros-one-teleop-tools-msgs
+Binary: ros-one-teleop-tools-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.1-2023.03.21.06.40
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-one-teleop-tools-msgs - The teleop_tools_msgs package
+Changes:
+ ros-one-teleop-tools-msgs (0.4.1-2023.03.21.06.40) jammy; urgency=high
+Checksums-Sha1:
+ c1b1419c011d560a9c2c7d5a1db5f5c701c86eb9 9659 ros-one-teleop-tools-msgs_0.4.1-2023.03.21.06.40_amd64.buildinfo
+ 2e588a6e6ed0f35441b04ac8e079c11ce3f44f3b 28424 ros-one-teleop-tools-msgs_0.4.1-2023.03.21.06.40_amd64.deb
+Checksums-Sha256:
+ e2d49567b84661eeb23b2385693aaa78e657939f2aa12124901cd1a4c74baa80 9659 ros-one-teleop-tools-msgs_0.4.1-2023.03.21.06.40_amd64.buildinfo
+ 4212a6219ceed05f718cd4a878e07902ad6ae642530a7ccc3ddf680de54053e9 28424 ros-one-teleop-tools-msgs_0.4.1-2023.03.21.06.40_amd64.deb
+Files:
+ bbfbc8266170ce095c2fd7652374aaec 9659 misc optional ros-one-teleop-tools-msgs_0.4.1-2023.03.21.06.40_amd64.buildinfo
+ dccf028b121974da8b7e7c54c7ee95d6 28424 misc optional ros-one-teleop-tools-msgs_0.4.1-2023.03.21.06.40_amd64.deb

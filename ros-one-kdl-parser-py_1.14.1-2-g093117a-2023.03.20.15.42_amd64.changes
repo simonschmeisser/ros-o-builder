@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 24 Aug 2020 00:00:00 -0000
+Source: ros-one-kdl-parser-py
+Binary: ros-one-kdl-parser-py
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.14.1-2-g093117a-2023.03.20.15.42
+Distribution: jammy
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Changed-By: Chris Lalancette <clalancette@osrfoundation.org>
+Description:
+ ros-one-kdl-parser-py - The Kinematics and Dynamics Library (KDL) defines a tree structur
+Changes:
+ ros-one-kdl-parser-py (1.14.1-2-g093117a-2023.03.20.15.42) jammy; urgency=high
+ .
+   * Drop CATKIN_IGNORE (#42 <https://github.com/ros/kdl_parser/issues/42>)
+   * Contributors: Jochen Sprickerhof
+Checksums-Sha1:
+ ffc088dd9eaa73f566151991be8ea34d004b4885 12451 ros-one-kdl-parser-py_1.14.1-2-g093117a-2023.03.20.15.42_amd64.buildinfo
+ 619660837de03c1c9fd586a3040cfc82126e7357 10142 ros-one-kdl-parser-py_1.14.1-2-g093117a-2023.03.20.15.42_amd64.deb
+Checksums-Sha256:
+ 65fa5c33e35530ac2c586509fddc0a8939ddfedf596ae01c98abee4cf23f7f0f 12451 ros-one-kdl-parser-py_1.14.1-2-g093117a-2023.03.20.15.42_amd64.buildinfo
+ f476f1ee1c04015f31c72841cc36865624be1a80397da84a109b808201a0b201 10142 ros-one-kdl-parser-py_1.14.1-2-g093117a-2023.03.20.15.42_amd64.deb
+Files:
+ 83a7a6b56fdcd245c26c5371017f8fc4 12451 misc optional ros-one-kdl-parser-py_1.14.1-2-g093117a-2023.03.20.15.42_amd64.buildinfo
+ 9670c9e8faee70de84a83ab0d099d30a 10142 misc optional ros-one-kdl-parser-py_1.14.1-2-g093117a-2023.03.20.15.42_amd64.deb

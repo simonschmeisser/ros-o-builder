@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 31 Jan 2023 00:00:00 -0000
+Source: ros-one-ackermann-steering-controller
+Binary: ros-one-ackermann-steering-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.21.1-1-gdce8785-2023.03.20.22.04
+Distribution: jammy
+Urgency: high
+Maintainer: Masaru Morita <p595201m@mail.kyutech.jp>
+Changed-By: Masaru Morita <p595201m@mail.kyutech.jp>
+Description:
+ ros-one-ackermann-steering-controller - Controller for a steer drive mobile base.
+Changes:
+ ros-one-ackermann-steering-controller (0.21.1-1-gdce8785-2023.03.20.22.04) jammy; urgency=high
+ .
+   * Don't hardcode plugin library path
+   * Install headers of ackermann_steering_controller
+   * Contributors: Jochen Sprickerhof, Martin Pecka
+Checksums-Sha1:
+ b057be8dfee3de87dca6c20ea09aa6a1348158f9 1054280 ros-one-ackermann-steering-controller-dbgsym_0.21.1-1-gdce8785-2023.03.20.22.04_amd64.ddeb
+ b5a32d8b508365dd8f9bf2def58a63b88526e96e 23618 ros-one-ackermann-steering-controller_0.21.1-1-gdce8785-2023.03.20.22.04_amd64.buildinfo
+ cdb8cfd55d755eccb75f4feb4be414c67609239f 78834 ros-one-ackermann-steering-controller_0.21.1-1-gdce8785-2023.03.20.22.04_amd64.deb
+Checksums-Sha256:
+ 45015d8028e6ee4fee62666aee3e300a7088e2e8e7a86818232fccbd3345f990 1054280 ros-one-ackermann-steering-controller-dbgsym_0.21.1-1-gdce8785-2023.03.20.22.04_amd64.ddeb
+ a2b28c689fdcdd9c7ef6d07e7d7940b0bd05a2ed2af84ec29b697af34b934707 23618 ros-one-ackermann-steering-controller_0.21.1-1-gdce8785-2023.03.20.22.04_amd64.buildinfo
+ 0edce42d6014114e7c1f464cd4148b734fe8464cf7d20d39ce513b554deb02a4 78834 ros-one-ackermann-steering-controller_0.21.1-1-gdce8785-2023.03.20.22.04_amd64.deb
+Files:
+ 7e826e680247fb1651d2a250a2d7eba4 1054280 debug optional ros-one-ackermann-steering-controller-dbgsym_0.21.1-1-gdce8785-2023.03.20.22.04_amd64.ddeb
+ a86650dfa7b89e05b3717479c5633dc0 23618 misc optional ros-one-ackermann-steering-controller_0.21.1-1-gdce8785-2023.03.20.22.04_amd64.buildinfo
+ 612a9f601aa7a35c6fd48d7be2ef0f7e 78834 misc optional ros-one-ackermann-steering-controller_0.21.1-1-gdce8785-2023.03.20.22.04_amd64.deb

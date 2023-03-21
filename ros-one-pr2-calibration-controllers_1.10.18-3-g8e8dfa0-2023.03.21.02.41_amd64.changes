@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Sat, 08 May 2021 00:00:00 -0000
+Source: ros-one-pr2-calibration-controllers
+Binary: ros-one-pr2-calibration-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.10.18-3-g8e8dfa0-2023.03.21.02.41
+Distribution: jammy
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-one-pr2-calibration-controllers - The pr2_calibration_controllers package contains the controllers
+Changes:
+ ros-one-pr2-calibration-controllers (1.10.18-3-g8e8dfa0-2023.03.21.02.41) jammy; urgency=high
+Checksums-Sha1:
+ dcd03f9d1cde8ba66b4ca965a2fe667179daebd0 2205604 ros-one-pr2-calibration-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.03.21.02.41_amd64.ddeb
+ 6a7f243c13fe1074449075e9081f34e53785337e 25105 ros-one-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.03.21.02.41_amd64.buildinfo
+ 5116328436d8ebe3226eaa5d8b0cfac5366dce4b 68766 ros-one-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.03.21.02.41_amd64.deb
+Checksums-Sha256:
+ 062840010790e1e656ebde2f57df6c63b0ce20fa0de9845efaaa0525341512fb 2205604 ros-one-pr2-calibration-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.03.21.02.41_amd64.ddeb
+ 3990889ca047ee39d9992b887773cec799837a191d4ce2cfaca86758aff971b3 25105 ros-one-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.03.21.02.41_amd64.buildinfo
+ 7f4909032d1b6faf0fff435f5176d38f93a53276aee56d350b77b6ceafbfef06 68766 ros-one-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.03.21.02.41_amd64.deb
+Files:
+ 4ce66e82544228d2bdcec07e0c781d26 2205604 debug optional ros-one-pr2-calibration-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.03.21.02.41_amd64.ddeb
+ cacbc09c26d2ee92199e40c0938608d6 25105 misc optional ros-one-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.03.21.02.41_amd64.buildinfo
+ b54ff448aa721b1a072c9b1a3de7c54d 68766 misc optional ros-one-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.03.21.02.41_amd64.deb

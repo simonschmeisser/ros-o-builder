@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 13 May 2020 00:00:00 -0000
+Source: ros-one-librviz-tutorial
+Binary: ros-one-librviz-tutorial
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.03.20.19.05
+Distribution: jammy
+Urgency: high
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Changed-By: Mabel Zhang <mabel@openrobotics.org>
+Description:
+ ros-one-librviz-tutorial - Tutorial showing how to compile your own C++ program with RViz di
+Changes:
+ ros-one-librviz-tutorial (0-2023.03.20.19.05) jammy; urgency=high
+Checksums-Sha1:
+ 48e3070fa5d55b2803f35de7e8ca45b4e2e6dd3e 766052 ros-one-librviz-tutorial-dbgsym_0-2023.03.20.19.05_amd64.ddeb
+ 377c2335a2cdd527c47598d94736f864c188cf0b 28148 ros-one-librviz-tutorial_0-2023.03.20.19.05_amd64.buildinfo
+ ff9c837b119bf6b72fdd33f78d9ff59663a2d651 27412 ros-one-librviz-tutorial_0-2023.03.20.19.05_amd64.deb
+Checksums-Sha256:
+ 84889981ced02bb0b5f9c390030473a2e88ea801422a0723fb65ae8ebfecd12f 766052 ros-one-librviz-tutorial-dbgsym_0-2023.03.20.19.05_amd64.ddeb
+ bc06250d10834c0513d92681309429be867d974ce62ca0d55de869d0b4bf2083 28148 ros-one-librviz-tutorial_0-2023.03.20.19.05_amd64.buildinfo
+ de0730e98e642cb07eee316bf8f05309533476dfc5df2857f472eb3cb44e6c57 27412 ros-one-librviz-tutorial_0-2023.03.20.19.05_amd64.deb
+Files:
+ cab557050641cbee26862f9cf1237ce0 766052 debug optional ros-one-librviz-tutorial-dbgsym_0-2023.03.20.19.05_amd64.ddeb
+ 716ee00cf989488e1bfaa59b39b1ff42 28148 misc optional ros-one-librviz-tutorial_0-2023.03.20.19.05_amd64.buildinfo
+ b833b510d771274a81adaf562f324922 27412 misc optional ros-one-librviz-tutorial_0-2023.03.20.19.05_amd64.deb
